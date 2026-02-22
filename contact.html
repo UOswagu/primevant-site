@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Primevant</title>
+  <meta name="description" content="Contact Primevant to discuss SOX readiness, ITGC stabilization, and IT risk advisory support for NJ/NY organizations." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.svg" alt="Primevant logo" style="width:30px;height:30px"/>
+      <div><div class="name">Primevant</div><div class="tag">IT Risk • SOX • Controls Advisory</div></div>
+    </a>
+    <nav class="menu">
+      <a href="services.html">Services</a>
+      <a href="approach.html">Approach</a>
+      <a href="industries.html">Industries</a>
+      <a href="insights.html">Insights</a>
+      <a href="about.html">About</a>
+      <a class="cta" href="contact.html" style="color:var(--text)">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="container">
+      <h1 class="page-title">Contact</h1>
+      <p class="page-sub">
+        Share your current SOX/IT risk priorities. Primevant will respond with a short scope recommendation and next steps.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="card panel">
+        <h2 class="h2">Send a message</h2>
+        <p class="p"><!--This static form uses a mailto fallback. If you want submissions captured, connect it to a form service later (Netlify Forms, Formspree, etc.)-->.</p>
+        <div class="hr"></div>
+
+        <form class="form" action="mailto:hello@primevant.com" method="post" enctype="text/plain">
+          <input class="input" name="Name" placeholder="Your name" required />
+          <input class="input" name="Company" placeholder="Company" />
+          <input class="input" name="Email" placeholder="Email" type="email" required />
+          <input class="input" name="Topic" placeholder="Topic (SOX readiness, ITGC, optimization…)" />
+          <textarea name="Message" placeholder="Briefly describe your current pain points, timeline, and systems (optional)." required></textarea>
+          <button class="btn primary" type="submit">Send</button>
+          <div class="help">Prefer email? Write to <b>hello@primevant.com</b> (replace with your real email).</div>
+        </form>
+      </div>
+
+      <div class="card panel">
+        <h2 class="h2">What to include</h2>
+        <div class="kv">
+          <div class="row"><div class="k">Your goal</div><div class="v">Readiness, remediation, optimization, or stabilization</div></div>
+          <div class="row"><div class="k">Timeline</div><div class="v">Upcoming audit dates, walkthroughs, remediation deadlines</div></div>
+          <div class="row"><div class="k">Systems</div><div class="v">ERP, IAM/PAM tools, ticketing, key third parties</div></div>
+          <div class="row"><div class="k">Pain points</div><div class="v">Repeat findings, evidence gaps, access/change issues, staffing</div></div>
+        </div>
+        <div class="hr"></div>
+        <p class="note"><b>Response expectation:</b> We typically respond within 1–2 business days with a short scope memo and recommended next steps.</p>
+        <p class="small">Primevant is remote-first, supporting NJ/NY clients with secure delivery.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-top">
+    <div class="footer-col"><b>Primevant</b><p>IT Risk, SOX, and Controls Advisory.</p></div>
+    <div class="footer-col footer-links">
+      <a href="services.html">Services</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </div>
+  <div class="container" style="margin-top:14px">© <span id="y"></span> Primevant.</div>
+</footer>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
