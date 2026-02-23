@@ -12,16 +12,16 @@
 <header class="nav">
   <div class="container nav-inner">
     <a class="brand" href="index.html">
-      <img src="assets/img/logo.svg" alt="Primevant logo" style="width:30px;height:30px"/>
-      <div><div class="name">Primevant</div><div class="tag">IT Risk • SOX • Controls Advisory</div></div>
-    </a>
+  <img src="assets/img/primevant-logo.png"
+       alt="Primevant Consulting Services"
+       class="brand-logo" />
+</a>
     <nav class="menu">
       <a href="services.html">Services</a>
       <a href="approach.html">Approach</a>
       <a href="industries.html">Industries</a>
-      <a href="insights.html">Insights</a>
       <a href="about.html">About</a>
-      <a class="cta" href="contact.html" style="color:var(--text)">Contact</a>
+      <a class="cta" href="contact.html" style="color:var(--text)">Contact Us</a>
     </nav>
   </div>
 </header>
@@ -29,7 +29,7 @@
 <main>
   <section class="page-head">
     <div class="container">
-      <h1 class="page-title">Contact</h1>
+      <h1 class="page-title">Contact Us</h1>
       <p class="page-sub">
         Share your current SOX/IT risk priorities. Primevant will respond with a short scope recommendation and next steps.
       </p>
@@ -39,7 +39,7 @@
   <section class="section">
     <div class="container split">
       <div class="card panel">
-        <h2 class="h2">Send a message</h2>
+        <h3 class="h3">Experience the immediate and lasting benefits of collaborating with Primevant. Complete the form below, and we will contact you shortly.</h3>
         <p class="p"><!--This static form uses a mailto fallback. If you want submissions captured, connect it to a form service later (Netlify Forms, Formspree, etc.)-->.</p>
         <div class="hr"></div>
 
@@ -49,24 +49,42 @@
           <input class="input" name="Email" placeholder="Email" type="email" required />
           <input class="input" name="Topic" placeholder="Topic (SOX readiness, ITGC, optimization…)" />
           <textarea name="Message" placeholder="Briefly describe your current pain points, timeline, and systems (optional)." required></textarea>
-          <button class="btn primary" type="submit">Send</button>
-          <div class="help">Prefer email? Write to <b>hello@primevant.com</b> (replace with your real email).</div>
+          <button class="btn primary" type="submit">Submit</button>
+          <div class="help">Prefer email? Write to <b>hello@primevant.com</b> </div>
         </form>
       </div>
 
-      <div class="card panel">
-        <h2 class="h2">What to include</h2>
-        <div class="kv">
-          <div class="row"><div class="k">Your goal</div><div class="v">Readiness, remediation, optimization, or stabilization</div></div>
-          <div class="row"><div class="k">Timeline</div><div class="v">Upcoming audit dates, walkthroughs, remediation deadlines</div></div>
-          <div class="row"><div class="k">Systems</div><div class="v">ERP, IAM/PAM tools, ticketing, key third parties</div></div>
-          <div class="row"><div class="k">Pain points</div><div class="v">Repeat findings, evidence gaps, access/change issues, staffing</div></div>
-        </div>
-        <div class="hr"></div>
-        <p class="note"><b>Response expectation:</b> We typically respond within 1–2 business days with a short scope memo and recommended next steps.</p>
-        <p class="small">Primevant is remote-first, supporting NJ/NY clients with secure delivery.</p>
-      </div>
-    </div>
+     <div class="container">
+    <h3 class="h3">What to include</h3>
+
+    <ul class="clean-list">
+      <li>
+        <strong>Your goal</strong>
+        <span>Readiness, remediation, optimization, or stabilization</span>
+      </li>
+
+      <li>
+        <strong>Timeline</strong>
+        <span>Upcoming audit dates, walkthroughs, remediation deadlines</span>
+      </li>
+
+      <li>
+        <strong>Systems</strong>
+        <span>ERP, IAM/PAM tools, ticketing platforms, key third parties</span>
+      </li>
+
+      <li>
+        <strong>Pain points</strong>
+        <span>Repeat findings, evidence gaps, access/change issues, staffing constraints</span>
+      </li>
+    </ul>
+
+    <p class="note">
+      We typically respond within 1–2 business days with a short scope memo and recommended next steps.
+    </p>
+
+  </div>
+    </div> 
   </section>
 </main>
 
@@ -82,5 +100,6 @@
 </footer>
 
 <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<script src="assets/js/nav-active.js"></script>
 </body>
 </html>

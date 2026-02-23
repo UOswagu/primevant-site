@@ -1,182 +1,636 @@
+/* Load Open Sans globally */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 :root{
-  --bg:#0b1220;
-  --panel:#0f1a2f;
-  --panel2:#0d1730;
-  --text:#e8eefc;
-  --muted:#b8c4e6;
-  --accent:#63b3ff;   /* light blue */
-  --accent2:#8fd0ff;
-  --line:rgba(255,255,255,.10);
-  --shadow: 0 20px 60px rgba(0,0,0,.35);
+  --bg:#f5f9ff;
+  --panel:#ffffff;
+  --panel2:#f0f6ff;
+  --text:#0f2440;
+  --muted:#4b6b9a;
+  --accent:#2f74ff;
+  --accent2:#6aa7ff;
+  --line:rgba(47,116,255,.16);
+  --shadow:0 18px 45px rgba(15,36,64,.10);
   --radius:16px;
-  --max:1100px;
-  --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --max:1120px;
+  --font:'Oswald', sans-serif;
 }
 
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:radial-gradient(1200px 800px at 20% -10%, rgba(99,179,255,.20), transparent 60%), radial-gradient(900px 700px at 90% 10%, rgba(143,208,255,.10), transparent 60%), var(--bg); color:var(--text); font-family:var(--font); line-height:1.5}
-a{color:inherit;text-decoration:none}
-img{max-width:100%;display:block}
 
-.container{max-width:var(--max); margin:0 auto; padding:0 20px}
+html,body{
+  margin:0;
+  padding:0;
+  background: radial-gradient(900px 700px at 15% -10%, rgba(47,116,255,.12), transparent 55%),
+              radial-gradient(800px 650px at 95% 0%, rgba(106,167,255,.12), transparent 55%),
+              var(--bg);
+  color:var(--text);
+  font-family:var(--font);
+  font-weight:300;   /* Oswald Light default */
+  letter-spacing:.4px;
+  line-height:1.6;
+}
+
+/* Layout */
+.container{max-width:var(--max); margin:0 auto; padding:0 22px}
+
+/* NAV */
 .nav{
-  position:sticky; top:0; z-index:999;
+  position:sticky;
+  top:0;
+  z-index:999;
+  background: rgba(255,255,255,.92);
   backdrop-filter: blur(10px);
-  background: rgba(11,18,32,.75);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(15,36,64,.08);
 }
 .nav-inner{
-  display:flex; align-items:center; justify-content:space-between;
-  padding:14px 0;
-}
-.brand{
-  display:flex; align-items:center; gap:12px;
-  font-weight:800; letter-spacing:.3px;
-}
-.brand svg{width:30px;height:30px}
-.brand .name{font-size:18px}
-.brand .tag{font-size:12px; color:var(--muted); font-weight:600}
-
-.menu{
-  display:flex; gap:18px; align-items:center; flex-wrap:wrap;
-}
-.menu a{
-  font-size:14px; color:var(--muted); font-weight:650;
-  padding:8px 10px; border-radius:10px;
-}
-.menu a:hover{color:var(--text); background:rgba(255,255,255,.06)}
-.menu .cta{
-  background: linear-gradient(135deg, rgba(99,179,255,.28), rgba(143,208,255,.16));
-  color:var(--text);
-  border:1px solid rgba(99,179,255,.35);
-}
-.menu .cta:hover{background:rgba(99,179,255,.25)}
-
-.hero{padding:64px 0 24px}
-.hero-grid{
-  display:grid; grid-template-columns: 1.15fr .85fr; gap:28px; align-items:stretch;
-}
-.card{
-  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  box-shadow: var(--shadow);
-}
-.hero .card{padding:28px}
-.kicker{color:var(--accent2); font-weight:800; letter-spacing:.35px; text-transform:uppercase; font-size:12px}
-.h1{font-size:44px; line-height:1.08; margin:10px 0 12px; letter-spacing:-.5px}
-.sub{color:var(--muted); font-size:16px; max-width:60ch}
-.hero-actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:18px}
-.btn{
-  display:inline-flex; align-items:center; justify-content:center;
-  padding:11px 14px; border-radius:12px;
-  font-weight:800; font-size:14px;
-  border:1px solid var(--line);
-  background: rgba(255,255,255,.06);
-}
-.btn:hover{background:rgba(255,255,255,.09)}
-.btn.primary{
-  border:1px solid rgba(99,179,255,.45);
-  background: linear-gradient(135deg, rgba(99,179,255,.34), rgba(143,208,255,.12));
-}
-.badges{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
-.badge{
-  font-size:12px; color:var(--muted); font-weight:700;
-  border:1px solid var(--line);
-  padding:7px 10px; border-radius:999px;
-  background: rgba(255,255,255,.04);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:16px 0;
 }
 
-.aside{padding:22px}
-.aside h3{margin:0 0 8px}
-.aside p{margin:0; color:var(--muted)}
-.list{
-  margin-top:14px; display:grid; gap:10px;
+/* BRAND */
+.brand .name{
+  font-size:34px;
+  font-weight:200;          /* Oswald ExtraLight */
+  letter-spacing:3px;
+  text-transform:uppercase;
+  color:var(--accent);
 }
-.li{
-  padding:12px 12px;
-  border:1px solid var(--line);
-  border-radius:14px;
-  background: rgba(15,26,47,.55);
-}
-.li b{display:block; margin-bottom:4px}
-.li span{color:var(--muted); font-size:13px}
-
-.section{padding:26px 0}
-.grid3{display:grid; grid-template-columns: repeat(3, 1fr); gap:16px}
-.grid2{display:grid; grid-template-columns: repeat(2, 1fr); gap:16px}
-.panel{padding:18px}
-.h2{font-size:22px; margin:0 0 8px}
-.p{color:var(--muted); margin:0}
-
-.split{
-  display:grid; grid-template-columns: 1fr 1fr; gap:16px;
-}
-
-.footer{
-  padding:28px 0 48px;
-  border-top:1px solid var(--line);
-  margin-top:22px;
+.brand .tag{
+  font-size:14px;
+  font-weight:300;
+  letter-spacing:2px;
   color:var(--muted);
-  font-size:13px;
+  margin-top:4px;
 }
-.footer a{color:var(--muted); text-decoration:underline; text-underline-offset:3px}
-.footer-top{display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; align-items:flex-start}
-.footer-col{max-width:420px}
-.footer-col b{color:var(--text)}
-.footer-links{display:flex; gap:14px; flex-wrap:wrap}
 
-.page-head{padding:42px 0 10px}
-.page-title{font-size:34px; margin:0 0 8px}
-.page-sub{color:var(--muted); margin:0; max-width:75ch}
-
-.hr{height:1px; background:var(--line); margin:18px 0}
-
-.kv{
-  display:grid; gap:10px;
+/* MENU */
+.menu a{
+  font-size:15px;
+  font-weight:300;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  color:rgba(15,36,64,.75);
+  padding:8px 10px;
 }
-.kv .row{
-  display:grid; grid-template-columns: 160px 1fr; gap:12px;
-  padding:12px; border:1px solid var(--line); border-radius:14px;
-  background: rgba(255,255,255,.04);
+.menu a:hover{color:var(--accent)}
+.menu .cta{
+  background:var(--accent);
+  color:#fff;
+  padding:9px 14px;
+  border-radius:6px;
+  letter-spacing:1px;
 }
-.kv .k{color:var(--muted); font-weight:800; font-size:13px}
-.kv .v{font-weight:650}
+
+/* HERO */
+.hero{padding:70px 0 30px}
+.h1{
+  font-size:52px;
+  font-weight:200;      /* ExtraLight */
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin:0 0 14px;
+}
+.sub{
+  font-size:18px;
+  font-weight:300;
+  max-width:70ch;
+  color:rgba(15,36,64,.80);
+}
+
+/* SECTION HEADINGS */
+.h2, .page-title{
+  font-size:32px;
+  font-weight:200;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin:0 0 10px;
+}
+
+/* CARDS */
+.card{
+  background:#ffffff;
+  border:1px solid rgba(15,36,64,.08);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:26px;
+}
+
+/* BUTTONS */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 18px;
+  font-weight:300;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  border-radius:6px;
+  border:1px solid rgba(15,36,64,.12);
+  background:#ffffff;
+}
+.btn.primary{
+  background:var(--accent);
+  color:#ffffff;
+  border:none;
+}
+
+/* PAGE HEADER BAND */
+.page-head{
+  padding:55px 0 25px;
+  background:#ffffff;
+  border-bottom:1px solid rgba(15,36,64,.08);
+}
+.page-sub{
+  font-weight:300;
+  letter-spacing:.8px;
+  color:rgba(15,36,64,.75);
+}
+
+/* PARAGRAPHS */
+p{
+  font-weight:300;
+  letter-spacing:.4px;
+  color:rgba(15,36,64,.85);
+}
+
+/* FOOTER */
+.footer{
+  padding:40px 0;
+  background:#ffffff;
+  border-top:1px solid rgba(15,36,64,.08);
+  font-weight:300;
+  letter-spacing:.5px;
+}
+
+/* Responsive */
+@media (max-width:900px){
+  .h1{font-size:42px}
+  .brand .name{font-size:28px}
+}
+/* ======================================================
+   PRIMEVANT GLOBAL OVERRIDES — SINGLE PLACE
+   ====================================================== */
+
+/* 1) FORCE OSWALD + BOLD HEADINGS */
+html, body {
+  font-family: 'Oswald', sans-serif !important;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .page-title {
+  font-weight: 700 !important; /* BOLD headings */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* 2) REMOVE ALL UNDERLINES */
+a, a:hover, a:focus {
+  text-decoration: none !important;
+}
+
+/* 3) REMOVE ALL DOTS / BULLETS / DECORATIVE SEPARATORS */
+ul, ol {
+  list-style: none !important;
+  padding-left: 0;
+}
+
+/* 4) REMOVE ANY VISUAL SEPARATORS THAT LOOK LIKE DOTS */
+.badge::before,
+.badge::after,
+.menu a::before,
+.menu a::after {
+  content: none !important;
+}
+
+/* 5) BRAND AREA — PREPARE FOR LOGO */
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Hide text brand IF still present */
+.brand .name,
+.brand .tag {
+  display: none !important;
+}
+
+/* 6) LOGO STYLE (will apply automatically once image exists) */
+.brand-logo{
+  height:90px;
+  width:auto;
+  display:block;
+}
+
+/* Responsive logo */
+@media (min-width:768px){
+  .brand-logo{ height:50px; }
+
+/* FORCE logo sizing */
+img.brand-logo{
+  height: 120px !important;
+  width: auto !important;
+  max-height: none !important;
+}
+/* ======================================================
+   GLOBAL OPEN SANS + GREY THEME (Single File Override)
+   ====================================================== */
+
+html, body {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #4a5568 !important;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5,
+.h1, .h2, .page-title {
+  color: #1f2937 !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  letter-spacing: .5px !important;
+}
+
+/* Subtext */
+.page-sub,
+.muted,
+.small {
+  color: #6b7280 !important;
+}
+
+/* Links */
+a {
+  color: #374151 !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #1f2937 !important;
+}
+/* ======================================================
+   GLOBAL HEADING WEIGHT — NOT BOLD
+   ====================================================== */
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .page-title {
+  font-weight: 400 !important;   /* normal (not bold) */
+}
+
+/* Remove box/card look globally */
+.card{
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+/* Side-reveal layout */
+.reveal{
+  display:grid;
+  grid-template-columns: 360px 1fr;
+  gap: 28px;
+  align-items:start;
+}
+
+.reveal-nav{
+  display:grid;
+  gap:10px;
+}
+
+.reveal-btn{
+  width:100%;
+  text-align:left;
+  padding:14px 14px;
+  border-radius:12px;
+  border:1px solid rgba(0,0,0,.10);
+  background:#fff;
+  cursor:pointer;
+  font: inherit;
+  color: inherit;
+  transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
+}
+
+.reveal-btn:hover{
+  transform: translateY(-1px);
+  border-color: rgba(47,116,255,.35);
+  box-shadow: 0 14px 30px rgba(15,36,64,.10);
+}
+
+.reveal-btn[aria-selected="true"]{
+  border-color: rgba(47,116,255,.55);
+  box-shadow: 0 18px 40px rgba(15,36,64,.12);
+}
+
+.reveal-panel{
+  position: sticky;
+  top: 92px; /* below nav */
+  padding: 18px 18px;
+  border-radius: 16px;
+  background: #fff;
+  border:1px solid rgba(0,0,0,.10);
+  box-shadow: 0 18px 45px rgba(15,36,64,.10);
+  min-height: 280px;
+}
+
+.reveal-title{
+  margin:0 0 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.reveal-body{
+  margin:0;
+  color: rgba(0,0,0,.70);
+}
+
+/* Mobile */
+@media (max-width: 900px){
+  .reveal{ grid-template-columns: 1fr; }
+  .reveal-panel{ position: relative; top:auto; }
+}
+/* ==============================
+   NAV ACTIVE STATE (LIGHT BLUE)
+   ============================== */
+
+/* light-blue highlight token */
+:root { --navActiveBg: rgba(47, 116, 255, .12); --navActiveText: #2f74ff; }
+
+.menu a{
+  border-radius: 12px;
+  transition: background .12s ease, color .12s ease;
+}
+
+.menu a:hover{
+  background: var(--navActiveBg);
+  color: var(--navActiveText);
+}
+
+/* Active link styling */
+.menu a.active,
+.menu a[aria-current="page"]{
+  background: var(--navActiveBg);
+  color: var(--navActiveText);
+}
+/* ==============================
+   CONTACT FORM FIXES
+   ============================== */
 
 .form{
-  display:grid; gap:12px;
+  display: grid;
+  gap: 12px;
 }
-.input, textarea{
-  width:100%;
-  background: rgba(255,255,255,.05);
-  border:1px solid var(--line);
-  border-radius:12px;
-  padding:11px 12px;
-  color:var(--text);
-  font-size:14px;
-  outline:none;
-}
-textarea{min-height:130px; resize:vertical}
-.help{color:var(--muted); font-size:12px}
 
-.note{
-  padding:14px;
-  border-radius:14px;
-  border:1px solid rgba(99,179,255,.30);
-  background: rgba(99,179,255,.10);
-  color:var(--muted);
+.form label{
+  font-weight: 600;
+  color: rgba(15,36,64,.70);
+  font-size: 13px;
+  margin-bottom: 4px;
+  display: block;
 }
-.small{font-size:12px;color:var(--muted)}
 
+/* Make inputs/textarea consistent and full width */
+.form input,
+.form select,
+.form textarea{
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Give the textarea real working space */
+.form textarea{
+  min-height: 220px;          /* more room for text */
+  padding: 12px 12px;
+  line-height: 1.5;
+}
+
+/* If your contact page uses a 2-column layout, ensure textarea spans full width */
+.form .span-2{
+  grid-column: 1 / -1;
+}
+/* ======================================================
+   PRIMEVANT BRAND COLORS – LOGO ALIGNED
+   ====================================================== */
+
+:root{
+  --prime-blue-light: #6EC1F5;   /* light logo blue */
+  --prime-blue:       #3A8FD9;   /* primary logo blue */
+  --prime-blue-dark:  #2F74B8;   /* hover blue */
+}
+
+/* ======================================================
+   NAV – CONTACT US BUTTON (LIGHT BLUE)
+   ====================================================== */
+
+.menu a.cta{
+  background-color: var(--prime-blue-light);
+  color: #ffffff !important;
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-weight: 600;
+}
+
+.menu a.cta:hover{
+  background-color: var(--prime-blue);
+  color: #ffffff !important;
+}
+
+/* ======================================================
+   PRIMARY CTA BUTTONS (REQUEST A CONSULTANT)
+   ====================================================== */
+
+.btn.primary{
+  background-color: var(--prime-blue-light);
+  color: #ffffff !important;
+  border: none;
+}
+
+.btn.primary:hover{
+  background-color: var(--prime-blue);
+  color: #ffffff !important;
+}
+
+/* ======================================================
+   LIGHT-BLUE SECTIONS / CALLOUTS – WHITE TEXT
+   ====================================================== */
+
+.bg-prime-blue{
+  background-color: var(--prime-blue-light);
+  color: #ffffff;
+  border-radius: 16px;
+}
+
+.bg-prime-blue *{
+  color: #ffffff !important;
+}
+.badges{
+  flex-wrap: wrap;
+  row-gap: 10px;
+  line-height: 1.7;
+  letter-spacing: .3px;
+}
+
+.badge + .badge::before{
+  content: " | ";
+  margin: 0 18px;
+  color: #9ca3af;
+}
+/* FORCE spacing for capability line (diagnostic + final) */
+.badges{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  row-gap: 10px !important;
+  line-height: 1.7 !important;
+  letter-spacing: .3px !important;
+}
+
+/* Insert pipe + spacing between items */
+.badges .badge + .badge::before{
+  content: " | " !important;
+  margin: 0 18px !important;
+  color: #9ca3af !important;
+}
+/* ======================================================
+   INDUSTRY PAGE: BW PHOTO + REG LIST
+   ====================================================== */
+
+.industry-block{
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 22px;
+  align-items: start;
+  padding: 18px 0;
+  border-top: 1px solid rgba(0,0,0,.08);
+}
+
+.industry-block:first-child{
+  border-top: none;
+}
+
+.industry-photo{
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 16px;
+  filter: grayscale(100%) contrast(1.05);
+  opacity: .95;
+}
+
+.industry-title{
+  margin: 0 0 10px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+/* Regulations list (clean, Big-4 style) */
+.reg-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.reg-list li{
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 14px;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.reg-list li strong{
+  font-weight: 600;
+  color: #2d3748;
+  white-space: nowrap;
+}
+
+/* Services page industry summary */
+.industry-summary{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.industry-summary-item h3{
+  margin: 0 0 6px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.industry-summary-item p{
+  margin: 0;
+  color: #4a5568;
+}
+
+/* Responsive */
 @media (max-width: 900px){
-  .hero-grid{grid-template-columns:1fr}
-  .grid3{grid-template-columns:1fr}
-  .grid2{grid-template-columns:1fr}
-  .split{grid-template-columns:1fr}
-  .h1{font-size:38px}
+  .industry-block{ grid-template-columns: 1fr; }
+  .industry-photo{ height: 200px; }
+  .reg-list li{ grid-template-columns: 1fr; gap: 4px; }
+  .reg-list li strong{ white-space: normal; }
+  .industry-summary{ grid-template-columns: 1fr; }
 }
-@media (max-width: 520px){
-  .menu{gap:8px}
-  .menu a{padding:7px 8px}
-  .h1{font-size:34px}
+/* Founder section */
+.founder {
+  background: #ffffff;
+  padding: 80px 0;
+}
+
+.founder-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  align-items: flex-start;
+}
+
+.founder-photo img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.founder-content h2 {
+  margin-bottom: 16px;
+}
+
+.founder-title {
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+.executive-list {
+  margin-left: 18px;
+}
+
+.executive-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .founder-wrap {
+    grid-template-columns: 1fr;
+  }
+
+}
+/* =========================================
+   FOUNDER BIO IMAGE – BW WITH HOVER COLOR
+   ========================================= */
+
+.founder-photo img{
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
+
+.founder-photo img:hover{
+  filter: grayscale(20%); /* subtle color return */
+}
+.founder-photo img{
+  filter: grayscale(100%) contrast(1.05);
+}
 }
