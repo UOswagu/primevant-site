@@ -633,4 +633,91 @@ h1, h2, h3, h4, h5,
 .founder-photo img{
   filter: grayscale(100%) contrast(1.05);
 }
+/* =========================
+   HERO / BACKDROP SECTION
+   ========================= */
+
+.hero {
+  height: 70vh;
+  min-height: 900px;
+  background-image: url("../img/primevant-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(10, 30, 60, 0.75);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 1100px;
+  padding: 0 60px;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin-bottom: 32px;
+  color: #e6eef7;
+}
+
+/* Contact Us Button */
+.hero-btn {
+  display: inline-block;
+  background: #6bbcf6;
+  color: #ffffff;
+  padding: 14px 34px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #4aa3e0;
+  transform: translateY(-2px);
+}
+/* =========================================
+   Light blue hover for white / outline buttons
+   ========================================= */
+
+.btn:not(.primary) {
+  background-color: #ffffff;
+  color: #2a3445;
+  border: 1px solid #d6dde6;
+  transition: all 0.25s ease;
+}
+
+.btn:not(.primary):hover {
+  background-color: #e6f2ff;   /* mild light blue */
+  border-color: #9ecbf3;
+  color: #1f4fd8;
+}
+/* White background section for Services */
+.services-white {
+  background: #ffffff;
+  padding: 80px 0;
+}
+
+/* Keep typography crisp on white */
+.services-white h2,
+.services-white h3 {
+  color: #1f2937; /* deep executive gray */
+}
+
+.services-white p {
+  color: #4b5563;
+  max-width: 900px;
+}
 }
