@@ -2241,7 +2241,7 @@ html {
   }
   @media (max-width: 600px){
   .topbar .brand .logo-img{
-    height: 100px !important;
+    height: 54px !important;
     max-width: none !important;
     width: auto !important;
   }
