@@ -2208,17 +2208,7 @@ html {
     max-width: none;
     margin: 0 auto;
   }
-  /* Mobile header logo */
-@media (max-width: 600px) {
-
-  .brand .logo-img {
-    height: 44px;   /* good mobile size */
-    width: auto;
-    max-width: none; /* remove width restriction */
-    display: block;
-  }
-
-}
+ 
 }
 /* Mobile header polish */
 @media (max-width: 600px) {
@@ -2227,12 +2217,12 @@ html {
     gap: 10px;
   }
 
-  .brand .logo-img {
-    height: 28px;   /* adjust to 26–34 if you want */
-    width: auto;
-    max-width: 140px;
-    display: block;
-  }
+  .brand .logo-img{
+  height: 54px;
+  width: auto;
+  max-width: none;
+  display: block;
+}
 
   .nav-tools {
     display: flex;
