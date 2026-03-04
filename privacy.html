@@ -1,85 +1,165 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Privacy | Primevant</title>
-  <meta name="description" content="Primevant privacy policy. Basic information collection, contact communications, and data handling practices." />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Privacy – Primevant Advisory</title>
+  <meta name="description" content="Primevant Advisory privacy notice covering information collection, use, and safeguarding practices."/>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-<header class="nav">
-  <div class="container nav-inner">
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="close" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+    <a href="services.html">Services</a>
+    <a href="approach.html">Approach</a>
+    <a href="insights.html">Insights</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+      Schedule a Consultation →
+    </a>
+  </div>
+</div>
+
+<div class="topbar">
+  <div class="container nav">
+
     <a class="brand" href="index.html">
-  <img src="assets/img/primevant-logo.png"
-       alt="Primevant Consulting Services"
-       class="brand-logo" />
-</a>
-    <nav class="menu">
+      <img src="assets/primevant-logo.png"
+           alt="Primevant Advisory Logo"
+           class="logo-img">
+    </a>
+
+    <nav class="navlinks">
       <a href="services.html">Services</a>
       <a href="approach.html">Approach</a>
-      <a href="industries.html">Industries</a>
-       <a href="insights.html">Insights</a>
+      <a href="insights.html">Insights</a>
       <a href="about.html">About</a>
-      <a class="cta" href="contact.html">Contact Us</a>
+      <a href="contact.html">Contact</a>
     </nav>
+
+    <div class="nav-cta">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+
+      <div class="nav-cta">
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+        </button>
+
+        <div class="nav-tools">
+          <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="M20 20l-3.5-3.5"></path>
+            </svg>
+          </button>
+
+          <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 6h16v12H4z"></path>
+              <path d="M4 7l8 6 8-6"></path>
+            </svg>
+          </a>
+
+          <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<header class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"></div>
+
+    <div class="grid" style="padding-top:18px;">
+      <div>
+        <h1 class="h1">Privacy notice</h1>
+        <p class="lead">
+          Primevant Advisory respects your privacy and handles information with care and professionalism.
+          This notice describes what we collect through this website and how we use it.
+        </p>
+        <p style="margin-top:10px; opacity:.85;">
+          Last updated: <span id="privacyLastUpdated"></span>
+        </p>
+      </div>
+
+      <div class="panel-visual" aria-hidden="true"></div>
+    </div>
   </div>
 </header>
 
-<main>
-  <section class="page-head">
-    <div class="container">
-      <h1 class="page-title">Privacy</h1>
-      <p class="page-sub">This is a simple privacy notice suitable for an early-stage advisory site. Update once you add analytics, newsletters, or form capture.</p>
-    </div>
-  </section>
+<section class="section">
+  <div class="container">
 
-  <section class="section">
-    <div class="container card panel">
-      <h2 class="h2">Information we collect</h2>
-      <p class="p">If you contact Primevant, we may receive information you provide (name, email, company, and message content).</p>
+    <h2>Information we collect</h2>
+    <div class="underline" style="margin-left:0;"></div>
+    <p>
+      When you contact us (for example via the contact page), we may collect information you provide such as your name,
+      email address, company, and the content of your message.
+    </p>
 
-      <div class="hr"></div>
+    <h2 style="margin-top:28px;">How we use information</h2>
+    <div class="underline" style="margin-left:0;"></div>
+    <p>
+      We use information you provide to respond to inquiries, schedule discussions, provide requested materials,
+      and communicate about potential services. We do not sell personal information.
+    </p>
 
-      <h2 class="h2">How we use information</h2>
-      <p class="p">We use your information to respond to inquiries, discuss potential services, and provide requested materials.</p>
+    <h2 style="margin-top:28px;">Data handling and safeguarding</h2>
+    <div class="underline" style="margin-left:0;"></div>
+    <p>
+      Primevant Advisory applies reasonable administrative and technical safeguards designed to protect information
+      from unauthorized access, use, or disclosure. For client engagements, data handling and retention terms are
+      typically governed by contract (e.g., an MSA/SOW).
+    </p>
 
-      <div class="hr"></div>
+    <h2 style="margin-top:28px;">Third-party services</h2>
+    <div class="underline" style="margin-left:0;"></div>
+    <p>
+      If we introduce third-party services in the future (such as analytics, form processing, or scheduling tools),
+      we will update this notice to reflect those providers and the related data practices.
+    </p>
 
-      <h2 class="h2">Data handling</h2>
-      <p class="p">Client information is handled with care. Engagement data handling and retention terms are typically governed by contract (MSA/SOW) for client work.</p>
+    <h2 style="margin-top:28px;">Contact</h2>
+    <div class="underline" style="margin-left:0;"></div>
+    <p>
+      Questions about this notice? Contact <b>info@primevantadvisory.com</b>.
+    </p>
 
-      <div class="hr"></div>
+  </div>
+</section>
 
-      <h2 class="h2">Third parties</h2>
-      <p class="p">If the site later uses third-party tools (analytics or form processing), this notice should be updated to reflect those providers.</p>
-
-      <div class="hr"></div>
-
-      <h2 class="h2">Contact</h2>
-      <p class="p">Questions? Contact <b>hello@primevant.com</b> (replace with your real email).</p>
-
-      <p class="small" style="margin-top:12px">Last updated: <span id="d"></span></p>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container footer-top">
-    <div class="footer-col"><b>Primevant</b><p>IT Risk, SOX, and Controls Advisory.</p></div>
-    <div class="footer-col footer-links">
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div>© <span id="year"></span> Primevant Advisory</div>
+    <div style="opacity:.85;">
+      <a href="privacy.html" style="color:inherit; text-decoration:underline;">Privacy</a> • primevantadvisory.com
     </div>
   </div>
-  <div class="container" style="margin-top:14px">© <span id="y"></span> Primevant.</div>
 </footer>
 
 <script>
-  document.getElementById('y').textContent=new Date().getFullYear();
-  document.getElementById('d').textContent=new Date().toLocaleDateString();
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('privacyLastUpdated').textContent = new Date().toLocaleDateString();
 </script>
-<script src="assets/js/nav-active.js"></script>
+<script src="assets/app.js"></script>
 </body>
 </html>

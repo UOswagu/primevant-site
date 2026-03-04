@@ -91,8 +91,10 @@
 <!-- TOP HERO (60% height) -->
 <header class="post-hero" aria-label="SOX readiness hero">
   <!-- Replace this image path with YOUR hero image filename -->
+<picture>
+  <source srcset="assets/optimized/sox-30-days-hero.webp" type="image/webp">
   <img class="post-hero__img" src="assets/sox-30-days-hero.jpg" alt="SOX Readiness banner">
-  <div class="post-hero__overlay" aria-hidden="true"></div>
+</picture>  <div class="post-hero__overlay" aria-hidden="true"></div>
 
   <div class="post-hero__inner">
     <div class="post-hero__kicker">INSIGHTS</div>
@@ -356,8 +358,9 @@
 <footer>
   <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
     <div>© <span id="year"></span> Primevant Advisory</div>
-    <div style="opacity:.85;">primevantadvisory.com</div>
-  </div>
+   <div style="opacity:.85;">
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;">Privacy</a> • primevantadvisory.com
+</div>
 </footer>
 
 <script src="assets/app.js"></script>

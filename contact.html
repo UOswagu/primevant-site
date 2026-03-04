@@ -101,8 +101,10 @@
     <div class="grid contact-hero" style="padding-top:18px;">
       <!-- LEFT: image (blends into page, no box) -->
       <div class="contact-hero-media">
-        <img class="contact-hero-img" src="assets/contact-hero.jpg" alt="Primevant contact hero">
-      </div>
+<picture>
+  <source srcset="assets/optimized/contact-hero.webp" type="image/webp">
+  <img class="contact-hero-img" src="assets/contact-hero.jpg" alt="Primevant contact hero">
+</picture>      </div>
 
       <!-- RIGHT: your existing text -->
       <div class="contact-hero-copy">
@@ -176,8 +178,9 @@
 <footer>
   <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
     <div>© <span id="year"></span> Primevant Advisory</div>
-    <div style="opacity:.85;">primevantadvisory.com</div>
-  </div>
+   <div style="opacity:.85;">
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;">Privacy</a> • primevantadvisory.com
+</div>
 </footer>
 
 <!-- Search Modal -->
