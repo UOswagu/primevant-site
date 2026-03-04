@@ -2239,4 +2239,11 @@ html {
     width: 44px;
     height: 44px;
   }
+  @media (max-width: 600px){
+  .topbar .brand .logo-img{
+    height: 200px !important;
+    max-width: none !important;
+    width: auto !important;
+  }
+}
 }
