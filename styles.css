@@ -2239,4 +2239,50 @@ html {
     width: 44px;
     height: 44px;
   }
+
+  /* =========================================================
+   MOBILE FIX PACK (Index + Contact)
+   Paste at very end of styles.css
+   ========================================================= */
+
+/* Stop any horizontal scroll caused by wide content */
+html, body { overflow-x: hidden; }
+
+/* Prevent long strings from forcing wider layout */
+* { min-width: 0; }
+h1,h2,h3,p,a,li,span { overflow-wrap: anywhere; word-break: break-word; }
+
+/* ---------------------------
+   INDEX: Trust bar overflow
+   --------------------------- */
+@media (max-width: 768px){
+  .trustbar .row{
+    display: flex !important;
+    gap: 14px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 12px 0;
+    grid-template-columns: none !important;
+  }
+
+  .trustitem{
+    flex: 0 0 auto;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+}
+
+/* ---------------------------
+   CONTACT: Force cards to stack
+   (overrides your inline grid-template-columns)
+   --------------------------- */
+@media (max-width: 980px){
+  #contact-form .cards{
+    grid-template-columns: 1fr !important;
+  }
+
+  #contact-form .card{
+    width: 100%;
+  }
+}
 }
