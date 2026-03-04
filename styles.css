@@ -2216,4 +2216,34 @@ html {
     display: block;
   }
 }
+/* Mobile header polish */
+@media (max-width: 600px) {
+  .topbar .nav {
+    align-items: center;
+    gap: 10px;
+  }
+
+  .brand .logo-img {
+    height: 28px;   /* adjust to 26–34 if you want */
+    width: auto;
+    max-width: 140px;
+    display: block;
+  }
+
+  .nav-tools {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .hamburger {
+    width: 44px;
+    height: 44px;
+  }
+
+  .iconbtn, .iconlink {
+    width: 44px;
+    height: 44px;
+  }
+}
 }
