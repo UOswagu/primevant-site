@@ -2195,10 +2195,10 @@ html {
 }
 
   /* Header logo */
-  .topbar .logo-img{
-    height: 34px;
-    width: auto;
-  }
+.topbar .logo-img{
+  height: 48px;
+  width: auto;
+}
   .topbar .brand-text strong{ font-size: 15px; }
   .topbar .brand-text span{ font-size: 9px; letter-spacing: 2px; }
   .topbar .brand{ min-width: auto; gap: 10px; }
@@ -2208,13 +2208,17 @@ html {
     max-width: none;
     margin: 0 auto;
   }
-  @media (max-width: 600px) {
+  /* Mobile header logo */
+@media (max-width: 600px) {
+
   .brand .logo-img {
-    height: 28px;
+    height: 44px;   /* good mobile size */
     width: auto;
-    max-width: 150px;
+    max-width: none; /* remove width restriction */
     display: block;
   }
+
+}
 }
 /* Mobile header polish */
 @media (max-width: 600px) {
