@@ -1,159 +1,348 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Services | Primevant</title>
-  <meta name="description" content="Primevant offers SOX readiness, ITGC stabilization, and SOX program optimization for NJ/NY organizations. Fixed-fee sprints and clear deliverables." />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Services – Primevant Advisory</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-<header class="nav">
-  <div class="container nav-inner">
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="close" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <a href="services.html">Services</a>
+    <a href="approach.html">Approach</a>
+    <a href="insights.html">Insights</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+      Schedule a Consultation →
+    </a>
+  </div>
+</div>
+
+<div class="topbar">
+  <div class="container nav">
+    
     <a class="brand" href="index.html">
-  <img src="assets/img/primevant-logo.png"
-       alt="Primevant Consulting Services"
-       class="brand-logo" />
-</a>
-    <nav class="menu">
-      <a href="services.html" style="color:var(--text);background:rgba(255,255,255,.06)">Services</a>
+      <img src="assets/primevant-logo.png" 
+           alt="Primevant Advisory Logo" 
+           class="logo-img">
+     
+    </a>
+
+    <nav class="navlinks">
+      <a href="services.html">Services</a>
       <a href="approach.html">Approach</a>
-      <a href="industries.html">Industries</a>
       <a href="insights.html">Insights</a>
       <a href="about.html">About</a>
-      <a class="cta" href="contact.html">Contact Us</a>
+      <a href="contact.html">Contact</a>
     </nav>
+
+    <div class="nav-cta">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+     
+<div class="nav-cta">
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+    </svg>
+  </button>
+
+  <!-- NEW: Search + Contact icons -->
+  <div class="nav-tools">
+    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+      <!-- magnifying glass -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="M20 20l-3.5-3.5"></path>
+      </svg>
+    </button>
+
+    <!-- Mail icon (links to contact page) -->
+    <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h16v12H4z"></path>
+        <path d="M4 7l8 6 8-6"></path>
+      </svg>
+    </a>
+
+    <!-- Phone icon (links to contact page) -->
+    <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+      </svg>
+    </a>
+  </div>
+</div>
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- TOP HERO BANNER (Services) -->
+<section class="svc-banner" aria-label="Services top banner">
+  <img class="svc-banner__img" src="assets/services-banner.jpg" alt="Primevant services banner">
+  <div class="svc-banner__overlay" aria-hidden="true"></div>
+
+  
+</section>
+
+<header class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+    </div>
+
+    <div class="grid" style="padding-top:18px;">
+      <div>
+        <h1 class="h1">
+          Business-led IT Risk and<br>
+          <span style="color:var(--blue2)">Controls Advisory</span>.
+        </h1>
+        <p class="lead">
+         We serve organizations that need SOX and IT risk outcomes with executive-level communication and audit-grade delivery
+        </p>
+        <div style="display:flex;gap:12px;margin-top:18px;flex-wrap:wrap;">
+          <a class="btn btn-primary" href="contact.html">Schedule a Strategic Consultation</a>
+        </div>
+      </div>
+
+      <div class="panel-visual hasimg">
+        <img class="panel-img" src="assets/services-hero.jpg" alt="IT Risk and SOX Advisory">
+        <div class="panel-overlay" aria-hidden="true"></div>
+      </div>
+
+    </div>
   </div>
 </header>
 
-<main>
-  <section class="page-head">
-    <div class="container">
-      <h1 class="page-title">Services</h1>
-      <p class="page-sub">
-        Primevant focuses on SOX and IT controls outcomes: clearer control design, stronger evidence, fewer findings,
-        and reduced disruption. Engagements are remote-first with defined milestones.
-      </p>
-    </div>
-  </section>
-<section class="section">
+
+
+
+
+
+
+
+
+
+<section class="section" id="offerings">
   <div class="container">
-    <div class="reveal" id="servicesReveal">
-      <div class="reveal-nav">
-        <button class="reveal-btn" aria-selected="true" data-title="SOX Readiness & Remediation Sprint"
-          data-body="Designed for first-time SOX, major technology change, audit findings, or accelerated timelines. Typical scope: SOX scoping & risk assessment support; control design review (ITGC + key business controls); evidence strategy & remediation plan; test plan support and readiness checkpoints.">
-          SOX Readiness & Remediation Sprint
-        </button>
+    <h2>Service lines</h2>
+    <div class="underline" style="margin-left:0;"></div>
 
-        <button class="reveal-btn" aria-selected="false" data-title="ITGC Stabilization"
-          data-body="Stabilize IT General Controls quickly: access, change management, computer operations. Typical scope: control rationalization; evidence templates; recurring operating cadence; remediation tracking; auditor-ready walkthrough support.">
-          ITGC Stabilization
+    <div class="accordion">
+      <div class="acc-item" id="sox">
+        <button class="acc-btn" type="button">
+          <div>
+            <strong>SOX Readiness &amp; Remediation Sprint</strong><br>
+            <span>Design and remediation support to get you audit-ready quickly ideal for new SOX programs, System changes, or recent findings</span>
+          </div>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f7fc2" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
+        <div class="acc-panel">
+          <div class="inner">
+            <p>Designed for first-time SOX, major technology change, audit findings, or accelerated timelines. 
+              Typical scope: SOX scoping & risk assessment support; control design review
+               (ITGC + key business controls); evidence strategy & remediation plan; test 
+               plan support and readiness checkpoints.
+              </p>
+            <ul>
+              <li>Rapid gap assessment against SOX, PCAOB, and auditor expectations</li>
+              <li>Audit-ready control design and documentation</li>
+              <li>Targeted resolution of material weaknesses and findings</li>
+              <li>Systems and transformation-aligned SOX stabilization</li>
+              <li>Control design and documentation aligned to business processes and ITGC</li>
+              <li>Executive dashboards to track remediation progress and residual risk</li>
+              <li>Pre-audit readiness review before external auditor fieldwork</li>
 
-        <button class="reveal-btn" aria-selected="false" data-title="SOX Optimization"
-          data-body="Reduce effort and findings while improving auditability. Typical scope: control re-design; key report/IPE governance; automation opportunities; documentation refresh; testing efficiency; sustainment playbooks.">
-          SOX Optimization
-        </button>
+
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <aside class="reveal-panel" aria-live="polite">
-        <h3 class="reveal-title">SOX Readiness & Remediation Sprint</h3>
-        <p class="reveal-body">
-          Designed for first-time SOX, major technology change, audit findings, or accelerated timelines. Typical scope: SOX scoping & risk assessment support; control design review (ITGC + key business controls); evidence strategy & remediation plan; test plan support and readiness checkpoints.
-        </p>
-      </aside>
+      <div class="acc-item" id="itrisk">
+        <button class="acc-btn" type="button">
+          <div>
+            <strong>SOX Program Optimization</strong><br>
+            <span>Right-size controls and testing to reduce cost and friction while improving audit outcomes—without sacrificing coverage</span>
+          </div>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f7fc2" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="acc-panel">
+          <div class="inner">
+            <p>Stabilize IT General and application Controls quickly: access, change management, computer operations. 
+              Typical scope: control rationalization; evidence templates; recurring operating cadence; remediation tracking; 
+              auditor-ready walkthrough support.
+              </p>
+            <ul>
+              <li>End-to-end SOX program maturity assessment</li>
+              <li>Control rationalization to reduce cost and friction</li>
+              <li>Risk-based scoping and testing efficiency redesign</li>
+              <li>Automation of key controls and evidence workflows</li>
+              <li>Improved audit outcomes without sacrificing coverage</li>
+              <li>Testing strategy redesign (rotational testing, automation enablement)</li>
+              <li>Cost-to-compliance benchmarking and optimization roadmap</li>
+
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="acc-item" id="ai">
+        <button class="acc-btn" type="button">
+          <div>
+            <strong>ITGC &amp; Application Controls Stabilization</strong><br>
+            <span>Strengthen the IT foundations auditors focus on most: identity, privileged access, change, incidents, and evidence practices</span>
+          </div>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f7fc2" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="acc-panel">
+          <div class="inner">
+            <p>Reduce effort and findings while improving auditability. Typical scope: control re-design;
+               key report/IPE governance; automation opportunities; documentation refresh; testing efficiency; 
+               sustainment playbooks.
+              </p>
+            <ul>
+              <li>Identity and privileged access governance strengthening</li>
+              <li>Audit-defensible evidence and ITGC reliability</li>
+              <li>Execute pre and post system implementation reviews</li>
+              <li>Joiner, Mover, Leaver and SoD risk remediation</li>
+              <li>Change and incident management control enhancement</li>
+              <li>ITGC control health review aligned to auditor hot buttons</li>
+              <li>Design and validation of key automated and configurable controls</li>
+              <li>Data integrity and report logic validation</li>
+              <li>ERP and business systems control optimization (SAP, Oracle, Workday, etc.)</li> 
+              <li>Reduction of reliance and audit rework risk</li>
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-  <section class="section">
-    <div class="container split">
-      <div class="card panel">
-        <h2 class="h2">Engagement models</h2>
-        <ul class="clean-list">
-      <li>
-        <strong>Fixed-fee sprint</strong>
-        <span>Best for defined outcomes and rapid execution. Includes milestones and a clear deliverable list.</span>
-      </li>
 
-      <li>
-        <strong>Capped T&M</strong>
-        <span>Best for remediation where complexity varies. Includes an agreed cap and weekly burn visibility.</span>
-      </li>
 
-      <li>
-        <strong>Retainer</strong>
-        <span>Ongoing advisory with bounded hours, response expectations, and quarterly planning.</span>
-      </li>
-    </ul>
-      </div>
 
-      <div class="card panel">
-        <h2 class="h2">Optional add-ons (post-stabilization)</h2>
-        <p class="p">Once the SOX/ITGC foundation is stable, Primevant can support adjacent risk priorities.</p>
-        <div class="hr"></div>
-        <ul class="small">
-          <li>Cyber risk assessment & governance</li>
-          <li>Third-party risk support (SOC report review, control mapping)</li>
-          <li>AI governance and controls advisory (policy + oversight)</li>
-        </ul>
-        <div class="hr"></div>
-        <a class="btn primary" href="contact.html">Discuss your needs</a>
-        <p class="help">We’ll respond with a short scope memo and a recommended engagement option.</p>
-      </div>
-    </div>
-  </section>
-</main>
-<section class="section" id="industries-summary">
-  <div class="container">
-    <h2 class="h2">Our Solutions</h2>
-    <p class="page-sub">
-      Primevant brings SOX and IT controls execution discipline aligned to how each industry actually operates.
-    </p>
 
-    <div class="industry-summary">
-      <div class="industry-summary-item">
-        <p>Strong governance, access controls, change evidence, and third-party reliance discipline.</p>
-      </div>
+<!-- INDUSTRIES CTA BANNER -->
+<section class="industries-cta" aria-label="Industries call to action">
+  <!-- Replace with your dark image file -->
+  <img class="industries-cta__img" src="assets/industries-banner.jpg" alt="Industries background">
 
-      <div class="industry-summary-item">
-        <p>Operational controls, vendor reliance, and policy-to-evidence alignment across regulated environments.</p>
-      </div>
+  <div class="industries-cta__overlay" aria-hidden="true"></div>
 
-      <div class="industry-summary-item">
-        <p>SOX-aligned IT controls, SDLC/change governance, and scalable evidence practices.</p>
-      </div>
-
-      <div class="industry-summary-item">
-        <p>ERP-driven controls, change governance, and access practices that support business continuity.</p>
-      </div>
-
-      <div class="industry-summary-item">
-        <p>ITGC stabilization and evidence practices across multi-system environments and fast change cycles.</p>
-      </div>
-    </div>
-
-    <p class="note">
-      Want the regulatory lens per industry? See <a href="industries.html">Industries</a>.
-    </p>
+  <div class="container industries-cta__content">
+    <a class="industries-cta__link" href="industries.html">
+      Want the regulatory lens per industry? <span>See Industries</span> →
+    </a>
   </div>
 </section>
-<footer class="footer">
-  <div class="container footer-top">
-    <div class="footer-col"><b>Primevant</b><p>IT Risk, SOX, and Controls Advisory.</p></div>
-    <div class="footer-col footer-links">
-      <a href="approach.html">Approach</a>
-      <a href="industries.html">Industries</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="contact.html">Contact</a>
-    </div>
+
+
+
+
+
+
+
+
+
+
+<!-- Our Solutions (Insights-style) -->
+<section class="solutions-strip" id="solutions">
+  <div class="container">
+    <h2 class="solutions-title">Engagement Models</h2>
+
+    <div class="solutions-list">
+      <article class="solutions-item">
+        <p><b>Fixed-fee sprint</b> Best for defined outcomes and rapid execution. Includes milestones and a clear deliverable list.</p>
+        <p><b>Capped T&M </b> Best for remediation where complexity varies. Includes an agreed cap and weekly burn visibility.</p>
+        <p><b>Retainer </b> Ongoing advisory with bounded hours, response expectations, and quarterly planning.</p>
+
+        
+      </article>
+
+      </div>
+</section>
+
+<section class="solutions-strip" id="solutions2">
+  <div class="container">
+    <h2 class="solutions-title"> Optional add-ons (post-stabilization)</h2>
+
+    <div class="solutions-list">
+      <article class="solutions-item">
+        <p><b>Once IT controls foundation is stable, Primevant Advisory can support adjacent risk priorities.</b></p><br>
+        <p> Cyber risk assessment & governance</p>
+        <p>Third-party risk support (SOC report review, control mapping)</p>
+        <p>AI governance and controls advisory (policy + oversight)</p>
+
+
+      </article>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div>© <span id="year"></span> Primevant Advisory</div>
+    <div style="opacity:.85;">primevantadvisory.com</div>
   </div>
-  <div class="container" style="margin-top:14px">© <span id="y"></span> Primevant.</div>
 </footer>
 
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
-<script src="assets/js/reveal.js"></script>
-<script src="assets/js/nav-active.js"></script>
+<!-- Search Modal -->
+<div class="searchmodal" id="searchModal" aria-hidden="true">
+  <div class="searchbackdrop" id="searchClose"></div>
+
+  <div class="searchpanel" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="searchtop">
+      <div class="searchtitle">Search</div>
+
+      <button class="iconbtn" id="closeSearch" type="button" aria-label="Close search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 6l12 12M18 6L6 18"></path>
+        </svg>
+      </button>
+    </div>
+
+    <input
+      class="searchinput"
+      id="searchInput"
+      type="search"
+      placeholder="Search services, approach, SOX, ITGC, AI…"
+      autocomplete="off"
+    />
+
+    <div class="searchhint">Tip: press <b>Esc</b> to close • <b>Enter</b> to open first result</div>
+
+    <div class="searchresults" id="searchResults" aria-live="polite"></div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
 </body>
 </html>

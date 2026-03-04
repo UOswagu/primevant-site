@@ -1,170 +1,244 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>About | Primevant</title>
-  <meta name="description" content="Primevant is a boutique advisory providing SOX, IT Risk, and Controls expertise with executive-level communication and audit-grade delivery." />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>About – Primevant Advisory</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-<header class="nav">
-  <div class="container nav-inner">
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="close" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <a href="services.html">Services</a>
+    <a href="approach.html">Approach</a>
+    <a href="insights.html">Insights</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+      Schedule a Consultation →
+    </a>
+  </div>
+</div>
+
+<div class="topbar">
+  <div class="container nav">
+    
     <a class="brand" href="index.html">
-  <img src="assets/img/primevant-logo.png"
-       alt="Primevant Consulting Services"
-       class="brand-logo" />
-</a>
-    <nav class="menu">
+      <img src="assets/primevant-logo.png" 
+           alt="Primevant Advisory Logo" 
+           class="logo-img">
+    </a>
+
+    <nav class="navlinks">
       <a href="services.html">Services</a>
       <a href="approach.html">Approach</a>
-      <a href="industries.html">Industries</a>
       <a href="insights.html">Insights</a>
-      <a href="about.html" style="color:var(--text);background:rgba(255,255,255,.06)">About</a>
-      <a class="cta" href="contact.html">Contact Us</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
+
+    <div class="nav-cta">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <div class="nav-cta">
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+    </svg>
+  </button>
+
+  <!-- NEW: Search + Contact icons -->
+  <div class="nav-tools">
+    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+      <!-- magnifying glass -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="M20 20l-3.5-3.5"></path>
+      </svg>
+    </button>
+
+    <!-- Mail icon (links to contact page) -->
+    <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h16v12H4z"></path>
+        <path d="M4 7l8 6 8-6"></path>
+      </svg>
+    </a>
+
+    <!-- Phone icon (links to contact page) -->
+    <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+      </svg>
+    </a>
   </div>
-</header>
-
-<main>
-  <section class="page-head">
-    <div class="container">
-      <h1 class="page-title">About Primevant</h1>
-      <p class="page-sub">
-        Primevant is a boutique advisory focused on <b>IT Risk, SOX, and Controls</b>. We deliver clear scope,
-        executive-level communication, and audit-ready outcomes—without unnecessary overhead.
-      </p>
+</div>
     </div>
-  </section>
 
-  <section class="section">
-    <div class="container split">
-      <div class="card panel">
-        <h2 class="h2">Our mission</h2>
-        <p class="p">
-          Help organizations strengthen their control environments in a way that is practical, defensible,
-          and aligned to business operations—so SOX and IT risk programs reduce surprises and increase confidence.
-        </p>
-        <div class="hr"></div>
-        <h2 class="h2">Our values</h2>
-        <p class="p">
-          <b>Clarity</b> (clear scope & deliverables), <b>Discipline</b> (audit-grade evidence),
-          <b>Judgment</b> (right-sized controls), and <b>Trust</b> (secure handling of client information).
-        </p>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ABOUT TOP HERO (80% height) -->
+<section class="about-tophero" aria-label="About Primevant">
+  <img class="about-tophero__img" src="assets/about-hero.jpg" alt="Primevant advisory background">
+  <div class="about-tophero__overlay"></div>
+
+  <div class="container about-tophero__content">
+    <div class="about-tophero__title">
+      Our people. Your audit. Exceptional precision.
+    </div>
+  </div>
+</section>
+
+<header class="page-hero">
+
+<header class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"></div>
+
+    <div class="page-hero grid" style="padding-top:18px;">
+      <div>
+        <h1 class="h1">Board-level risk advisory<br><span style="color:var(--blue2)">with Big-4 discipline</span>.</h1>
+        <p class="lead">Primevant Advisory helps leadership teams strengthen governance, manage risk effectively, and sustain resilient internal control environments.</p>
+        <div style="display:flex;gap:12px;margin-top:18px;flex-wrap:wrap;">
+          <a class="btn btn-primary" href="contact.html">Work With Primevant Advisory</a>
+          <a class="btn btn-ghost" href="services.html">View Services</a>
+        </div>
       </div>
 
-      <div class="card panel">
-        <h2 class="h2">What makes Primevant different</h2>
-        <div>
-          <ul class="clean-list">
-      <li>
-        <strong>Business-led</strong>
-        <span>Controls designed to work with real operations, not against them</span>
-      </li>
+      <div class="panel-visual hasimg">
+  <img class="panel-img" src="assets/about-page-hero.jpg" alt="Primevant advisory leadership">
+  <div class="panel-overlay" aria-hidden="true"></div>
+</div>
+</header>
 
-      <li>
-        <strong>Audit-ready</strong>
-        <span>Deliverables and evidence standards aligned to auditor expectations</span>
-      </li>
+<section class="section">
+  <div class="container">
+    <h2>About Primevant Advisory</h2>
+    <div class="underline" style="margin-left:0;"></div>
+    <p>Primevant Advisory is a boutique advisory focused on IT Risk, SOX, and Controls. We deliver clear scope, executive-level communication, and audit-ready outcomes—without unnecessary overhead.</p>
 
-      <li>
-        <strong>Low friction</strong>
-        <span>Fixed-fee sprints and clear milestones to reduce scope creep</span>
-      </li>
-
-      <li>
-        <strong>Remote-first</strong>
-        <span>Efficient delivery with secure documentation and communication</span>
-      </li>
-    </ul>
-        </div>
-        <div class="hr"></div>
-        <p class="small">
-<section class="founder">
-  <div class="founder-wrap">
-
-    <div class="founder-photo">
-      <img src="assets/img/uchechi-osuagwu.jpg" alt="Uchechi Osuagwu, Founder & Principal">
+    <div class="cards">
+      <div class="card"><h3>Our mission</h3><p>Help organizations strengthen their control environments in a way that is practical, defensible, and aligned to business operations—so SOX and IT risk programs reduce surprises and increase confidence.</p></div>
+      <div class="card"><h3>Our values</h3><p>Clarity (clear scope & deliverables), Discipline (audit-grade evidence), Judgment (right-sized controls), and Trust (secure handling of client information).</p></div>
     </div>
+  </div>
+</section>
 
-    <div class="founder-content">
-      <h2>Founder Bio</h2>
+<section class="founder-bio" id="founder">
+  <div class="container">
+    <div class="founder-grid">
 
-      <h3>Uchechi Osuagwu</h3>
-      <p class="founder-title">Founder & Principal<br>Primevant Consulting Services</p>
+      <!-- Left: Photo card -->
+      <div class="founder-card">
+        <!-- Replace the src with your actual headshot file -->
+        <img class="founder-photo" src="assets/founder.jpg" alt="Uchechi Osuagwu headshot" />
+      </div>
 
-      <h4>Background Summary</h4>
-      <p>
-        Uchechi Osuagwu is a former EY partner and seasoned technology risk executive with over
-        15 years of experience leading enterprise audit, cybersecurity, AI strategy, and digital
-        transformation initiatives for Fortune 50 organizations. Her career spans complex,
-        highly regulated global environments where technology, risk, and business outcomes
-        intersect.
-      </p>
-      <p>
-        Uchechi has led large-scale programs focused on strengthening technology controls,
-        operationalizing AI governance, and modernizing enterprise risk and audit frameworks
-        to support growth, regulatory readiness, and resilience. Throughout her career, she has
-        worked closely with Boards, executive leadership teams, and regulators, advising on SOX
-        readiness, cyber resilience, third-party risk, and emerging technology risks.
-      </p>
-      <p>
-        She is recognized for her ability to bridge the gap between technical complexity and
-        executive decision-making—translating intricate control, security, and AI challenges
-        into practical, business-aligned strategies.
-      </p>
+      <!-- Right: Content -->
+      <div class="founder-content">
+        <h2 class="founder-title">Founder Bio</h2>
 
-      <h4>Credentials & Expertise</h4>
-      <ul class="executive-list">
-        <li>15+ years of leadership in technology risk, enterprise audit, cybersecurity, and AI governance</li>
-        <li>Deep expertise in SOX, ITGCs, access controls, change management, and evidence-based control frameworks</li>
-        <li>Proven experience operationalizing AI governance and risk management across enterprise environments</li>
-        <li>Trusted advisor to Boards and C-suite leaders on regulatory readiness, cyber risk, and emerging AI threats</li>
-        <li>Extensive background supporting global operations across financial services, healthcare, technology, and consumer industries</li>
-        <li>Known for unifying technology, risk, audit, and business stakeholders around a single, execution-focused risk strategy</li>
-      </ul>
+        <div class="founder-name">Uchechi Osuagwu</div>
+        <div class="founder-role">Founder &amp; Principal</div>
 
-      <h4>Credibility Statement</h4>
-      <p>
-        Uchechi brings a rare combination of executive judgment, technical depth, and practical
-        delivery experience. She is trusted by senior leaders not only to identify risk, but to
-        solve it—designing control environments, governance models, and operating structures
-        that work in the real world.
-      </p>
-      <p>
-        Her approach is disciplined, outcomes-driven, and grounded in the realities of audit,
-        regulation, and enterprise execution. Through Primevant, Uchechi partners with
-        organizations to turn regulatory pressure and technological change into strategic
-        advantage.
-      </p>
+        <h3 class="founder-subtitle">Background Summary</h3>
+
+        <p class="founder-text">
+          Uchechi Osuagwu is a former EY partner and seasoned technology risk executive with over 15 years of experience
+          leading enterprise audit, cybersecurity, AI strategy, and digital transformation initiatives for Fortune 50
+          organizations. Her career spans complex, highly regulated global environments where technology, risk, and
+          business outcomes intersect.
+        </p>
+
+        <p class="founder-text">
+          Uchechi has led large-scale programs focused on strengthening technology controls, operationalizing AI
+          governance, and modernizing enterprise risk and audit frameworks to support growth, regulatory readiness, and
+          resilience. Throughout her career, she has worked closely with Boards, executive leadership teams, and
+          regulators, advising on SOX readiness, cyber resilience, third-party risk, and emerging technology risks.
+        </p>
+
+        <p class="founder-text">
+          She is recognized for her ability to bridge the gap between technical complexity and executive
+          decision-making—translating intricate control, security, and AI challenges into practical, business-aligned
+          strategies.
+        </p>
+
+        <h3 class="founder-subtitle">Credentials &amp; Expertise</h3>
+        <ul class="founder-list">
+          <li>15+ years of leadership in technology risk, enterprise audit, cybersecurity, and AI governance</li>
+          <li>Deep expertise in SOX, ITGCs, access controls, change management, and evidence-based control frameworks</li>
+          <li>Proven experience operationalizing AI governance and risk management across enterprise environments</li>
+          <li>Trusted advisor to Boards and C-suite leaders on regulatory readiness, cyber risk, and emerging AI threats</li>
+          <li>Extensive background supporting global operations across financial services, healthcare, technology, and consumer industries</li>
+          <li>Known for unifying technology, risk, audit, and business stakeholders around a single, execution-focused risk strategy</li>
+        </ul>
+
+        <h3 class="founder-subtitle">Credibility Statement</h3>
+        <p class="founder-text">
+          Uchechi brings a rare combination of executive judgment, technical depth, and practical delivery experience.
+          She is trusted by senior leaders not only to identify risk, but to solve it—designing control environments,
+          governance models, and operating structures that work in the real world.
+        </p>
+
+        <p class="founder-text">
+          Her approach is disciplined, outcomes-driven, and grounded in the realities of audit, regulation, and
+          enterprise execution. Through Primevant Advisory, Uchechi partners with organizations to turn regulatory pressure and
+          technological change into strategic advantage.
+        </p>
+      </div>
 
     </div>
   </div>
 </section>
-        </p>
-      </div>
-    </div>
-  </section>
-</main>
 
-<footer class="footer">
-  <div class="container footer-top">
-    <div class="footer-col">
-      <b>Primevant</b>
-      <p>Business-led IT Risk, SOX, and Controls Advisory for NJ/NY organizations.</p>
-    </div>
-    <div class="footer-col footer-links">
-      <a href="services.html">Services</a>
-      <a href="approach.html">Approach</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="contact.html">Contact</a>
-    </div>
+
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div>© <span id="year"></span> Primevant Advisory</div>
+    <div style="opacity:.85;">primevantadvisory.com</div>
   </div>
-  <div class="container" style="margin-top:14px">© <span id="y"></span> Primevant.</div>
 </footer>
 
-<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
-<script src="assets/js/nav-active.js"></script>
+<!-- Search Modal -->
+<div class="searchmodal" id="searchModal" aria-hidden="true">
+  <div class="searchbackdrop" id="searchClose"></div>
+
+  <div class="searchpanel" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="searchtop">
+      <div class="searchtitle">Search</div>
+
+      <button class="iconbtn" id="closeSearch" type="button" aria-label="Close search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 6l12 12M18 6L6 18"></path>
+        </svg>
+      </button>
+    </div>
+
+    <input
+      class="searchinput"
+      id="searchInput"
+      type="search"
+      placeholder="Search services, approach, SOX, ITGC, AI…"
+      autocomplete="off"
+    />
+
+    <div class="searchhint">Tip: press <b>Esc</b> to close • <b>Enter</b> to open first result</div>
+
+    <div class="searchresults" id="searchResults" aria-live="polite"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
 </body>
 </html>

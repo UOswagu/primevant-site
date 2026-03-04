@@ -1,92 +1,207 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Insights | Primevant</title>
-  <meta name="description" content="Primevant insights on SOX, ITGC, controls optimization, audit readiness, and practical risk governance." />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Insights – Primevant Advisory</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-<header class="nav">
-  <div class="container nav-inner">
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="close" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <a href="services.html">Services</a>
+    <a href="approach.html">Approach</a>
+    <a href="insights.html">Insights</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+      Schedule a Consultation →
+    </a>
+  </div>
+</div>
+
+<div class="topbar">
+  <div class="container nav">
+    
     <a class="brand" href="index.html">
-  <img src="assets/img/primevant-logo.png"
-       alt="Primevant Consulting Services"
-       class="brand-logo" />
-</a>
-    <nav class="menu">
+      <img src="assets/primevant-logo.png" 
+           alt="Primevant Advisory Logo" 
+           class="logo-img">
+    </a>
+
+    <nav class="navlinks">
       <a href="services.html">Services</a>
       <a href="approach.html">Approach</a>
-      <a href="industries.html">Industries</a>
-      <a href="insights.html" style="color:var(--text);background:rgba(255,255,255,.06)">Insights</a>
+      <a href="insights.html">Insights</a>
       <a href="about.html">About</a>
-      <a class="cta" href="contact.html">Contact Us</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <section class="page-head">
-    <div class="container">
-      <h1 class="page-title">Insights</h1>
-      <p class="page-sub">
-        Short, practical guidance on SOX, ITGC, and controls—written for CFO/CIO/CIO/IA leaders who want fewer surprises and cleaner audits.
-      </p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container grid3">
-      <div class="card panel">
-        <h2 class="h2">SOX readiness in 30 days</h2>
-        <p class="p">A realistic sequence: scope, narratives, walkthroughs, evidence standards, and remediation tracking.</p>
-        <div class="hr"></div>
-        <p class="small">Coming soon — replace with an actual post link when ready.</p>
-      </div>
-
-      <div class="card panel">
-        <h2 class="h2">ITGC evidence: what auditors actually need</h2>
-        <p class="p">Common evidence mistakes and how to standardize tickets, approvals, and access review proof.</p>
-        <div class="hr"></div>
-        <p class="small">Coming soon.</p>
-      </div>
-
-      <div class="card panel">
-        <h2 class="h2">Reducing SOX testing without increasing risk</h2>
-        <p class="p">How to rationalize key controls, remove overlap, and improve reliance with defensible logic.</p>
-        <div class="hr"></div>
-        <p class="small">Coming soon.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container card panel">
-      <h2 class="h2">Want a short diagnostic memo?</h2>
-      <p class="p">Share your current pain points and we’ll respond with a brief scope recommendation and next steps.</p>
-      <div class="hero-actions" style="margin-top:14px">
-        <a class="btn primary" href="contact.html">Contact Primevant</a>
-        <a class="btn" href="services.html">Service menu</a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container footer-top">
-    <div class="footer-col"><b>Primevant</b><p>IT Risk, SOX, and Controls Advisory.</p></div>
-    <div class="footer-col footer-links">
-      <a href="services.html">Services</a>
-      <a href="privacy.html">Privacy</a>
       <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <div class="nav-cta">
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+    </svg>
+  </button>
+
+  <!-- NEW: Search + Contact icons -->
+  <div class="nav-tools">
+    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+      <!-- magnifying glass -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="M20 20l-3.5-3.5"></path>
+      </svg>
+    </button>
+
+    <!-- Mail icon (links to contact page) -->
+    <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h16v12H4z"></path>
+        <path d="M4 7l8 6 8-6"></path>
+      </svg>
+    </a>
+
+    <!-- Phone icon (links to contact page) -->
+   <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+      </svg>
+    </a>
+  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- TOP BANNER HERO (Insights) -->
+<section class="insights-tophero" id="insightsBanner" aria-label="Insights top banner">
+  <img class="insights-tophero__img" src="assets/insights-hero.jpg" alt="Insights hero image">
+  <div class="insights-tophero__overlay" aria-hidden="true"></div>
+
+  
+
+    <div class="insights-tophero__actions">
+      <a class="btn btn-primary" href="contact.html">Request a Board Brief</a>
+      <a class="btn btn-ghost" href="#featured">Browse Featured</a>
     </div>
   </div>
-  <div class="container" style="margin-top:14px">© <span id="y"></span> Primevant.</div>
+</section>
+
+<!-- INSIGHTS EDITORIAL SECTION (Mid-page) -->
+<section class="insights-editorial">
+  <div class="container">
+    <div class="insights-editorial__wrap">
+      <h2 class="insights-editorial__title">Insights</h2>
+
+      <p class="insights-editorial__lede">
+        Short, practical guidance on SOX, ITGC, and controls—written for CFO/CIO/CISO/IA leaders who want fewer surprises and cleaner audits.
+      </p>
+
+      <div class="insights-editorial__posts">
+
+        <div class="insights-editorial__post">
+          <h3 class="insights-editorial__postTitle">SOX readiness in 30 days</h3>
+          <p class="insights-editorial__postCopy">
+            A realistic sequence: scope, narratives, walkthroughs, evidence standards, and remediation tracking.
+          </p>
+          <a class="readpost" href="sox-readiness-30-days.html">Read post →</a>
+        </div>
+        <div class="insights-editorial__post">
+          <h3 class="insights-editorial__postTitle">ITGC evidence: what auditors actually need</h3>
+          <p class="insights-editorial__postCopy">
+            Common evidence mistakes and how to standardize tickets, approvals, and access review proof.
+          </p>
+          <a class="insights-editorial__meta" href="post-sox-30-days.html">Coming soon →</a>        </div>
+
+        <div class="insights-editorial__post">
+          <h3 class="insights-editorial__postTitle">Reducing SOX testing without increasing risk</h3>
+          <p class="insights-editorial__postCopy">
+            How to rationalize key controls, remove overlap, and improve reliance with defensible logic.
+            </p>
+          <a class="insights-editorial__meta" href="post-sox-30-days.html">Coming soon →</a>        </div>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="featured">
+      <div class="container">
+    <h2>Featured</h2>
+    <div class="underline" style="margin-left:0;"></div>
+
+    <div class="cards">
+      <article class="card" data-insight data-title="SOX readiness in fast-scaling organizations" data-tags="SOX Governance Audit">
+        <h3>SOX readiness in fast-scaling organizations</h3>
+        <p>Where audit friction comes from—and what to standardize early (owners, cadence, evidence).</p>
+        <div class="learn">Coming soon<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h12M13 6l6 6-6 6"/></svg></div>
+      </article>
+
+      <article class="card" data-insight data-title="Board reporting for IT risk governance" data-tags="IT Risk Governance">
+        <h3>Board reporting for IT risk governance</h3>
+        <p>Move from operational metrics to board-level KRIs that support oversight decisions.</p>
+        <div class="learn">Coming soon <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h12M13 6l6 6-6 6"/></svg></div>
+      </article>
+
+      <article class="card" data-insight data-title="AI governance controls auditors will ask for" data-tags="AI Governance Compliance">
+        <h3>AI governance controls auditors will ask for</h3>
+        <p>Control themes: inventory, approvals, monitoring, and lifecycle documentation.</p>
+        <div class="learn">Coming soon <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h12M13 6l6 6-6 6"/></svg></div>
+      </article> <!--when articule is available, chnage Coming soon to Read Brief for all of the above -->
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div>© <span id="year"></span> Primevant Advisory</div>
+    <div style="opacity:.85;">primevantadvisory.com</div>
+  </div>
 </footer>
 
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
-<script src="assets/js/nav-active.js"></script>
+<!-- Search Modal -->
+<div class="searchmodal" id="searchModal" aria-hidden="true">
+  <div class="searchbackdrop" id="searchClose"></div>
+
+  <div class="searchpanel" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="searchtop">
+      <div class="searchtitle">Search</div>
+
+      <button class="iconbtn" id="closeSearch" type="button" aria-label="Close search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 6l12 12M18 6L6 18"></path>
+        </svg>
+      </button>
+    </div>
+
+    <input
+      class="searchinput"
+      id="searchInput"
+      type="search"
+      placeholder="Search services, approach, SOX, ITGC, AI…"
+      autocomplete="off"
+    />
+
+    <div class="searchhint">Tip: press <b>Esc</b> to close • <b>Enter</b> to open first result</div>
+
+    <div class="searchresults" id="searchResults" aria-live="polite"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
 </body>
 </html>

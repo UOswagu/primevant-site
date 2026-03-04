@@ -1,106 +1,214 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact | Primevant</title>
-  <meta name="description" content="Contact Primevant to discuss SOX readiness, ITGC stabilization, and IT risk advisory support for NJ/NY organizations." />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact – Primevant Advisory</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-<header class="nav">
-  <div class="container nav-inner">
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="close" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <a href="services.html">Services</a>
+    <a href="approach.html">Approach</a>
+    <a href="insights.html">Insights</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+      Schedule a Consultation →
+    </a>
+  </div>
+</div>
+
+<div class="topbar">
+  <div class="container nav">
+    
     <a class="brand" href="index.html">
-  <img src="assets/img/primevant-logo.png"
-       alt="Primevant Consulting Services"
-       class="brand-logo" />
-</a>
-    <nav class="menu">
+      <img src="assets/primevant-logo.png" 
+           alt="Primevant Advisory Logo" 
+           class="logo-img">
+    </a>
+
+    <nav class="navlinks">
       <a href="services.html">Services</a>
       <a href="approach.html">Approach</a>
-      <a href="industries.html">Industries</a>
       <a href="insights.html">Insights</a>
       <a href="about.html">About</a>
-      <a class="cta" href="contact.html" style="color:var(--text)">Contact Us</a>
+      <a href="contact.html">Contact</a>
     </nav>
+
+    <div class="nav-cta">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <div class="nav-cta">
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+    </svg>
+  </button>
+
+  <!-- NEW: Search + Contact icons -->
+  <div class="nav-tools">
+    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+      <!-- magnifying glass -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="M20 20l-3.5-3.5"></path>
+      </svg>
+    </button>
+
+    <!-- Mail icon (links to contact page) -->
+<!-- Mail icon -->
+<a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h16v12H4z"></path>
+        <path d="M4 7l8 6 8-6"></path>
+      </svg>
+    </a>
+
+    <!-- Phone icon (links to contact page) -->
+<!-- Phone icon -->
+<a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+      </svg>
+    </a>
+  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- CONTACT TOP BANNER -->
+<section class="contact-top-banner">
+  <div class="container">
+    <h1 class="contact-banner-title">Contact us</h1>
+  </div>
+</section>
+
+<header class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"></div>
+
+    <div class="grid contact-hero" style="padding-top:18px;">
+      <!-- LEFT: image (blends into page, no box) -->
+      <div class="contact-hero-media">
+        <img class="contact-hero-img" src="assets/contact-hero.jpg" alt="Primevant contact hero">
+      </div>
+
+      <!-- RIGHT: your existing text -->
+      <div class="contact-hero-copy">
+        <h1 class="h1">Let’s align on your<br><span style="color:var(--blue2)">audit-ready objectives</span>.</h1>
+        <p class="lead"><b> Translate risk into executive action.</b> We bridge the gap between technical teams, internal audit, and executive leadership to ensure control frameworks support business objectives.</p><br> 
+        <p class="lead"><b> Reduce compliance friction.</b> We streamline control design, documentation, and evidence practices so your teams spend less time managing audits and more time delivering results.</p><br> 
+        <p class="lead"><b> Engage with a proven advisor.</b> With deep experience supporting boards, C-suites, and audit committees, we deliver practical solutions that stand up to regulatory and external audit review.</p><br> 
+
+        <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;">
+          
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
-<main>
-  <section class="page-head">
+<section class="section" id="contact-form">
     <div class="container">
-      <h1 class="page-title">Contact Us</h1>
-      <p class="page-sub">
-        Share your current SOX/IT risk priorities. Primevant will respond with a short scope recommendation and next steps.
-      </p>
-    </div>
-  </section>
+    <h2>Send a message</h2>
+    <div class="underline" style="margin-left:0;"></div>
 
-  <section class="section">
-    <div class="container split">
-      <div class="card panel">
-        <h3 class="h3">Experience the immediate and lasting benefits of collaborating with Primevant. Complete the form below, and we will contact you shortly.</h3>
-        <p class="p"><!--This static form uses a mailto fallback. If you want submissions captured, connect it to a form service later (Netlify Forms, Formspree, etc.)-->.</p>
-        <div class="hr"></div>
-
-        <form class="form" action="mailto:contact@primevantadvisory.com" method="post" enctype="text/plain">
-          <input class="input" name="Name" placeholder="Your name" required />
-          <input class="input" name="Company" placeholder="Company" />
-          <input class="input" name="Email" placeholder="Email" type="email" required />
-          <input class="input" name="Topic" placeholder="Topic (SOX readiness, ITGC, optimization…)" />
-          <textarea name="Message" placeholder="Briefly describe your current pain points, timeline, and systems (optional)." required></textarea>
-          <button class="btn primary" type="submit">Submit</button>
-          <div class="help">Prefer email? Write to <b>contact@primevantadvisory.com</b> </div>
+    <div class="cards" style="grid-template-columns: 1.1fr .9fr;">
+      <div class="card">
+        <form id="contactForm">
+          <div style="display:grid;gap:14px;">
+            <div>
+              <label for="name">Full name *</label>
+              <input class="input" id="name" name="name" placeholder="Your name" required/>
+            </div>
+            <div>
+              <label for="email">Email *</label>
+              <input class="input" id="email" name="email" placeholder="you@company.com" required/>
+            </div>
+            <div>
+              <label for="topic">Topic</label>
+              <input class="input" id="topic" name="topic" placeholder="SOX readiness, IT risk governance, AI oversight"/>
+            </div>
+            <div>
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Briefly describe your goals and timeline." required></textarea>
+            </div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;">
+              <button class="btn btn-primary" type="submit">Send message</button>
+              <a class="btn btn-ghost" href="services.html">View services</a>
+            </div>
+          </div>
         </form>
       </div>
 
-     <div class="container">
-    <h3 class="h3">What to include</h3>
-
-    <ul class="clean-list">
-      <li>
-        <strong>Your goal</strong>
-        <span>Readiness, remediation, optimization, or stabilization</span>
-      </li>
-
-      <li>
-        <strong>Timeline</strong>
-        <span>Upcoming audit dates, walkthroughs, remediation deadlines</span>
-      </li>
-
-      <li>
-        <strong>Systems</strong>
-        <span>ERP, IAM/PAM tools, ticketing platforms, key third parties</span>
-      </li>
-
-      <li>
-        <strong>Pain points</strong>
-        <span>Repeat findings, evidence gaps, access/change issues, staffing constraints</span>
-      </li>
-    </ul>
-
-    <p class="note">
-      We typically respond within 1–2 business days with a short scope memo and recommended next steps.
-    </p>
-
-  </div>
-    </div> 
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container footer-top">
-    <div class="footer-col"><b>Primevant</b><p>IT Risk, SOX, and Controls Advisory.</p></div>
-    <div class="footer-col footer-links">
-      <a href="services.html">Services</a>
-      <a href="privacy.html">Privacy</a>
+      <div class="card"><br> <br>
+        <h3>Contact details</h3>
+        <p style="margin-top:8px;">Email: <b>info@primevantadvisory.com</b></p>
+        <p>Phone: <b>(281) 919 7001</b></p> <br> <br> <br>
+        <p style="color:#0f2e4f; font-size:18px; line-height:1.6;">
+          <b>We typically respond within 1 business day. For urgent audit-cycle needs, include “time-sensitive” in your message.</b>
+        </p>
+      </div>
     </div>
   </div>
-  <div class="container" style="margin-top:14px">© <span id="y"></span> Primevant.</div>
+</section>
+
+<div id="toast" style="
+  position:fixed; left:50%; bottom:22px; transform:translate(-50%,10px);
+  background:#0f172a; color:#fff; font-weight:900; font-size:13px;
+  padding:12px 14px; border-radius:999px; opacity:0;
+  box-shadow: 0 18px 45px rgba(15,23,42,.30);
+  transition: opacity .18s ease, transform .18s ease;
+  z-index:999;
+">Copied.</div>
+
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div>© <span id="year"></span> Primevant Advisory</div>
+    <div style="opacity:.85;">primevantadvisory.com</div>
+  </div>
 </footer>
 
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
-<script src="assets/js/nav-active.js"></script>
+<!-- Search Modal -->
+<div class="searchmodal" id="searchModal" aria-hidden="true">
+  <div class="searchbackdrop" id="searchClose"></div>
+
+  <div class="searchpanel" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="searchtop">
+      <div class="searchtitle">Search</div>
+
+      <button class="iconbtn" id="closeSearch" type="button" aria-label="Close search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 6l12 12M18 6L6 18"></path>
+        </svg>
+      </button>
+    </div>
+
+    <input
+      class="searchinput"
+      id="searchInput"
+      type="search"
+      placeholder="Search services, approach, SOX, ITGC, AI…"
+      autocomplete="off"
+    />
+
+    <div class="searchhint">Tip: press <b>Esc</b> to close • <b>Enter</b> to open first result</div>
+
+    <div class="searchresults" id="searchResults" aria-live="polite"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
 </body>
 </html>

@@ -1,185 +1,297 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Primevant | IT Risk, SOX & Controls Advisory</title>
-  <meta name="description" content="Primevant provides business-led IT Risk, SOX, and Controls advisory for organizations. Practical, audit-ready outcomes." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Primevant Advisory</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-  <header class="nav">
-    <div class="container nav-inner">
-     <a class="brand" href="index.html">
-  <img src="assets/img/primevant-logo.png"
-       alt="Primevant Consulting Services"
-       class="brand-logo" />
-</a>
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="close" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+    <a href="services.html">Services</a>
+    <a href="approach.html">Approach</a>
+    <a href="insights.html">Insights</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+      Schedule a Consultation →
+    </a>
+  </div>
+</div>
 
-      <nav class="menu" aria-label="Primary navigation">
-        <a href="services.html">Services</a>
-        <a href="approach.html">Approach</a>
-        <a href="industries.html">Industries</a>
-        <a href="insights.html">Insights</a>
-        <a href="about.html">About</a>
-        <a class="cta" href="contact.html">Contact Us</a>
-      </nav>
+<div class="topbar">
+  <div class="container nav">
+    
+    <a class="brand" href="index.html">
+      <img src="assets/primevant-logo.png" 
+           alt="Primevant Advisory Logo" 
+           class="logo-img">
+    </a>
+
+    <nav class="navlinks">
+      <a href="services.html">Services</a>
+      <a href="approach.html">Approach</a>
+      <a href="insights.html">Insights</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <div class="nav-cta">
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+    </svg>
+  </button>
+
+  <!-- NEW: Search + Contact icons -->
+  <div class="nav-tools">
+    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+      <!-- magnifying glass -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="M20 20l-3.5-3.5"></path>
+      </svg>
+    </button>
+
+    <!-- Mail icon (links to contact page) -->
+    <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h16v12H4z"></path>
+        <path d="M4 7l8 6 8-6"></path>
+      </svg>
+    </a>
+
+    <!-- Phone icon (links to contact page) -->
+    <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+      </svg>
+    </a>
+  </div>
+</div>
     </div>
-  </header>
 
-  <!-- HERO BACKDROP -->
-<section class="hero">
+  </div>
+</div>
+
+
+<!-- ✅ NEW: Full-width top hero band (adds above existing hero) -->
+<section class="top-hero" aria-label="Top hero banner">
+  <div class="top-hero__media" role="img" aria-label="Banner image"></div>
+  <div class="top-hero__overlay" aria-hidden="true"></div>
+
   
-  <div class="hero-content">
-    
   </div>
 </section>
-  <main>
-      <div class="container hero-grid">
-        <div class="card">
-          <h1 class="h1">Big Four service level—without the overhead</h1>
-          <p class="sub">
-            Primevant helps organizations strengthen IT risk and SOX control environments with
-            practical, defensible outcomes: cleaner control design, stronger evidence, fewer findings.
-          </p>
 
-          <div class="hero-actions">
-            <a class="btn primary" href="contact.html">Request a consult</a>
-            <a class="btn" href="services.html">View service menu</a>
-          </div>
+<header class="hero">
 
-          <h3>
-          <div class="badges" aria-label="Capabilities">
-            <span class="badge">SOX Readiness & Remediation</span>
-            <span class="badge">SOX Program Optimization</span>
-            <span class="badge">ITGC & Access Controls Stabilization</span>
-          </div>
-          </h3>
+
+<header class="hero">
+  <div class="container wrap">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <h1 class="hero-title">Clarity Over<br><span class="accent">Complexity</span></h1>
+        <p class="hero-lead">
+          
+        </p><br>
+        <p class="hero-lead">
+          We help boards and C-suites achieve audit-ready controls,
+          regulatory confidence, and resilient technology governance
+        </p><br>
+        <p class="hero-lead">
+          
+        </p><br>
+        <p class="hero-lead">
+          Control clarity RCM refresh, control narratives, key control rationalization          
+          Defensible quality evidence standards aligned to audit expectations
+        </p><br>
+        
+        
+      </div>
+
+      <!-- Uses SAFE gradients by default -->
+<div class="hero-visual hasimg">
+  <img src="assets/hero.jpg" alt="Executive technology advisory" />
+</div>    </div>
+  </div>
+</header>
+
+<!-- Executive Statement Section -->
+<section class="executive-statement">
+  <div class="container">
+    <div class="executive-statement__inner">
+      <h2 class="executive-statement__headline">
+        Audit-ready controls<br>
+        Board-level confidence
+      </h2>
+
+      <p class="executive-statement__subtext">
+        Big Four service level without the overhead<br> <br>
+Strengthen IT risk and SOX control environments with practical defensible outcomes<br> <br>
+Business-led SOX, technology risk governance, and AI oversight built to stand up to auditors and regulators <br> <br>
+ Cleaner control design, stronger evidence, fewer findings
+
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="trustbar" aria-label="Credentials">
+  <div class="container row">
+    <div class="trustitem">
+      <svg class="trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7l3-7z"/>
+      </svg>
+     SOX Readiness & Remediation
+    </div>
+    <div class="trustitem">
+      <svg class="trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M9 12l2 2 4-4"/><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/>
+      </svg>
+    Controls Review
+    </div>
+    <div class="trustitem">
+      <svg class="trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 19V5"/><path d="M8 19V9"/><path d="M12 19V13"/><path d="M16 19V7"/><path d="M20 19V11"/>
+      </svg>
+      SOX Program Optimization 
+    </div>
+    <div class="trustitem">
+      <svg class="trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 21s7-4.5 7-10a7 7 0 10-14 0c0 5.5 7 10 7 10z"/>
+        <path d="M12 11a2 2 0 100-4 2 2 0 000 4z"/>
+      </svg>
+      Board-Level Delivery
+
+     </div>
+  </div>
+</section>
+
+<section class="section center">
+  <div class="container">
+    <h2>Our Core Advisory Services</h2>
+    <div class="underline"></div>
+
+    <div class="cards">
+      <a class="card" href="services.html#sox">
+        <h3>SOX Readiness &amp; Remediation Sprint</h3>
+        <p>Design and remediation support to get you audit-ready quickly ideal for new SOX programs, system changes, or recent findings</p>
+        <div class="learn">Learn More
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h12M13 6l6 6-6 6"/></svg>
         </div>
+      </a>
 
-        <aside class="card aside">
-          <h3>What you get</h3>
-          <p>Clear scope, fast timelines, and deliverables your auditors can rely on.</p>
+      <a class="card" href="services.html#itrisk">
+        <h3>SOX Program Optimization</h3>
+        <p>Right-size controls and testing to reduce cost and friction while improving audit outcomes without sacrificing coverage</p>
+        <div class="learn">Learn More
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h12M13 6l6 6-6 6"/></svg>
+        </div>
+      </a>
 
-          <div class="list">
-            <div class="li">
-              <b>Control clarity</b>
-              <span>RCM refresh, control narratives, key control rationalization.</span>
-            </div>
-            <div class="li">
-              <b>Evidence quality</b>
-              <span>Defensible evidence standards aligned to audit expectations.</span>
-            </div>
-            <div class="li">
-              <b>Reduced disruption</b>
-              <span>Less rework, fewer fire drills, tighter remediation cycles.</span>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section services-split">
-  <div class="container services-split__grid">
-
-    <!-- LEFT: TEXT -->
-    <div class="services-split__copy">
-      <h3 class="h3">SOX Readiness & Remediation Sprint</h3>
-      <p class="p">
-        Design and remediation support to get you audit-ready quickly—ideal for new SOX programs, ERP change, or recent findings.
-      </p>
-
-      <div class="services-split__divider"></div>
-
-      <h3 class="h3">SOX Program Optimization</h3>
-      <p class="p">
-        Right-size controls and testing to reduce cost and friction while improving audit outcomes—without sacrificing coverage.
-      </p>
-
-      <div class="services-split__divider"></div>
-
-      <h3 class="h3">ITGC & Access Controls Stabilization</h3>
-      <p class="p">
-        Strengthen the IT foundations auditors focus on most: identity, privileged access, change, incidents, and evidence practices.
-      </p>
+      <a class="card" href="services.html#ai">
+        <h3>ITGC &amp; Application Controls Stabilization</h3>
+        <p>Strengthen the IT foundations auditors focus on most: identity, privileged access, change, incidents, and evidence practices</p>
+        <div class="learn">Learn More
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h12M13 6l6 6-6 6"/></svg>
+        </div>
+      </a>
     </div>
-
-    <!-- RIGHT: IMAGE -->
-    <div class="services-split__media">
-      <img
-        class="services-split__img"
-        src="assets/img/services-consulting.jpg"
-        alt="Consulting team reviewing findings and controls in a working session"
-        loading="lazy"
-      />
-    </div>
-
   </div>
 </section>
-    <section class="split-section light">
-  <div class="split-container">
-    
-    <!-- LEFT: TEXT -->
-<div class="services-split__copy">
-      <h3 class="h3">Who we serve</h3>
-      <p class="p">
-         Organizations that need SOX and IT risk outcomes with executive-level communication and audit-grade delivery
-      </p>
 
-      <div class="services-split__divider"></div>
-
-      <h3 class="h3">Typical triggers</h3>
-      <p class="p">
-        First-time SOX, ERP change, acquisition integration, staffing gaps,
-        repeat findings
-      </p>
-
-      <div class="services-split__divider"></div>
-
-      <h3 class="h3">Delivery model</h3>
-      <p class="p">
-        Remote-first with clear milestones and secure evidence handling
-      </p>
+<section class="band">
+  <div class="container wrap">
+    <div>
+      <h3>From Risk Exposure to</h3>
+      <p class="big"><span class="accent">Risk Confidence</span></p>
+      <a class="link" href="approach.html">View Our Approach
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h12M13 6l6 6-6 6"/>
+        </svg>
+      </a>
     </div>
 
-    <!-- RIGHT: IMAGE -->
-    <div class="split-image">
-      <img
-        src="assets/img/who-we-serve.jpg"
-        alt="Consulting team reviewing SOX and IT risk materials"
-      />
+    <div>
+      <h3>Why Primevant</h3>
+      <div class="reasons">
+        <div class="reason">
+          <svg class="ricon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2l2.5 6.5H21l-5.2 4 2 7.5-5.8-4-5.8 4 2-7.5-5.2-4h6.5L12 2z"/>
+          </svg>
+          <strong>Big-4 Audit quality standards.</strong>
+          <p>Methodology-backed.<br>Audit-defensible.</p>
+        </div>
+        <div class="reason">
+          <svg class="ricon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/>
+          </svg>
+          <strong>Boutique Agility.</strong>
+          <p>Direct partner involvement.<br>Faster decisions.</p>
+        </div>
+        <div class="reason">
+          <svg class="ricon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16v12H4z"/><path d="M8 20h8"/><path d="M12 16v4"/>
+          </svg>
+          <strong>Executive Delivery.</strong>
+          <p>Board-ready insights.<br>Not operational noise.</p>
+        </div>
+      </div>
     </div>
-
   </div>
 </section>
-  </main>
 
-  <footer class="footer">
-    <div class="container footer-top">
-      <div class="footer-col">
-        <b>Primevant</b>
-        <p>Business-led IT Risk, SOX, and Controls Advisory for organizations.</p>
-        <p class="small">Remote-first • Secure delivery • Clear scope</p>
-      </div>
-      <div class="footer-col footer-links" aria-label="Footer links">
-        <a href="services.html">Services</a>
-        <a href="approach.html">Approach</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-    <div class="container" style="margin-top:14px">
-      <span>© <span id="y"></span> Primevant. All rights reserved.</span>
-    </div>
-  </footer>
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div>© <span id="year"></span> Primevant Advisory</div>
+    <div style="opacity:.85;">primevantadvisory.com </div>
+  </div>
+</footer>
 
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
-  <script src="assets/js/nav-active.js"></script>
+<!-- Search Modal -->
+<div class="searchmodal" id="searchModal" aria-hidden="true">
+  <div class="searchbackdrop" id="searchClose"></div>
+
+  <div class="searchpanel" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="searchtop">
+      <div class="searchtitle">Search</div>
+
+      <button class="iconbtn" id="closeSearch" type="button" aria-label="Close search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 6l12 12M18 6L6 18"></path>
+        </svg>
+      </button>
+    </div>
+
+    <input
+      class="searchinput"
+      id="searchInput"
+      type="search"
+      placeholder="Search services, approach, SOX, ITGC, AI…"
+      autocomplete="off"
+    />
+
+    <div class="searchhint">Tip: press <b>Esc</b> to close • <b>Enter</b> to open first result</div>
+
+    <div class="searchresults" id="searchResults" aria-live="polite"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
 </body>
 </html>
