@@ -129,8 +129,9 @@
 
     <div class="cards" style="grid-template-columns: 1.1fr .9fr;">
       <div class="card">
-        <form id="contactForm">
-          <div style="display:grid;gap:14px;">
+<form id="contactForm" action="https://formspree.io/f/xbdzraqw" method="POST">
+  <input type="hidden" name="_subject" value="New Primevant website inquiry" />
+  <input type="hidden" name="_replyto" value="" />          <div style="display:grid;gap:14px;">
             <div>
               <label for="name">Full name *</label>
               <input class="input" id="name" name="name" placeholder="Your name" required/>
@@ -148,7 +149,7 @@
               <textarea id="message" name="message" rows="5" placeholder="Briefly describe your goals and timeline." required></textarea>
             </div>
             <div style="display:flex;gap:12px;flex-wrap:wrap;">
-              <button class="btn btn-primary" type="submit">Send message</button>
+              <button class="btn btn-primary" type="submit">Submit</button>
               <a class="btn btn-ghost" href="services.html">View services</a>
             </div>
           </div>

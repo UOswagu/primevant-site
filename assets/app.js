@@ -315,16 +315,36 @@ const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
   });
 
   if (!form) return;
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const name = $("#name")?.value.trim();
-    const email = $("#email")?.value.trim();
-    const msg = $("#message")?.value.trim();
+  form.addEventListener("submit", async (e) => {
+  e.preventDefault();
 
-    if (!name || !email || !msg) return showToast("Please complete required fields.");
-    if (!email.includes("@")) return showToast("Please enter a valid email.");
+  const name = $("#name")?.value.trim();
+  const email = $("#email")?.value.trim();
+  const topic = $("#topic")?.value.trim();
+  const msg = $("#message")?.value.trim();
 
-    showToast("Message ready. (Hook backend later)");
-    form.reset();
-  });
+  if (!name || !email || !msg) return showToast("Please complete required fields.");
+  if (!email.includes("@")) return showToast("Please enter a valid email.");
+
+  const fd = new FormData(form);
+  // Optional: set reply-to so you can click "Reply" in your inbox
+  fd.set("_replyto", email);
+
+  try {
+    const res = await fetch(form.action, {
+      method: "POST",
+      body: fd,
+      headers: { "Accept": "application/json" }
+    });
+
+    if (res.ok) {
+      showToast("Thanks — message sent. We’ll respond within 1 business day.");
+      form.reset();
+    } else {
+      showToast("Sending failed. Please email info@primevantadvisory.com.");
+    }
+  } catch (err) {
+    showToast("Network error. Please email info@primevantadvisory.com.");
+  }
+});
 })();
