@@ -33,6 +33,11 @@ const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
   closeBtn?.addEventListener("click", close);
   drawer?.addEventListener("click", (e) => { if (e.target === drawer) close(); });
 
+  // Close drawer when any drawer link is tapped (prevents overlay covering anchors)
+  $$(".drawer .panel a").forEach(a => {
+    a.addEventListener("click", close);
+  });
+
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") close();
   });
