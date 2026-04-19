@@ -402,8 +402,8 @@ const translations = {
 
     /* Services */
     ,
-    "services.heroTitle": "Business led IT Risk and<br><span style='color:var(--blue2)'>Controls Advisory</span>.",
-    "services.heroLead": "We serve organizations that need SOX and IT risk outcomes with executive level communication and audit grade delivery",
+"services.heroTitle": "Business led Risk and<br><span style='color:var(--blue2)'>Controls Advisory</span>.",
+"services.heroLead": "We help organizations establish strong governance and translate risk into clear, actionable outcomes, enabling executive clarity and audit-ready precision.",
 
     "services.sectionTitle": "Service lines",
 
@@ -421,6 +421,8 @@ const translations = {
 "services.sox.b9": "Risk quantification and prioritization",
 "services.sox.b10": "Business process risk mapping (order-to-cash, procure-to-pay, etc.)",
 "services.sox.b11": "Executive risk dashboards for leadership and boards.",
+"services.sox.b12": "AI governance and controls advisory (policy + oversight)",
+"services.sox.b13": "Third party risk management/SOC 2 assessment/ISO 27001 evaluation",
 
     "services.opt.title": "Internal Audit & Financial Reporting Advisory",
 "services.opt.subtitle": "Design and sustain audit-ready control environments across business processes and IT systems",
@@ -451,8 +453,6 @@ const translations = {
 "services.itgc.b7": "IAM / privileged access governance",
 "services.itgc.b8": "Secure system implementation reviews (pre/post go-live)",
 "services.itgc.b9": "Data integrity and protection strategies",
-"services.itgc.b10": "AI and emerging technology risk governance",
-"services.itgc.b11": "Third party risk management/SOC 2 assessment/ISO 27001 evaluation",
 "services.itgc.b12": "Threat modelling tied to financial and operational risk",
 "services.itgc.b13": "Security controls aligned to SOX / ICFR",
 "services.itgc.b14": "Vendor and SaaS risk assessments",
@@ -675,8 +675,8 @@ const translations = {
     "footer.privacy": "Privacidad"
 
     ,
-    "services.heroTitle": "Asesoría de riesgos de TI y<br><span style='color:var(--blue2)'>controles orientada al negocio</span>.",
-    "services.heroLead": "Servimos a organizaciones que necesitan resultados en SOX y riesgo de TI con comunicación ejecutiva y entrega de nivel de auditoría",
+"services.heroTitle": "Asesoría de riesgos y<br><span style='color:var(--blue2)'>controles orientada al negocio</span>.",
+"services.heroLead": "Ayudamos a las organizaciones a establecer una gobernanza sólida y a traducir el riesgo en resultados claros y accionables, impulsando claridad ejecutiva y precisión lista para auditoría.",
 
     "services.sectionTitle": "Líneas de servicio",
 
@@ -694,6 +694,8 @@ const translations = {
 "services.sox.b9": "Cuantificación y priorización de riesgos",
 "services.sox.b10": "Mapeo de riesgos de procesos de negocio (order-to-cash, procure-to-pay, etc.)",
 "services.sox.b11": "Paneles ejecutivos de riesgo para liderazgo y juntas directivas",
+"services.sox.b12": "Asesoría en gobernanza y controles de IA (política y supervisión)",
+"services.sox.b13": "Gestión de riesgos de terceros / evaluación SOC 2 / evaluación ISO 27001",
 
     "services.opt.title": "Asesoría de Auditoría Interna y Reporte Financiero",
 "services.opt.subtitle": "Diseñar y sostener entornos de control listos para auditoría en procesos de negocio y sistemas de TI",
@@ -724,8 +726,6 @@ const translations = {
 "services.itgc.b7": "Gobernanza de IAM / acceso privilegiado",
 "services.itgc.b8": "Revisiones seguras de implementación de sistemas (antes/después del go-live)",
 "services.itgc.b9": "Estrategias de integridad y protección de datos",
-"services.itgc.b10": "Gobernanza de riesgos de IA y tecnologías emergentes",
-"services.itgc.b11": "Gestión de riesgos de terceros / evaluación SOC 2 / evaluación ISO 27001",
 "services.itgc.b12": "Modelado de amenazas vinculado al riesgo financiero y operativo",
 "services.itgc.b13": "Controles de seguridad alineados con SOX / ICFR",
 "services.itgc.b14": "Evaluaciones de riesgo de proveedores y SaaS",
@@ -945,8 +945,8 @@ const translations = {
     "footer.privacy": "隐私政策"
 
     ,
-    "services.heroTitle": "以业务为导向的 IT 风险与<br><span style='color:var(--blue2)'>控制咨询</span>。",
-    "services.heroLead": "我们为需要 SOX 和 IT 风险成果的组织提供高管级沟通和审计级交付",
+"services.heroTitle": "以业务为导向的风险与<br><span style='color:var(--blue2)'>控制咨询</span>.",
+"services.heroLead": "我们帮助组织建立稳健的治理体系，并将风险转化为清晰、可执行的成果，从而实现高管层清晰决策与审计就绪的精准度。",
 
     "services.sectionTitle": "服务领域",
 
@@ -964,6 +964,8 @@ const translations = {
 "services.sox.b9": "风险量化与优先级排序",
 "services.sox.b10": "业务流程风险映射（如订单到收款、采购到付款等）",
 "services.sox.b11": "面向管理层与董事会的风险可视化仪表板",
+"services.sox.b12": "AI治理与控制咨询（政策与监督）",
+"services.sox.b13": "第三方风险管理 / SOC 2评估 / ISO 27001评估",
 
     "services.opt.title": "内部审计与财务报告咨询",
 "services.opt.subtitle": "在业务流程与IT系统中设计并持续维护审计就绪的控制环境",
@@ -994,8 +996,6 @@ const translations = {
 "services.itgc.b7": "IAM / 特权访问治理",
 "services.itgc.b8": "安全系统实施审查（上线前/上线后）",
 "services.itgc.b9": "数据完整性与保护策略",
-"services.itgc.b10": "AI及新兴技术风险治理",
-"services.itgc.b11": "第三方风险管理 / SOC 2评估 / ISO 27001评估",
 "services.itgc.b12": "与财务和运营风险挂钩的威胁建模",
 "services.itgc.b13": "与SOX / ICFR对齐的安全控制",
 "services.itgc.b14": "供应商与SaaS风险评估",
