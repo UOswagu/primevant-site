@@ -368,22 +368,22 @@ const translations = {
     "nav.cta": "Schedule a Consultation →",
 
     "hero.title": 'Clarity Over<br><span class="accent">Complexity</span>',
-    "hero.lead1": "We help boards and C-suites achieve audit-ready controls, regulatory confidence, and resilient technology governance",
+    "hero.lead1": "We help boards and C-suites achieve audit ready controls, regulatory confidence, and resilient technology governance",
     "hero.lead2": "Control narratives and clarity, key control rationalization <br> Defensible quality evidence standards aligned to audit expectations",
 
-    "statement.headline": "Audit-ready controls<br>Board-level confidence",
-    "statement.subtext": "Big Four service level without the overhead<br><br>Strengthen IT risk and SOX control environments with practical defensible outcomes<br><br>Business-led SOX, technology risk governance, and AI oversight built to stand up to auditors and regulators<br><br>Cleaner control design, stronger evidence, fewer findings",
+    "statement.headline": "Audit ready controls<br>Board level confidence",
+    "statement.subtext": "Big Four service level without the overhead<br><br>Strengthen IT risk and SOX control environments with practical defensible outcomes<br><br>Business led SOX, technology risk governance, and AI oversight built to stand up to auditors and regulators<br><br>Cleaner control design, stronger evidence, fewer findings",
 
     "trust.item1": "SOX Readiness & Remediation",
     "trust.item2": "Controls Review",
     "trust.item3": "SOX Program Optimization",
-    "trust.item4": "Board-Level Delivery",
+    "trust.item4": "Board Level Delivery",
 
     "services.heading": "Our Core Advisory Services",
     "services.card1.title": "SOX Readiness & Remediation Sprint",
-    "services.card1.text": "Design and remediation support to get you audit-ready quickly ideal for new SOX programs, system changes, or recent findings",
+    "services.card1.text": "Design and remediation support to get you audit ready quickly ideal for new SOX programs, system changes, or recent findings",
     "services.card2.title": "Control Environment Optimization",
-    "services.card2.text": "Right-size controls and testing to reduce cost and friction while improving audit outcomes without sacrificing coverage",
+    "services.card2.text": "Right size controls and testing to reduce cost and friction while improving audit outcomes without sacrificing coverage",
     "services.card3.title": "ITGC & Application Controls Stabilization",
     "services.card3.text": "Strengthen the IT foundations auditors focus on most: identity, privileged access, change, incidents, and evidence practices",
 
@@ -392,38 +392,38 @@ const translations = {
     "band.big": '<span class="accent">Risk Confidence</span>',
     "band.link": "View Our Approach",
     "why.title": "Why Primevant",
-    "why.reason1.title": "Big-4 Audit quality standards.",
-    "why.reason1.text": "Methodology-backed.<br>Audit-defensible.",
+    "why.reason1.title": "Big 4 Audit quality standards.",
+    "why.reason1.text": "Methodology backed.<br>Audit defensible.",
     "why.reason2.title": "Boutique Agility.",
     "why.reason2.text": "Direct partner involvement.<br>Faster decisions.",
     "why.reason3.title": "Executive Delivery.",
-    "why.reason3.text": "Board-ready insights.<br>Not operational noise.",
+    "why.reason3.text": "Board ready insights.<br>Not operational noise.",
     "footer.privacy": "Privacy"
 
     /* Services */
     ,
     "services.heroTitle": "Business led IT Risk and<br><span style='color:var(--blue2)'>Controls Advisory</span>.",
-    "services.heroLead": "We serve organizations that need SOX and IT risk outcomes with executive-level communication and audit-grade delivery",
+    "services.heroLead": "We serve organizations that need SOX and IT risk outcomes with executive level communication and audit grade delivery",
 
     "services.sectionTitle": "Service lines",
 
     "services.sox.title": "SOX Readiness & Remediation Sprint",
-    "services.sox.subtitle": "Design and remediation support to get you audit-ready quickly ideal for new SOX programs, System changes, or recent findings",
-    "services.sox.desc": "Designed for first-time SOX, major technology change, audit findings, or accelerated timelines. Typical scope: SOX scoping & risk assessment support; control design review (ITGC + key business controls); evidence strategy & remediation plan; test plan support and readiness checkpoints.",
+    "services.sox.subtitle": "Design and remediation support to get you audit ready quickly ideal for new SOX programs, System changes, or recent findings",
+    "services.sox.desc": "Designed for first time SOX, major technology change, audit findings, or accelerated timelines. Typical scope: SOX scoping & risk assessment support; control design review (ITGC + key business controls); evidence strategy & remediation plan; test plan support and readiness checkpoints.",
     "services.sox.b1": "Rapid gap assessment against SOX, PCAOB, and auditor expectations",
-    "services.sox.b2": "Audit-ready control design and documentation",
+    "services.sox.b2": "Audit ready control design and documentation",
     "services.sox.b3": "Targeted resolution of material weaknesses and findings",
-    "services.sox.b4": "Systems and transformation-aligned SOX stabilization",
+    "services.sox.b4": "Systems and transformation aligned SOX stabilization",
     "services.sox.b5": "Control design and documentation aligned to business processes and ITGC",
     "services.sox.b6": "Executive dashboards to track remediation progress and residual risk",
     "services.sox.b7": "Pre-audit readiness review before external auditor fieldwork",
 
     "services.opt.title": "Control Environment Optimization",
-    "services.opt.subtitle": "Right-size controls and testing to reduce cost and friction while improving audit outcomes—without sacrificing coverage",
-    "services.opt.desc": "Stabilize IT General and application Controls quickly: access, change management, computer operations. Typical scope: control rationalization; evidence templates; recurring operating cadence; remediation tracking; auditor-ready walkthrough support.",
-    "services.opt.b1": "End-to-end SOX program maturity assessment",
+    "services.opt.subtitle": "Right-size controls and testing to reduce cost and friction while improving audit outcomes without sacrificing coverage",
+    "services.opt.desc": "Stabilize IT General and application Controls quickly: access, change management, computer operations. Typical scope: control rationalization; evidence templates; recurring operating cadence; remediation tracking; auditor ready walkthrough support.",
+    "services.opt.b1": "End to end SOX program maturity assessment",
     "services.opt.b2": "Control rationalization to reduce cost and friction",
-    "services.opt.b3": "Risk-based scoping and testing efficiency redesign",
+    "services.opt.b3": "Risk based scoping and testing efficiency redesign",
     "services.opt.b4": "Automation of key controls and evidence workflows",
     "services.opt.b5": "Improved audit outcomes without sacrificing coverage",
     "services.opt.b6": "Testing strategy redesign (rotational testing, automation enablement)",
@@ -431,9 +431,9 @@ const translations = {
 
     "services.itgc.title": "ITGC & Application Controls Stabilization",
     "services.itgc.subtitle": "Strengthen the IT foundations auditors focus on most: identity, privileged access, change, incidents, and evidence practices",
-    "services.itgc.desc": "Reduce effort and findings while improving auditability. Typical scope: control re-design; key report/IPE governance; automation opportunities; documentation refresh; testing efficiency; sustainment playbooks.",
+    "services.itgc.desc": "Reduce effort and findings while improving auditability. Typical scope: control redesign; key report/IPE governance; automation opportunities; documentation refresh; testing efficiency; sustainment playbooks.",
     "services.itgc.b1": "Identity and privileged access governance strengthening",
-    "services.itgc.b2": "Audit-defensible evidence and ITGC reliability",
+    "services.itgc.b2": "Audit defensible evidence and ITGC reliability",
     "services.itgc.b3": "Execute pre and post system implementation reviews",
     "services.itgc.b4": "Joiner, Mover, Leaver and SoD risk remediation",
     "services.itgc.b5": "Change and incident management control enhancement",
@@ -446,14 +446,14 @@ const translations = {
     "services.cta": "Want the regulatory lens per industry? <span>See Industries</span> →",
 
     "services.models.title": "Engagement Models",
-    "services.models.m1": "<b>Fixed-fee sprint</b> Best for defined outcomes and rapid execution. Includes milestones and a clear deliverable list.",
+    "services.models.m1": "<b>Fixed fee sprint</b> Best for defined outcomes and rapid execution. Includes milestones and a clear deliverable list.",
     "services.models.m2": "<b>Capped T&M </b> Best for remediation where complexity varies. Includes an agreed cap and weekly burn visibility.",
     "services.models.m3": "<b>Retainer </b> Ongoing advisory with bounded hours, response expectations, and quarterly planning.",
 
-    "services.addons.title": "Optional add-ons (post-stabilization)",
+    "services.addons.title": "Optional add ons (post-stabilization)",
     "services.addons.intro": "<b>Once IT controls foundation is stable, Primevant Advisory can support adjacent risk priorities.</b>",
     "services.addons.a1": "Cyber risk assessment & governance",
-    "services.addons.a2": "Third-party risk support (SOC report review, control mapping)",
+    "services.addons.a2": "Third party risk support (SOC report review, control mapping)",
     "services.addons.a3": "AI governance and controls advisory (policy + oversight)"
 
     /* Industries */
@@ -462,7 +462,7 @@ const translations = {
     "industries.kicker": "Industries",
     "industries.heroTitle": "A regulatory lens aligned to<br><span>how your industry actually operates</span>.",
     "industries.heading": "Industries we serve",
-    "industries.intro": " Primevant Advisory supports organizations across highly regulated and technology-driven industries where strong governance, resilient systems, and audit-ready controls are essential. Our experience spans IT controls, cybersecurity governance, privacy obligations, and regulatory compliance across complex enterprise environments.<br><br>We work with leadership teams to translate regulatory expectations into practical, sustainable control environments that strengthen risk oversight and operational resilience.",
+    "industries.intro": " Primevant Advisory supports organizations across highly regulated and technology driven industries where strong governance, resilient systems, and audit ready controls are essential. Our experience spans IT controls, cybersecurity governance, privacy obligations, and regulatory compliance across complex enterprise environments.<br><br>We work with leadership teams to translate regulatory expectations into practical, sustainable control environments that strengthen risk oversight and operational resilience.",
 
     "industries.fs.title": "Financial Services",
     "industries.fs.text": "Primevant Advisory helps financial institutions align technology risk and cybersecurity governance with supervisory expectations and frameworks such as SOX, GLBA, FFIEC guidance, and PCI DSS while strengthening the controls that support financial reporting integrity, operational resilience, and customer trust.",
@@ -471,7 +471,7 @@ const translations = {
     "industries.healthcare.text": "Primevant Advisory supports healthcare organizations in strengthening technology governance and security practices aligned with HIPAA privacy and security expectations, helping protect sensitive patient information while ensuring the reliability and continuity of critical clinical systems.",
 
     "industries.saas.title": "Technology / SaaS",
-    "industries.saas.text": "Primevant Advisory works with technology and SaaS organizations to align governance, risk management, and security practices with industry assurance frameworks such as SOC reporting and ISO-aligned security programs, enabling scalable control environments that support privacy compliance, operational resilience, and customer trust.",
+    "industries.saas.text": "Primevant Advisory works with technology and SaaS organizations to align governance, risk management, and security practices with industry assurance frameworks such as SOC reporting and ISO aligned security programs, enabling scalable control environments that support privacy compliance, operational resilience, and customer trust.",
 
     "industries.manufacturing.title": "Manufacturing",
     "industries.manufacturing.text": "Primevant Advisory helps manufacturing organizations strengthen governance and cybersecurity across enterprise IT and operational technology environments to improve operational resilience, protect intellectual property, and support secure and reliable production systems.",
@@ -480,13 +480,13 @@ const translations = {
     "industries.retail.text": "Primevant Advisory supports consumer and retail organizations in strengthening technology risk governance, payment security, and data protection practices to support secure digital commerce, regulatory compliance, and sustained customer trust.",
 
     "industries.other.title": "Other regulated environments",
-    "industries.other.text": "Primevant Advisory helps organizations operating in regulated environments align technology governance and cybersecurity practices with sector-specific regulatory expectations and federal security frameworks while building resilient, audit-ready technology control programs."
+    "industries.other.text": "Primevant Advisory helps organizations operating in regulated environments align technology governance and cybersecurity practices with sector specific regulatory expectations and federal security frameworks while building resilient, audit ready technology control programs."
 
     /* Approach */
 
     ,
     "approach.heroTitle": "Execute fast<br><span style='color:var(--blue2)'>Secure delivery<br></span>Clear scope.",
-    "approach.heroLead": "Big 4 rigor with boutique speed—board-ready outputs, audit-defensible documentation, sustainable cadence.",
+    "approach.heroLead": "Big 4 rigor with boutique speed, board ready outputs, audit defensible documentation, and sustainable cadence.",
 
     "approach.sectionTitle": "Primevant delivery model",
 
@@ -494,10 +494,10 @@ const translations = {
     "approach.assess.text": "Confirm current state, key risks, auditor expectations, and the fastest path to defensible controls and evidence.<br><br>Outputs: scope memo, timeline, deliverables, evidence expectations",
 
     "approach.align.title": "Align",
-    "approach.align.text": "Set clear in-scope/out-of-scope boundaries, stakeholder roles, and change control to prevent scope creep.<br><br>Outputs: kickoff plan, RAID log, weekly status cadence",
+    "approach.align.text": "Set clear in-scope/out of scope boundaries, stakeholder roles, and change control to prevent scope creep.<br><br>Outputs: kickoff plan, RAID log, weekly status cadence",
 
     "approach.deliver.title": "Deliver",
-    "approach.deliver.text": "Execute against milestones with audit-ready documentation and practical remediation support.<br><br>Outputs: updated RCM/narratives, evidence playbook, remediation tracker",
+    "approach.deliver.text": "Execute against milestones with audit ready documentation and practical remediation support.<br><br>Outputs: updated RCM/narratives, evidence playbook, remediation tracker",
 
     "approach.sustain.title": "Sustain",
     "approach.sustain.text": "Leave client teams with templates, standards, and knowledge transfer so progress sticks beyond the engagement.<br><br>Outputs: operating rhythm, training notes, handoff checklist",
@@ -528,11 +528,11 @@ const translations = {
 
     "insights.featured": "Featured",
 
-    "insights.f1.title": "SOX readiness in fast-scaling organizations",
-    "insights.f1.text": "Where audit friction comes from—and what to standardize early (owners, cadence, evidence).",
+    "insights.f1.title": "SOX readiness in fast scaling organizations",
+    "insights.f1.text": "Where audit friction comes from and what to standardize early (owners, cadence, evidence).",
 
     "insights.f2.title": "Board reporting for IT risk governance",
-    "insights.f2.text": "Move from operational metrics to board-level KRIs that support oversight decisions.",
+    "insights.f2.text": "Move from operational metrics to board level KRIs that support oversight decisions.",
 
     "insights.f3.title": "AI governance controls auditors will ask for",
     "insights.f3.text": "Control themes: inventory, approvals, monitoring, and lifecycle documentation."
@@ -546,39 +546,39 @@ const translations = {
     "about.hero.lead": "Primevant Advisory helps leadership teams strengthen governance, manage risk effectively, and sustain resilient internal control environments.",
 
     "about.section.title": "About Primevant Advisory",
-    "about.section.lead": "Primevant Advisory is a boutique advisory focused on IT Risk, SOX, and Controls. We deliver clear scope, executive-level communication, and audit-ready outcomes—without unnecessary overhead.",
+    "about.section.lead": "Primevant Advisory is a boutique advisory focused on IT Risk, SOX, and Controls. We deliver clear scope, executive level communication, and audit ready outcomes without unnecessary overhead.",
 
     "about.mission.title": "Our mission",
-    "about.mission.text": "Help organizations strengthen their control environments in a way that is practical, defensible, and aligned to business operations—so SOX and IT risk programs reduce surprises and increase confidence.",
+    "about.mission.text": "Help organizations strengthen their control environments in a way that is practical, defensible, and aligned to business operations so SOX and IT risk programs reduce surprises and increase confidence.",
 
     "about.values.title": "Our values",
-    "about.values.text": "Clarity (clear scope & deliverables), Discipline (audit-grade evidence), Judgment (right-sized controls), and Trust (secure handling of client information).",
+    "about.values.text": "Clarity (clear scope & deliverables), Discipline (audit grade evidence), Judgment (right sized controls), and Trust (secure handling of client information).",
 
     "about.founder.name": "Uchechi Osuagwu",
     "about.founder.role": "Managing Partner",
 
     "about.founder.background.title": "Background Summary",
     "about.founder.background.p1": "Uchechi Osuagwu is a former EY partner and seasoned technology risk executive with over 15 years of experience leading enterprise audit, cybersecurity, AI strategy, and digital transformation initiatives for Fortune 50 organizations. Her career spans complex, highly regulated global environments where technology, risk, and business outcomes intersect.",
-    "about.founder.background.p2": "Uchechi has led large-scale programs focused on strengthening technology controls, operationalizing AI governance, and modernizing enterprise risk and audit frameworks to support growth, regulatory readiness, and resilience. Throughout her career, she has worked closely with Boards, executive leadership teams, and regulators, advising on SOX readiness, cyber resilience, third-party risk, and emerging technology risks.",
-    "about.founder.background.p3": "She is recognized for her ability to bridge the gap between technical complexity and executive decision-making—translating intricate control, security, and AI challenges into practical, business-aligned strategies.",
+    "about.founder.background.p2": "Uchechi has led large scale programs focused on strengthening technology controls, operationalizing AI governance, and modernizing enterprise risk and audit frameworks to support growth, regulatory readiness, and resilience. Throughout her career, she has worked closely with Boards, executive leadership teams, and regulators, advising on SOX readiness, cyber resilience, third party risk, and emerging technology risks.",
+    "about.founder.background.p3": "She is recognized for her ability to bridge the gap between technical complexity and executive decision making translating intricate control, security, and AI challenges into practical, business aligned strategies.",
 
     "about.founder.credentials.title": "Credentials & Expertise",
     "about.founder.credentials.l1": "15+ years of leadership in technology risk, enterprise audit, cybersecurity, and AI governance",
-    "about.founder.credentials.l2": "Deep expertise in SOX, ITGCs, access controls, change management, and evidence-based control frameworks",
+    "about.founder.credentials.l2": "Deep expertise in SOX, ITGCs, access controls, change management, and evidence based control frameworks",
     "about.founder.credentials.l3": "Proven experience operationalizing AI governance and risk management across enterprise environments",
-    "about.founder.credentials.l4": "Trusted advisor to Boards and C-suite leaders on regulatory readiness, cyber risk, and emerging AI threats",
+    "about.founder.credentials.l4": "Trusted advisor to Boards and C suite leaders on regulatory readiness, cyber risk, and emerging AI threats",
     "about.founder.credentials.l5": "Extensive background supporting global operations across financial services, healthcare, technology, and consumer industries",
-    "about.founder.credentials.l6": "Known for unifying technology, risk, audit, and business stakeholders around a single, execution-focused risk strategy",
+    "about.founder.credentials.l6": "Known for unifying technology, risk, audit, and business stakeholders around a single, execution focused risk strategy",
 
     "about.founder.credibility.title": "Credibility Statement",
     "about.founder.credibility.p1": "Uchechi brings a rare combination of executive judgment, technical depth, and practical delivery experience. She is trusted by senior leaders not only to identify risk, but to solve it—designing control environments, governance models, and operating structures that work in the real world.",
-    "about.founder.credibility.p2": "Her approach is disciplined, outcomes-driven, and grounded in the realities of audit, regulation, and enterprise execution. Through Primevant Advisory, Uchechi partners with organizations to turn regulatory pressure and technological change into strategic advantage."
+    "about.founder.credibility.p2": "Her approach is disciplined, outcomes driven, and grounded in the realities of audit, regulation, and enterprise execution. Through Primevant Advisory, Uchechi partners with organizations to turn regulatory pressure and technological change into strategic advantage."
 
 /* contact */
 
 ,
     "contact.banner": "Contact us",
-    "contact.heroTitle": "Let’s align on your<br><span style='color:var(--blue2)'>audit-ready objectives</span>.",
+    "contact.heroTitle": "Let’s align on your<br><span style='color:var(--blue2)'>audit ready objectives</span>.",
     "contact.p1": "<b> Translate risk into executive action.</b> We bridge the gap between technical teams, internal audit, and executive leadership to ensure control frameworks support business objectives.",
     "contact.p2": "<b> Reduce compliance friction.</b> We streamline control design, documentation, and evidence practices so your teams spend less time managing audits and more time delivering results.",
     "contact.p3": "<b> Engage with a proven advisor.</b> With deep experience supporting boards, C-suites, and audit committees, we deliver practical solutions that stand up to regulatory and external audit review.",
@@ -592,7 +592,7 @@ const translations = {
     "contact.viewServices": "View services",
 
     "contact.details": "Contact details",
-    "contact.response": "<b>We typically respond within 1 business day. For urgent audit-cycle needs, include “time-sensitive” in your message.</b>"
+    "contact.response": "We typically respond within 1 business day. For urgent audit cycle needs, include “time sensitive” in your message."
 
 
     /* Privacy */
@@ -612,8 +612,8 @@ const translations = {
     "privacy.security.title": "Data handling and safeguarding",
     "privacy.security.text": "Primevant Advisory applies reasonable administrative and technical safeguards designed to protect information from unauthorized access, use, or disclosure. For client engagements, data handling and retention terms are typically governed by contract (e.g., an MSA/SOW).",
 
-    "privacy.thirdparty.title": "Third-party services",
-    "privacy.thirdparty.text": "If we introduce third-party services in the future (such as analytics, form processing, or scheduling tools), we will update this notice to reflect those providers and the related data practices.",
+    "privacy.thirdparty.title": "Third party services",
+    "privacy.thirdparty.text": "If we introduce third party services in the future (such as analytics, form processing, or scheduling tools), we will update this notice to reflect those providers and the related data practices.",
 
     "privacy.contact.title": "Contact",
     "privacy.contact.text": "Questions about this notice? Contact <b>info@primevantadvisory.com</b>."
@@ -652,7 +652,7 @@ const translations = {
     "band.big": '<span class="accent">confianza en el riesgo</span>',
     "band.link": "Ver nuestro enfoque",
     "why.title": "Por qué Primevant",
-    "why.reason1.title": "Estándares de calidad de auditoría Big-4.",
+    "why.reason1.title": "Estándares de calidad de auditoría Big 4.",
     "why.reason1.text": "Respaldado por metodología.<br>Defendible ante auditoría.",
     "why.reason2.title": "Agilidad boutique.",
     "why.reason2.text": "Participación directa de socios.<br>Decisiones más rápidas.",
@@ -823,7 +823,7 @@ const translations = {
     "about.founder.credentials.l1": "Más de 15 años de liderazgo en riesgo tecnológico, auditoría empresarial, ciberseguridad y gobernanza de IA",
     "about.founder.credentials.l2": "Amplia experiencia en SOX, ITGC, controles de acceso, gestión de cambios y marcos de control basados en evidencia",
     "about.founder.credentials.l3": "Experiencia comprobada en la operacionalización de la gobernanza y gestión de riesgos de IA en entornos empresariales",
-    "about.founder.credentials.l4": "Asesora de confianza para juntas directivas y líderes C-suite en preparación regulatoria, riesgo cibernético y amenazas emergentes de IA",
+    "about.founder.credentials.l4": "Asesora de confianza para juntas directivas y líderes C suite en preparación regulatoria, riesgo cibernético y amenazas emergentes de IA",
     "about.founder.credentials.l5": "Amplia trayectoria apoyando operaciones globales en servicios financieros, salud, tecnología e industrias de consumo",
     "about.founder.credentials.l6": "Reconocida por alinear a los equipos de tecnología, riesgo, auditoría y negocio en una sola estrategia de riesgo orientada a la ejecución",
 
