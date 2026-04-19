@@ -1178,6 +1178,16 @@ footer{
 .founder-list li{ margin: 8px 0; }
 
 
+.founder-toggle{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.founder-more[hidden]{
+  display: none !important;
+}
+
+
 /* =========================================
    MID-PAGE HERO (INSIGHTS)
    Center banner across the middle section

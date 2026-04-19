@@ -114,6 +114,24 @@ const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
   apply();
 })();
 
+(() => {
+  const toggle = document.getElementById("founderToggle");
+  const more = document.getElementById("founderMore");
+  if (!toggle || !more) return;
+
+  toggle.addEventListener("click", () => {
+    const isOpen = toggle.getAttribute("aria-expanded") === "true";
+
+    toggle.setAttribute("aria-expanded", String(!isOpen));
+    more.hidden = isOpen;
+
+    toggle.textContent = isOpen
+      ? (window.t?.("about.founder.more") || "More information")
+      : (window.t?.("about.founder.less") || "Less information");
+  });
+})();
+
+
 /* ===========================
    Site Search (client-side)
    =========================== */
@@ -185,12 +203,16 @@ const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
       section: "About",
       text: "Former EY partner. 15+ years. Technology risk, enterprise audit, cybersecurity, AI governance. Board and regulator advisory."
     },
+
+   
+    
     {
       title: "Contact",
       url: "contact.html",
       section: "Contact",
       text: "Schedule a strategic consultation. Share your goals and timeline. Next steps and engagement approach."
     }
+
   ];
 
   function openModal() {
@@ -584,7 +606,8 @@ const translations = {
     "about.founder.credibility.title": "Credibility Statement",
     "about.founder.credibility.p1": "Uchechi brings a rare combination of executive judgment, technical depth, and practical delivery experience. She is trusted by senior leaders not only to identify risk, but to solve it—designing control environments, governance models, and operating structures that work in the real world.",
     "about.founder.credibility.p2": "Her approach is disciplined, outcomes driven, and grounded in the realities of audit, regulation, and enterprise execution. Through Primevant Advisory, Uchechi partners with organizations to turn regulatory pressure and technological change into strategic advantage."
-
+    
+     
     ,
 "about.narrative.title": "Strengthening governance.<br><span style='color:var(--blue2)'>Enabling confident decisions.</span>",
 "about.narrative.p1": "Primevant Advisory partners with leadership teams to establish strong governance frameworks and translate risk into clear, actionable outcomes.",
@@ -600,9 +623,15 @@ const translations = {
 "about.team.card2.text": "Team members bring experience from leading advisory firms and complex enterprise environments, supporting organizations across financial services, healthcare, technology, and consumer industries.",
 
 "about.team.card3.title": "Flexible delivery model",
-"about.team.card3.text": "Engagements are structured with senior leadership oversight and scaled with specialized expertise to meet scope, timeline, and regulatory requirements with precision."
+"about.team.card3.text": "Engagements are structured with senior leadership oversight and scaled with specialized expertise to meet scope, timeline, and regulatory requirements with precision.",
 
+"about.founder.less": "Less information"
 
+,
+"about.founder.more": "More information",
+"about.teamCredibility.title": "Team credibility",
+"about.teamCredibility.p1": "Primevant Advisory combines senior leadership oversight with a high-caliber network of professionals across governance, risk, cybersecurity, and regulatory disciplines. This model enables the firm to deliver practical, audit-ready outcomes with the depth and discipline expected in complex enterprise environments.",
+"about.teamCredibility.p2": "Our engagements are structured to bring the right expertise to the right challenge—balancing executive judgment, specialized capability, and consistent delivery standards to support regulatory readiness, resilient operations, and business-aligned risk management."
 
 /* contact */
 
@@ -872,7 +901,8 @@ const translations = {
     "about.founder.credibility.p1": "Uchechi aporta una combinación poco común de criterio ejecutivo, profundidad técnica y experiencia práctica de ejecución. Los altos directivos confían en ella no solo para identificar riesgos, sino para resolverlos, diseñando entornos de control, modelos de gobernanza y estructuras operativas que funcionan en el mundo real.",
     "about.founder.credibility.p2": "Su enfoque es disciplinado, orientado a resultados y fundamentado en las realidades de la auditoría, la regulación y la ejecución empresarial. A través de Primevant Advisory, Uchechi se asocia con organizaciones para convertir la presión regulatoria y el cambio tecnológico en ventaja estratégica."
     
-
+   
+    
     ,
 "about.narrative.title": "Fortaleciendo la gobernanza.<br><span style='color:var(--blue2)'>Impulsando decisiones con confianza.</span>",
 "about.narrative.p1": "Primevant Advisory colabora con equipos directivos para establecer marcos sólidos de gobernanza y transformar el riesgo en resultados claros y accionables.",
@@ -888,8 +918,15 @@ const translations = {
 "about.team.card2.text": "Los miembros del equipo aportan experiencia de firmas líderes y entornos empresariales complejos, apoyando organizaciones en servicios financieros, salud, tecnología y consumo.",
 
 "about.team.card3.title": "Modelo de entrega flexible",
-"about.team.card3.text": "Los proyectos se estructuran con supervisión senior y se escalan con capacidades especializadas para cumplir alcance, plazos y requisitos regulatorios con precisión."
+"about.team.card3.text": "Los proyectos se estructuran con supervisión senior y se escalan con capacidades especializadas para cumplir alcance, plazos y requisitos regulatorios con precisión.",
 
+"about.founder.less": "Menos información"
+
+,
+"about.founder.more": "Más información",
+"about.teamCredibility.title": "Credibilidad del equipo",
+"about.teamCredibility.p1": "Primevant Advisory combina supervisión de liderazgo senior con una red de profesionales de alto nivel en gobernanza, riesgo, ciberseguridad y regulación. Este modelo permite ofrecer resultados prácticos y listos para auditoría con la profundidad y disciplina esperadas en entornos empresariales complejos.",
+"about.teamCredibility.p2": "Nuestros proyectos se estructuran para aportar la experiencia adecuada a cada desafío, equilibrando criterio ejecutivo, capacidad especializada y estándares consistentes de entrega para apoyar la preparación regulatoria, la resiliencia operativa y una gestión de riesgos alineada al negocio."
 
     ,
     "contact.banner": "Contáctenos",
@@ -1170,7 +1207,15 @@ const translations = {
 "about.team.card2.text": "团队成员拥有来自领先咨询机构和复杂企业环境的经验，服务于金融、医疗、科技及消费行业。",
 
 "about.team.card3.title": "灵活交付模式",
-"about.team.card3.text": "项目由高级领导监督，并根据需要引入专业能力，确保在范围、时间和监管要求下实现高质量交付。"
+"about.team.card3.text": "项目由高级领导监督，并根据需要引入专业能力，确保在范围、时间和监管要求下实现高质量交付。",
+
+"about.founder.less": "Menos información"
+
+,
+"about.founder.more": "更多信息",
+"about.teamCredibility.title": "团队实力",
+"about.teamCredibility.p1": "Primevant Advisory 结合高级领导层监督与高水平专业网络，覆盖治理、风险、网络安全和监管等领域。该模式使我们能够在复杂企业环境中，以应有的深度与严谨性提供务实且审计就绪的成果。",
+"about.teamCredibility.p2": "我们的项目配置以问题为导向，确保为每项挑战匹配合适的专业能力，在高管判断、专业专长和一致的交付标准之间取得平衡，从而支持监管准备、运营韧性以及与业务目标一致的风险管理。"
 
 ,
     "contact.banner": "联系我们",
