@@ -412,6 +412,8 @@ button,input,textarea{ font-family:inherit }
   place-items:center;
 }
 
+
+
 /* -----------------------------
    Hero base (shared)
    ----------------------------- */
@@ -2370,4 +2372,16 @@ h1,h2,h3,p,a,li,span { overflow-wrap: anywhere; word-break: break-word; }
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  /* Hide ONLY the phone icon on mobile */
+  .iconlink[aria-label="Phone / contact"] {
+    display: none !important;
+  }
+}
+
+
+
+
+
 }
