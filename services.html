@@ -20,12 +20,12 @@
     <button class="close" id="drawerClose" aria-label="Close menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
-    <a href="services.html">Services</a>
-    <a href="approach.html">Approach</a>
-    <a href="insights.html">Insights</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <!-- <a href="contact.html#contact-form" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="approach.html" data-i18n="nav.approach">Approach</a>
+    <a href="insights.html" data-i18n="nav.insights">Insights</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <!-- <a href="contact.html#contact-form" data-i18n="nav.cta" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
   Schedule a Consultation → -->
 </a>
   </div>
@@ -42,11 +42,11 @@
     </a>
 
     <nav class="navlinks">
-      <a href="services.html">Services</a>
-      <a href="approach.html">Approach</a>
-      <a href="insights.html">Insights</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="approach.html" data-i18n="nav.approach">Approach</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
 
     <div class="nav-cta">
@@ -57,33 +57,68 @@
       </button>
      
 
-  <!-- NEW: Search + Contact icons -->
-  <div class="nav-tools">
-    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
-      <!-- magnifying glass -->
+    <!-- NEW: Search + Contact + Language icons -->
+<div class="nav-tools">
+
+  <!-- Magnifying icon (search) -->
+  <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="M20 20l-3.5-3.5"></path>
+    </svg>
+  </button>
+
+  <!-- Mail icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 6h16v12H4z"></path>
+      <path d="M4 7l8 6 8-6"></path>
+    </svg>
+  </a>
+
+  <!-- Phone icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+    </svg>
+  </a>
+
+  <!-- Language translation icon (globe dropdown) -->
+  <div class="lang-switcher">
+    <button
+      class="iconbtn lang-toggle"
+      id="langToggle"
+      type="button"
+      aria-label="Change language"
+    >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="7"></circle>
-        <path d="M20 20l-3.5-3.5"></path>
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3a15 15 0 0 1 4 9 15 15 0 0 1-4 9 15 15 0 0 1-4-9 15 15 0 0 1 4-9z"></path>
       </svg>
     </button>
 
-    <!-- Mail icon (links to contact page) -->
-    <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M4 6h16v12H4z"></path>
-        <path d="M4 7l8 6 8-6"></path>
-      </svg>
-    </a>
+    <!-- Language dropdown menu -->
+    <div class="lang-menu" id="langMenu">
+      <button class="lang-option active" data-lang="en">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Global (English)</span>
+      </button>
 
-    <!-- Phone icon (links to contact page) -->
-    <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
-      </svg>
-    </a>
+      <button class="lang-option" data-lang="es">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Español</span>
+      </button>
+
+      <button class="lang-option" data-lang="zh-cn">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">简体中文</span>
+      </button>
+    </div>
   </div>
-</div>
 
+</div>
+</div>
     </div>
 
   </div>
@@ -109,11 +144,11 @@
 
     <div class="grid" style="padding-top:18px;">
       <div>
-        <h1 class="h1">
+        <h1 class="h1" data-i18n-html="services.heroTitle">
           Business led IT Risk and<br>
           <span style="color:var(--blue2)">Controls Advisory</span>.
         </h1>
-        <p class="lead">
+        <p class="lead" data-i18n="services.heroLead">
          We serve organizations that need SOX and IT risk outcomes with executive-level communication and audit-grade delivery
         </p>
       </div>
@@ -129,46 +164,35 @@
   </div>
 </header>
 
-
-
-
-
-
-
-
-
-
 <section class="section" id="offerings">
   <div class="container">
-    <h2>Service lines</h2>
+    <h2 data-i18n="services.sectionTitle">Service lines</h2>
     <div class="underline" style="margin-left:0;"></div>
 
     <div class="accordion">
       <div class="acc-item" id="sox">
         <button class="acc-btn" type="button">
           <div>
-            <strong>SOX Readiness &amp; Remediation Sprint</strong><br>
-            <span>Design and remediation support to get you audit-ready quickly ideal for new SOX programs, System changes, or recent findings</span>
+            <strong data-i18n="services.sox.title">SOX Readiness &amp; Remediation Sprint</strong><br>
+            <span data-i18n="services.sox.subtitle">Design and remediation support to get you audit-ready quickly ideal for new SOX programs, System changes, or recent findings</span>
           </div>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f7fc2" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="acc-panel">
           <div class="inner">
-            <p>Designed for first-time SOX, major technology change, audit findings, or accelerated timelines. 
+            <p data-i18n="services.sox.desc">Designed for first-time SOX, major technology change, audit findings, or accelerated timelines. 
               Typical scope: SOX scoping & risk assessment support; control design review
                (ITGC + key business controls); evidence strategy & remediation plan; test 
                plan support and readiness checkpoints.
               </p>
             <ul>
-              <li>Rapid gap assessment against SOX, PCAOB, and auditor expectations</li>
-              <li>Audit-ready control design and documentation</li>
-              <li>Targeted resolution of material weaknesses and findings</li>
-              <li>Systems and transformation-aligned SOX stabilization</li>
-              <li>Control design and documentation aligned to business processes and ITGC</li>
-              <li>Executive dashboards to track remediation progress and residual risk</li>
-              <li>Pre-audit readiness review before external auditor fieldwork</li>
-
-
+              <li data-i18n="services.sox.b1">Rapid gap assessment against SOX, PCAOB, and auditor expectations</li>
+              <li data-i18n="services.sox.b2">Audit-ready control design and documentation</li>
+              <li data-i18n="services.sox.b3">Targeted resolution of material weaknesses and findings</li>
+              <li data-i18n="services.sox.b4">Systems and transformation-aligned SOX stabilization</li>
+              <li data-i18n="services.sox.b5">Control design and documentation aligned to business processes and ITGC</li>
+              <li data-i18n="services.sox.b6">Executive dashboards to track remediation progress and residual risk</li>
+              <li data-i18n="services.sox.b7">Pre-audit readiness review before external auditor fieldwork</li>
             </ul>
           </div>
         </div>
@@ -177,28 +201,25 @@
       <div class="acc-item" id="itrisk">
         <button class="acc-btn" type="button">
           <div>
-            <strong>Control Environment Optimization</strong><br>
-            <span>Right-size controls and testing to reduce cost and friction while improving audit outcomes—without sacrificing coverage</span>
+            <strong data-i18n="services.opt.title">Control Environment Optimization</strong><br>
+            <span data-i18n="services.opt.subtitle">Right-size controls and testing to reduce cost and friction while improving audit outcomes—without sacrificing coverage</span>
           </div>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f7fc2" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="acc-panel">
           <div class="inner">
-            <p>Stabilize IT General and application Controls quickly: access, change management, computer operations. 
+            <p data-i18n="services.opt.desc">Stabilize IT General and application Controls quickly: access, change management, computer operations. 
               Typical scope: control rationalization; evidence templates; recurring operating cadence; remediation tracking; 
               auditor-ready walkthrough support.
               </p>
             <ul>
-              <li>End-to-end SOX program maturity assessment</li>
-              <li>Control rationalization to reduce cost and friction</li>
-              <li>Risk-based scoping and testing efficiency redesign</li>
-              <li>Automation of key controls and evidence workflows</li>
-              <li>Improved audit outcomes without sacrificing coverage</li>
-              <li>Testing strategy redesign (rotational testing, automation enablement)</li>
-              <li>Cost-to-compliance benchmarking and optimization roadmap</li>
-
-
-
+              <li data-i18n="services.opt.b1">End-to-end SOX program maturity assessment</li>
+              <li data-i18n="services.opt.b2">Control rationalization to reduce cost and friction</li>
+              <li data-i18n="services.opt.b3">Risk-based scoping and testing efficiency redesign</li>
+              <li data-i18n="services.opt.b4">Automation of key controls and evidence workflows</li>
+              <li data-i18n="services.opt.b5">Improved audit outcomes without sacrificing coverage</li>
+              <li data-i18n="services.opt.b6">Testing strategy redesign (rotational testing, automation enablement)</li>
+              <li data-i18n="services.opt.b7">Cost-to-compliance benchmarking and optimization roadmap</li>
             </ul>
           </div>
         </div>
@@ -207,30 +228,28 @@
       <div class="acc-item" id="ai">
         <button class="acc-btn" type="button">
           <div>
-            <strong>ITGC &amp; Application Controls Stabilization</strong><br>
-            <span>Strengthen the IT foundations auditors focus on most: identity, privileged access, change, incidents, and evidence practices</span>
+            <strong data-i18n="services.itgc.title">ITGC &amp; Application Controls Stabilization</strong><br>
+            <span data-i18n="services.itgc.subtitle">Strengthen the IT foundations auditors focus on most: identity, privileged access, change, incidents, and evidence practices</span>
           </div>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f7fc2" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="acc-panel">
           <div class="inner">
-            <p>Reduce effort and findings while improving auditability. Typical scope: control re-design;
+            <p data-i18n="services.itgc.desc">Reduce effort and findings while improving auditability. Typical scope: control re-design;
                key report/IPE governance; automation opportunities; documentation refresh; testing efficiency; 
                sustainment playbooks.
               </p>
             <ul>
-              <li>Identity and privileged access governance strengthening</li>
-              <li>Audit-defensible evidence and ITGC reliability</li>
-              <li>Execute pre and post system implementation reviews</li>
-              <li>Joiner, Mover, Leaver and SoD risk remediation</li>
-              <li>Change and incident management control enhancement</li>
-              <li>ITGC control health review aligned to auditor hot buttons</li>
-              <li>Design and validation of key automated and configurable controls</li>
-              <li>Data integrity and report logic validation</li>
-              <li>ERP and business systems control optimization (SAP, Oracle, Workday, etc.)</li> 
-              <li>Reduction of reliance and audit rework risk</li>
-
-
+              <li data-i18n="services.itgc.b1">Identity and privileged access governance strengthening</li>
+              <li data-i18n="services.itgc.b2">Audit-defensible evidence and ITGC reliability</li>
+              <li data-i18n="services.itgc.b3">Execute pre and post system implementation reviews</li>
+              <li data-i18n="services.itgc.b4">Joiner, Mover, Leaver and SoD risk remediation</li>
+              <li data-i18n="services.itgc.b5">Change and incident management control enhancement</li>
+              <li data-i18n="services.itgc.b6">ITGC control health review aligned to auditor hot buttons</li>
+              <li data-i18n="services.itgc.b7">Design and validation of key automated and configurable controls</li>
+              <li data-i18n="services.itgc.b8">Data integrity and report logic validation</li>
+              <li data-i18n="services.itgc.b9">ERP and business systems control optimization (SAP, Oracle, Workday, etc.)</li> 
+              <li data-i18n="services.itgc.b10">Reduction of reliance and audit rework risk</li>
             </ul>
           </div>
         </div>
@@ -240,13 +259,8 @@
   </div>
 </section>
 
-
-
-
-
 <!-- INDUSTRIES CTA BANNER -->
 <section class="industries-cta" aria-label="Industries call to action">
-  <!-- Replace with your dark image file -->
 <picture>
   <source srcset="assets/optimized/industries-banner.webp" type="image/webp">
   <img class="industries-cta__img" src="assets/industries-banner.jpg" alt="Industries background">
@@ -254,54 +268,43 @@
   <div class="industries-cta__overlay" aria-hidden="true"></div>
 
   <div class="container industries-cta__content">
-    <a class="industries-cta__link" href="industries.html">
+    <a class="industries-cta__link" href="industries.html" data-i18n-html="services.cta">
       Want the regulatory lens per industry? <span>See Industries</span> →
     </a>
   </div>
 </section>
 
-
-<!-- Our Solutions (Insights-style) -->
+<!-- Engagement Models -->
 <section class="solutions-strip" id="solutions">
   <div class="container">
-    <h2 class="solutions-title">Engagement Models</h2>
-      <div class="solutions-list">
+    <h2 class="solutions-title" data-i18n="services.models.title">Engagement Models</h2>
+    <div class="solutions-list">
       <article class="solutions-item">
-        <p><b>Fixed-fee sprint</b> Best for defined outcomes and rapid execution. Includes milestones and a clear deliverable list.</p>
-        <p><b>Capped T&M </b> Best for remediation where complexity varies. Includes an agreed cap and weekly burn visibility.</p>
-        <p><b>Retainer </b> Ongoing advisory with bounded hours, response expectations, and quarterly planning.</p>
+        <p data-i18n="services.models.m1"><b>Fixed-fee sprint</b> Best for defined outcomes and rapid execution. Includes milestones and a clear deliverable list.</p>
+        <p data-i18n="services.models.m2"><b>Capped T&M </b> Best for remediation where complexity varies. Includes an agreed cap and weekly burn visibility.</p>
+        <p data-i18n="services.models.m3"><b>Retainer </b> Ongoing advisory with bounded hours, response expectations, and quarterly planning.</p>
       </article>
-      </div>
+    </div>
 </section>
 
 <section class="solutions-strip" id="solutions2">
   <div class="container">
-    <h2 class="solutions-title"> Optional add-ons (post-stabilization)</h2>
+    <h2 class="solutions-title" data-i18n="services.addons.title"> Optional add-ons (post-stabilization)</h2>
     <div class="solutions-list">
       <article class="solutions-item">
-        <p><b>Once IT controls foundation is stable, Primevant Advisory can support adjacent risk priorities.</b></p><br>
-        <p> Cyber risk assessment & governance</p>
-        <p>Third-party risk support (SOC report review, control mapping)</p>
-        <p>AI governance and controls advisory (policy + oversight)</p>
+        <p data-i18n="services.addons.intro"><b>Once IT controls foundation is stable, Primevant Advisory can support adjacent risk priorities.</b></p><br>
+        <p data-i18n="services.addons.a1"> Cyber risk assessment & governance</p>
+        <p data-i18n="services.addons.a2">Third-party risk support (SOC report review, control mapping)</p>
+        <p data-i18n="services.addons.a3">AI governance and controls advisory (policy + oversight)</p>
       </article>
 </div>
 </section>
-
-
-
-
-
-
-
-
-
-
 
 <footer>
   <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
     <div>© <span id="year"></span> Primevant Advisory</div>
     <div style="opacity:.85;">
-  <a href="privacy.html" style="color:inherit; text-decoration:underline;">Privacy</a> • primevantadvisory.com
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;" data-i18n="footer.privacy">Privacy</a> • primevantadvisory.com
 </div>
 </footer>
 

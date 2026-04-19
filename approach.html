@@ -19,12 +19,12 @@
     <button class="close" id="drawerClose" aria-label="Close menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
-    <a href="services.html">Services</a>
-    <a href="approach.html">Approach</a>
-    <a href="insights.html">Insights</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="contact.html#contact-form" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="approach.html" data-i18n="nav.approach">Approach</a>
+    <a href="insights.html" data-i18n="nav.insights">Insights</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <a href="contact.html#contact-form" data-i18n="nav.cta" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
   Schedule a Consultation →
 </a>
   </div>
@@ -40,11 +40,11 @@
     </a>
 
     <nav class="navlinks">
-      <a href="services.html">Services</a>
-      <a href="approach.html">Approach</a>
-      <a href="insights.html">Insights</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="approach.html" data-i18n="nav.approach">Approach</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
 
     <div class="nav-cta">
@@ -55,38 +55,69 @@
       </button>
       
 
-  <!-- NEW: Search + Contact icons -->
   <div class="nav-tools">
-    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
-      <!-- magnifying glass -->
+
+  <!-- Search -->
+  <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="M20 20l-3.5-3.5"></path>
+    </svg>
+  </button>
+
+  <!-- Email -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 6h16v12H4z"></path>
+      <path d="M4 7l8 6 8-6"></path>
+    </svg>
+  </a>
+
+  <!-- Phone -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+    </svg>
+  </a>
+
+  <!-- 🌐 Language switcher (NOW LAST) -->
+  <div class="lang-switcher">
+    <button
+      class="iconbtn lang-toggle"
+      id="langToggle"
+      type="button"
+      aria-label="Change language"
+    >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="7"></circle>
-        <path d="M20 20l-3.5-3.5"></path>
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3a15 15 0 0 1 4 9 15 15 0 0 1-4 9 15 15 0 0 1-4-9 15 15 0 0 1 4-9z"></path>
       </svg>
     </button>
 
-    <!-- Mail icon (links to contact page) -->
-    <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M4 6h16v12H4z"></path>
-        <path d="M4 7l8 6 8-6"></path>
-      </svg>
-    </a>
+    <div class="lang-menu" id="langMenu">
+      <button class="lang-option active" data-lang="en">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Global (English)</span>
+      </button>
 
-    <!-- Phone icon (links to contact page) -->
-    <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
-      </svg>
-    </a>
+      <button class="lang-option" data-lang="es">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Español</span>
+      </button>
+
+      <button class="lang-option" data-lang="zh-cn">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">简体中文</span>
+      </button>
+    </div>
   </div>
+
+</div>
 </div>
     </div>
 
   </div>
-</div>
-
-</div>
 </div>
 
 <!-- TOP HERO BANNER (Approach) -->
@@ -106,12 +137,11 @@
 
     <div class="page-hero grid" style="padding-top:18px;">
       <div>
-        <h1 class="h1">Execute fast<br><span style="color:var(--blue2)">Secure delivery<br></span>Clear scope.</h1>
-        <p class="lead">Big 4 rigor with boutique speed—board-ready outputs, audit-defensible documentation, sustainable cadence.</p>
+        <h1 class="h1" data-i18n-html="approach.heroTitle">Execute fast<br><span style="color:var(--blue2)">Secure delivery<br></span>Clear scope.</h1>
+        <p class="lead" data-i18n="approach.heroLead">Big 4 rigor with boutique speed—board-ready outputs, audit-defensible documentation, sustainable cadence.</p>
         <div style="display:flex;gap:12px;margin-top:18px;flex-wrap:wrap;">
         </div>
       </div>   
-
 
       <div class="panel-visual" aria-hidden="true"></div>
     </div>
@@ -120,16 +150,16 @@
 
 <section class="section">
   <div class="container">
-    <h2>Primevant delivery model</h2>
+    <h2 data-i18n="approach.sectionTitle">Primevant delivery model</h2>
     <div class="underline" style="margin-left:0;"></div>
 
     <div class="cards">
-      <div class="card"><h3>Assess</h3><p>Confirm current state, key risks, auditor expectations, and the fastest path to defensible controls and evidence.<br> <br>Outputs: scope memo, timeline, deliverables, evidence expectations</p></div>
-      <div class="card"><h3>Align</h3><p>Set clear in-scope/out-of-scope boundaries, stakeholder roles, and change control to prevent scope creep.<br> <br> Outputs: kickoff plan, RAID log, weekly status cadence</p></div>
-      <div class="card"><h3>Deliver</h3><p>Execute against milestones with audit-ready documentation and practical remediation support.<br> <br>Outputs: updated RCM/narratives, evidence playbook, remediation tracker</p></div>
-      <div class="card"><h3>Sustain</h3><p>Leave client teams with templates, standards, and knowledge transfer so progress sticks beyond the engagement.<br> <br>Outputs: operating rhythm, training notes, handoff checklist</p></div>
-      <div class="card"><h3>Security & confidentiality</h3><p>Primevant handles client information with care. Engagements use secure repositories, least-privilege access, and defined retention practices.<br> <br>We can align to client security requirements and vendor onboarding process as needed.</p></div>
-      <div class="card"><h3>Communication</h3><p> Clients receive a clear weekly status update with progress, risks, decisions needed, and next steps.<br> <br> Default cadence: weekly status + working sessions as needed. </p></div>
+      <div class="card"><h3 data-i18n="approach.assess.title">Assess</h3><p data-i18n-html="approach.assess.text">Confirm current state, key risks, auditor expectations, and the fastest path to defensible controls and evidence.<br> <br>Outputs: scope memo, timeline, deliverables, evidence expectations</p></div>
+      <div class="card"><h3 data-i18n="approach.align.title">Align</h3><p data-i18n-html="approach.align.text">Set clear in-scope/out-of-scope boundaries, stakeholder roles, and change control to prevent scope creep.<br> <br> Outputs: kickoff plan, RAID log, weekly status cadence</p></div>
+      <div class="card"><h3 data-i18n="approach.deliver.title">Deliver</h3><p data-i18n-html="approach.deliver.text">Execute against milestones with audit-ready documentation and practical remediation support.<br> <br>Outputs: updated RCM/narratives, evidence playbook, remediation tracker</p></div>
+      <div class="card"><h3 data-i18n="approach.sustain.title">Sustain</h3><p data-i18n-html="approach.sustain.text">Leave client teams with templates, standards, and knowledge transfer so progress sticks beyond the engagement.<br> <br>Outputs: operating rhythm, training notes, handoff checklist</p></div>
+      <div class="card"><h3 data-i18n="approach.security.title">Security & confidentiality</h3><p data-i18n-html="approach.security.text">Primevant handles client information with care. Engagements use secure repositories, least-privilege access, and defined retention practices.<br> <br>We can align to client security requirements and vendor onboarding process as needed.</p></div>
+      <div class="card"><h3 data-i18n="approach.communication.title">Communication</h3><p data-i18n-html="approach.communication.text"> Clients receive a clear weekly status update with progress, risks, decisions needed, and next steps.<br> <br> Default cadence: weekly status + working sessions as needed. </p></div>
     </div>
   </div>
 </section>
@@ -138,7 +168,7 @@
   <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
     <div>© <span id="year"></span> Primevant Advisory</div>
     <div style="opacity:.85;">
-  <a href="privacy.html" style="color:inherit; text-decoration:underline;">Privacy</a> • primevantadvisory.com
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;" data-i18n="footer.privacy">Privacy</a> • primevantadvisory.com
 </div>
 </footer>
 

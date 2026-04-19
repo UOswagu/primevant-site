@@ -171,6 +171,90 @@ button,input,textarea{ font-family:inherit }
 }
 
 /* ===========================
+   Language switcher
+   =========================== */
+.lang-switcher{
+  position: relative;
+}
+
+.lang-toggle{
+  position: relative;
+  z-index: 3;
+}
+
+.lang-menu{
+  position: absolute;
+  top: calc(100% + 14px);
+  right: 0;
+  left: auto;
+  width: 230px;
+  background: #ffffff;
+  border: 1px solid #e7edf6;
+  box-shadow: 0 18px 50px rgba(15,23,42,.14);
+  border-radius: 0;
+  padding: 14px 0;
+  display: none;
+  z-index: 120;
+}
+
+.lang-menu.open{
+  display: block;
+}
+
+.lang-option{
+  width: 100%;
+  border: 0;
+  background: transparent;
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: start;
+  gap: 12px;
+  text-align: left;
+  padding: 14px 20px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #111827;
+  cursor: pointer;
+}
+
+.lang-option:hover{
+  background: #f8fbff;
+}
+
+.lang-check{
+  font-size: 22px;
+  line-height: 1;
+  color: #111827;
+  opacity: 0;
+  transform: translateY(1px);
+}
+
+.lang-option.active .lang-check{
+  opacity: 1;
+}
+
+.lang-label{
+  font-weight: 500;
+  letter-spacing: -0.2px;
+}
+
+/* Desktop placement similar to your screenshot */
+@media (min-width: 981px){
+  .lang-menu{
+    left: -14px;
+  }
+}
+
+/* Mobile behavior */
+@media (max-width: 980px){
+  .lang-menu{
+    left: auto;
+    right: 0;
+    width: 220px;
+  }
+}
+
+/* ===========================
    Search modal
    =========================== */
 .searchmodal{

@@ -19,12 +19,12 @@
     <button class="close" id="drawerClose" aria-label="Close menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
-    <a href="services.html">Services</a>
-    <a href="approach.html">Approach</a>
-    <a href="insights.html">Insights</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="contact.html#contact-form" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="approach.html" data-i18n="nav.approach">Approach</a>
+    <a href="insights.html" data-i18n="nav.insights">Insights</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <a href="contact.html#contact-form" data-i18n="nav.cta" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
   Schedule a Consultation →
 </a>
   </div>
@@ -38,11 +38,11 @@
     </a>
 
     <nav class="navlinks">
-      <a href="services.html">Services</a>
-      <a href="approach.html">Approach</a>
-      <a href="insights.html">Insights</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="approach.html" data-i18n="nav.approach">Approach</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
 
     <div class="nav-cta">
@@ -52,30 +52,74 @@
     </svg>
   </button>
 
-  <div class="nav-tools">
-    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+  <!-- NEW: Search + Contact + Language icons -->
+<div class="nav-tools">
+
+  <!-- Magnifying icon (search) -->
+  <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="M20 20l-3.5-3.5"></path>
+    </svg>
+  </button>
+
+  <!-- Mail icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 6h16v12H4z"></path>
+      <path d="M4 7l8 6 8-6"></path>
+    </svg>
+  </a>
+
+  <!-- Phone icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+    </svg>
+  </a>
+
+  <!-- Language translation icon (globe dropdown) -->
+  <div class="lang-switcher">
+    <button
+      class="iconbtn lang-toggle"
+      id="langToggle"
+      type="button"
+      aria-label="Change language"
+    >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="7"></circle>
-        <path d="M20 20l-3.5-3.5"></path>
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3a15 15 0 0 1 4 9 15 15 0 0 1-4 9 15 15 0 0 1-4-9 15 15 0 0 1 4-9z"></path>
       </svg>
     </button>
 
-    <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M4 6h16v12H4z"></path>
-        <path d="M4 7l8 6 8-6"></path>
-      </svg>
-    </a>
+    <!-- Language dropdown menu -->
+    <div class="lang-menu" id="langMenu">
+      <button class="lang-option active" data-lang="en">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Global (English)</span>
+      </button>
 
-    <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
-      </svg>
-    </a>
+      <button class="lang-option" data-lang="es">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Español</span>
+      </button>
+
+      <button class="lang-option" data-lang="zh-cn">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">简体中文</span>
+      </button>
+    </div>
+  </div>
+
+</div>
+</div>
+    </div>
+
   </div>
 </div>
 
-  </div>
+</div>
 </div>
 
 <!-- INDUSTRIES TOP HERO (80% height) -->
@@ -91,9 +135,9 @@
   <div class="industries-hero__overlay" aria-hidden="true"></div>
 
   <div class="container industries-hero__content">
-    <div class="industries-hero__kicker">Industries</div>
+    <div class="industries-hero__kicker" data-i18n="industries.kicker">Industries</div>
 
-    <h1 class="industries-hero__title">
+    <h1 class="industries-hero__title" data-i18n-html="industries.heroTitle">
       A regulatory lens aligned to<br>
       <span>how your industry actually operates</span>.
     </h1>
@@ -109,36 +153,36 @@
 
 <section class="section">
   <div class="container">
-    <h2>Industries we serve</h2>
+    <h2 data-i18n="industries.heading">Industries we serve</h2>
     <div class="underline" style="margin-left:0;"></div>
-    <p> Primevant Advisory supports organizations across highly regulated and technology-driven industries where strong governance, resilient systems, and audit-ready controls are essential. Our experience spans IT controls, cybersecurity governance, privacy obligations, and regulatory compliance across complex enterprise environments.
+    <p data-i18n-html="industries.intro"> Primevant Advisory supports organizations across highly regulated and technology-driven industries where strong governance, resilient systems, and audit-ready controls are essential. Our experience spans IT controls, cybersecurity governance, privacy obligations, and regulatory compliance across complex enterprise environments.
 
 We work with leadership teams to translate regulatory expectations into practical, sustainable control environments that strengthen risk oversight and operational resilience.</p>
 
     <div class="cards">
       <div class="card">
-        <h3>Financial Services</h3>
-        <p>Primevant Advisory helps financial institutions align technology risk and cybersecurity governance with supervisory expectations and frameworks such as SOX, GLBA, FFIEC guidance, and PCI DSS while strengthening the controls that support financial reporting integrity, operational resilience, and customer trust.</p>
+        <h3 data-i18n="industries.fs.title">Financial Services</h3>
+        <p data-i18n="industries.fs.text">Primevant Advisory helps financial institutions align technology risk and cybersecurity governance with supervisory expectations and frameworks such as SOX, GLBA, FFIEC guidance, and PCI DSS while strengthening the controls that support financial reporting integrity, operational resilience, and customer trust.</p>
       </div>
       <div class="card">
-        <h3>Healthcare</h3>
-        <p>Primevant Advisory supports healthcare organizations in strengthening technology governance and security practices aligned with HIPAA privacy and security expectations, helping protect sensitive patient information while ensuring the reliability and continuity of critical clinical systems.</p>
+        <h3 data-i18n="industries.healthcare.title">Healthcare</h3>
+        <p data-i18n="industries.healthcare.text">Primevant Advisory supports healthcare organizations in strengthening technology governance and security practices aligned with HIPAA privacy and security expectations, helping protect sensitive patient information while ensuring the reliability and continuity of critical clinical systems.</p>
       </div>
       <div class="card">
-        <h3>Technology / SaaS</h3>
-        <p>Primevant Advisory works with technology and SaaS organizations to align governance, risk management, and security practices with industry assurance frameworks such as SOC reporting and ISO-aligned security programs, enabling scalable control environments that support privacy compliance, operational resilience, and customer trust.</p>
+        <h3 data-i18n="industries.saas.title">Technology / SaaS</h3>
+        <p data-i18n="industries.saas.text">Primevant Advisory works with technology and SaaS organizations to align governance, risk management, and security practices with industry assurance frameworks such as SOC reporting and ISO-aligned security programs, enabling scalable control environments that support privacy compliance, operational resilience, and customer trust.</p>
       </div>
       <div class="card">
-        <h3>Manufacturing</h3>
-        <p>Primevant Advisory helps manufacturing organizations strengthen governance and cybersecurity across enterprise IT and operational technology environments to improve operational resilience, protect intellectual property, and support secure and reliable production systems.</p>
+        <h3 data-i18n="industries.manufacturing.title">Manufacturing</h3>
+        <p data-i18n="industries.manufacturing.text">Primevant Advisory helps manufacturing organizations strengthen governance and cybersecurity across enterprise IT and operational technology environments to improve operational resilience, protect intellectual property, and support secure and reliable production systems.</p>
       </div>
       <div class="card">
-        <h3>Consumer / Retail</h3>
-        <p>Primevant Advisory supports consumer and retail organizations in strengthening technology risk governance, payment security, and data protection practices to support secure digital commerce, regulatory compliance, and sustained customer trust.</p>
+        <h3 data-i18n="industries.retail.title">Consumer / Retail</h3>
+        <p data-i18n="industries.retail.text">Primevant Advisory supports consumer and retail organizations in strengthening technology risk governance, payment security, and data protection practices to support secure digital commerce, regulatory compliance, and sustained customer trust.</p>
       </div>
       <div class="card">
-        <h3>Other regulated environments</h3>
-        <p>Primevant Advisory helps organizations operating in regulated environments align technology governance and cybersecurity practices with sector-specific regulatory expectations and federal security frameworks while building resilient, audit-ready technology control programs.</p>
+        <h3 data-i18n="industries.other.title">Other regulated environments</h3>
+        <p data-i18n="industries.other.text">Primevant Advisory helps organizations operating in regulated environments align technology governance and cybersecurity practices with sector-specific regulatory expectations and federal security frameworks while building resilient, audit-ready technology control programs.</p>
       </div>
     </div>
   </div>
@@ -147,10 +191,39 @@ We work with leadership teams to translate regulatory expectations into practica
 <footer>
   <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
     <div>© <span id="year"></span> Primevant Advisory</div>
-    <div style="opacity:.85;">primevantadvisory.com</div>
-  </div>
+   <div style="opacity:.85;">
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;" data-i18n="footer.privacy">Privacy</a> • primevantadvisory.com
+</div>
 </footer>
 
+<!-- Search Modal -->
+<div class="searchmodal" id="searchModal" aria-hidden="true">
+  <div class="searchbackdrop" id="searchClose"></div>
+
+  <div class="searchpanel" role="dialog" aria-modal="true" aria-label="Site search">
+    <div class="searchtop">
+      <div class="searchtitle">Search</div>
+
+      <button class="iconbtn" id="closeSearch" type="button" aria-label="Close search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 6l12 12M18 6L6 18"></path>
+        </svg>
+      </button>
+    </div>
+
+    <input
+      class="searchinput"
+      id="searchInput"
+      type="search"
+      placeholder="Search services, approach, SOX, ITGC, AI…"
+      autocomplete="off"
+    />
+
+    <div class="searchhint">Tip: press <b>Esc</b> to close • <b>Enter</b> to open first result</div>
+
+    <div class="searchresults" id="searchResults" aria-live="polite"></div>
+  </div>
+</div>
 <script src="assets/app.js"></script>
 </body>
 </html>

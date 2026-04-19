@@ -19,12 +19,12 @@
     <button class="close" id="drawerClose" aria-label="Close menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
-    <a href="services.html">Services</a>
-    <a href="approach.html">Approach</a>
-    <a href="insights.html">Insights</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="contact.html#contact-form" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="approach.html" data-i18n="nav.approach">Approach</a>
+    <a href="insights.html" data-i18n="nav.insights">Insights</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <a href="contact.html#contact-form" data-i18n="nav.cta" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
   Schedule a Consultation →
 </a>
   </div>
@@ -40,11 +40,11 @@
     </a>
 
     <nav class="navlinks">
-      <a href="services.html">Services</a>
-      <a href="approach.html">Approach</a>
-      <a href="insights.html">Insights</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="approach.html" data-i18n="nav.approach">Approach</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
 
     <div class="nav-cta">
@@ -55,43 +55,79 @@
       </button>
       
 
-  <!-- NEW: Search + Contact icons -->
-  <div class="nav-tools">
-    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
-      <!-- magnifying glass -->
+ <!-- NEW: Search + Contact + Language icons -->
+<div class="nav-tools">
+
+  <!-- Magnifying icon (search) -->
+  <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="M20 20l-3.5-3.5"></path>
+    </svg>
+  </button>
+
+  <!-- Mail icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 6h16v12H4z"></path>
+      <path d="M4 7l8 6 8-6"></path>
+    </svg>
+  </a>
+
+  <!-- Phone icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+    </svg>
+  </a>
+
+  <!-- Language translation icon (globe dropdown) -->
+  <div class="lang-switcher">
+    <button
+      class="iconbtn lang-toggle"
+      id="langToggle"
+      type="button"
+      aria-label="Change language"
+    >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="7"></circle>
-        <path d="M20 20l-3.5-3.5"></path>
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3a15 15 0 0 1 4 9 15 15 0 0 1-4 9 15 15 0 0 1-4-9 15 15 0 0 1 4-9z"></path>
       </svg>
     </button>
 
-    <!-- Mail icon (links to contact page) -->
-<!-- Mail icon -->
-<a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M4 6h16v12H4z"></path>
-        <path d="M4 7l8 6 8-6"></path>
-      </svg>
-    </a>
+    <!-- Language dropdown menu -->
+    <div class="lang-menu" id="langMenu">
+      <button class="lang-option active" data-lang="en">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Global (English)</span>
+      </button>
 
-    <!-- Phone icon (links to contact page) -->
-<!-- Phone icon -->
-<a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
-      </svg>
-    </a>
+      <button class="lang-option" data-lang="es">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Español</span>
+      </button>
+
+      <button class="lang-option" data-lang="zh-cn">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">简体中文</span>
+      </button>
+    </div>
   </div>
+
+</div>
 </div>
     </div>
 
   </div>
 </div>
 
-<!-- CONTACT TOP BANNER -->
+</div>
+</div>
+
 <section class="contact-top-banner">
   <div class="container">
-    <h1 class="contact-banner-title">Contact us</h1>
+    <h1 class="contact-banner-title" data-i18n="contact.banner">Contact us</h1>
   </div>
 </section>
 
@@ -100,22 +136,23 @@
     <div class="breadcrumb"></div>
 
     <div class="grid contact-hero" style="padding-top:18px;">
-      <!-- LEFT: image (blends into page, no box) -->
       <div class="contact-hero-media">
 <picture>
   <source srcset="assets/optimized/contact-hero.webp" type="image/webp">
   <img class="contact-hero-img" src="assets/contact-hero.jpg" alt="Primevant contact hero">
-</picture>      </div>
+</picture>
+      </div>
 
-      <!-- RIGHT: your existing text -->
       <div class="contact-hero-copy">
-        <h1 class="h1">Let’s align on your<br><span style="color:var(--blue2)">audit-ready objectives</span>.</h1>
-        <p class="lead"><b> Translate risk into executive action.</b> We bridge the gap between technical teams, internal audit, and executive leadership to ensure control frameworks support business objectives.</p><br> 
-        <p class="lead"><b> Reduce compliance friction.</b> We streamline control design, documentation, and evidence practices so your teams spend less time managing audits and more time delivering results.</p><br> 
-        <p class="lead"><b> Engage with a proven advisor.</b> With deep experience supporting boards, C-suites, and audit committees, we deliver practical solutions that stand up to regulatory and external audit review.</p><br> 
+        <h1 class="h1" data-i18n-html="contact.heroTitle">Let’s align on your<br><span style="color:var(--blue2)">audit-ready objectives</span>.</h1>
+
+        <p class="lead" data-i18n-html="contact.p1"><b> Translate risk into executive action.</b> We bridge the gap between technical teams, internal audit, and executive leadership to ensure control frameworks support business objectives.</p><br> 
+
+        <p class="lead" data-i18n-html="contact.p2"><b> Reduce compliance friction.</b> We streamline control design, documentation, and evidence practices so your teams spend less time managing audits and more time delivering results.</p><br> 
+
+        <p class="lead" data-i18n-html="contact.p3"><b> Engage with a proven advisor.</b> With deep experience supporting boards, C-suites, and audit committees, we deliver practical solutions that stand up to regulatory and external audit review.</p><br> 
 
         <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;">
-          
         </div>
       </div>
     </div>
@@ -123,44 +160,46 @@
 </header>
 
 <section class="section" id="contact-form">
-    <div class="container">
-    <h2>Send a message</h2>
+  <div class="container">
+    <h2 data-i18n="contact.formTitle">Send a message</h2>
     <div class="underline" style="margin-left:0;"></div>
 
     <div class="cards" style="grid-template-columns: 1.1fr .9fr;">
       <div class="card">
 <form id="contactForm" action="https://formspree.io/f/xbdzraqw" method="POST">
   <input type="hidden" name="_subject" value="New Primevant website inquiry" />
-  <input type="hidden" name="_replyto" value="" />          <div style="display:grid;gap:14px;">
-            <div>
-              <label for="name">Full name *</label>
-              <input class="input" id="name" name="name" placeholder="Your name" required/>
-            </div>
-            <div>
-              <label for="email">Email *</label>
-              <input class="input" id="email" name="email" placeholder="you@company.com" required/>
-            </div>
-            <div>
-              <label for="topic">Topic</label>
-              <input class="input" id="topic" name="topic" placeholder="SOX readiness, IT risk governance, AI oversight"/>
-            </div>
-            <div>
-              <label for="message">Message *</label>
-              <textarea id="message" name="message" rows="5" placeholder="Briefly describe your goals and timeline." required></textarea>
-            </div>
-            <div style="display:flex;gap:12px;flex-wrap:wrap;">
-              <button class="btn btn-primary" type="submit">Submit</button>
-              <a class="btn btn-ghost" href="services.html">View services</a>
-            </div>
-          </div>
-        </form>
+  <input type="hidden" name="_replyto" value="" />
+  
+  <div style="display:grid;gap:14px;">
+    <div>
+      <label for="name" data-i18n="contact.name">Full name *</label>
+      <input class="input" id="name" name="name" placeholder="Your name" required/>
+    </div>
+    <div>
+      <label for="email" data-i18n="contact.email">Email *</label>
+      <input class="input" id="email" name="email" placeholder="you@company.com" required/>
+    </div>
+    <div>
+      <label for="topic" data-i18n="contact.topic">Topic</label>
+      <input class="input" id="topic" name="topic" placeholder="SOX readiness, IT risk governance, AI oversight"/>
+    </div>
+    <div>
+      <label for="message" data-i18n="contact.message">Message *</label>
+      <textarea id="message" name="message" rows="5" placeholder="Briefly describe your goals and timeline." required></textarea>
+    </div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;">
+      <button class="btn btn-primary" type="submit" data-i18n="contact.submit">Submit</button>
+      <a class="btn btn-ghost" href="services.html" data-i18n="contact.viewServices">View services</a>
+    </div>
+  </div>
+</form>
       </div>
 
       <div class="card"><br> <br>
-        <h3>Contact details</h3>
+        <h3 data-i18n="contact.details">Contact details</h3>
         <p style="margin-top:8px;">Email: <b>info@primevantadvisory.com</b></p>
         <p>Phone: <b>(281) 919 7001</b></p> <br> <br> <br>
-        <p style="color:#0f2e4f; font-size:18px; line-height:1.6;">
+        <p style="color:#0f2e4f; font-size:18px; line-height:1.6;" data-i18n="contact.response">
           <b>We typically respond within 1 business day. For urgent audit-cycle needs, include “time-sensitive” in your message.</b>
         </p>
       </div>
@@ -175,15 +214,14 @@
   box-shadow: 0 18px 45px rgba(15,23,42,.30);
   transition: opacity .18s ease, transform .18s ease;
   z-index:999;
-    pointer-events:none;
-
+  pointer-events:none;
 ">Copied.</div>
 
 <footer>
   <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
     <div>© <span id="year"></span> Primevant Advisory</div>
    <div style="opacity:.85;">
-  <a href="privacy.html" style="color:inherit; text-decoration:underline;">Privacy</a> • primevantadvisory.com
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;" data-i18n="footer.privacy">Privacy</a> • primevantadvisory.com
 </div>
 </footer>
 
@@ -215,7 +253,6 @@
     <div class="searchresults" id="searchResults" aria-live="polite"></div>
   </div>
 </div>
-
 <script src="assets/app.js"></script>
 </body>
 </html>

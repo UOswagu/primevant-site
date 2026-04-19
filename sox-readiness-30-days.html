@@ -23,12 +23,12 @@
         <path d="M6 6l12 12M18 6L6 18"/>
       </svg>
     </button>
-    <a href="services.html">Services</a>
-    <a href="approach.html">Approach</a>
-    <a href="insights.html">Insights</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="contact.html#contact-form" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="approach.html" data-i18n="nav.approach">Approach</a>
+    <a href="insights.html" data-i18n="nav.insights">Insights</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <a href="contact.html#contact-form" data-i18n="nav.cta" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
   Schedule a Consultation →
 </a>
   </div>
@@ -44,11 +44,11 @@
     </a>
 
     <nav class="navlinks">
-      <a href="services.html">Services</a>
-      <a href="approach.html">Approach</a>
-      <a href="insights.html">Insights</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="approach.html" data-i18n="nav.approach">Approach</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
 
     <div class="nav-cta">
@@ -58,35 +58,74 @@
         </svg>
       </button>
 
-  <!-- NEW: Search + Contact icons -->
-  <div class="nav-tools">
-    <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
-      <!-- magnifying glass -->
+  <!-- NEW: Search + Contact + Language icons -->
+<div class="nav-tools">
+
+  <!-- Magnifying icon (search) -->
+  <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="M20 20l-3.5-3.5"></path>
+    </svg>
+  </button>
+
+  <!-- Mail icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 6h16v12H4z"></path>
+      <path d="M4 7l8 6 8-6"></path>
+    </svg>
+  </a>
+
+  <!-- Phone icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+    </svg>
+  </a>
+
+  <!-- Language translation icon (globe dropdown) -->
+  <div class="lang-switcher">
+    <button
+      class="iconbtn lang-toggle"
+      id="langToggle"
+      type="button"
+      aria-label="Change language"
+    >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="7"></circle>
-        <path d="M20 20l-3.5-3.5"></path>
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3a15 15 0 0 1 4 9 15 15 0 0 1-4 9 15 15 0 0 1-4-9 15 15 0 0 1 4-9z"></path>
       </svg>
     </button>
 
-    <!-- Mail icon (links to contact page) -->
-    <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M4 6h16v12H4z"></path>
-        <path d="M4 7l8 6 8-6"></path>
-      </svg>
-    </a>
+    <!-- Language dropdown menu -->
+    <div class="lang-menu" id="langMenu">
+      <button class="lang-option active" data-lang="en">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Global (English)</span>
+      </button>
 
-    <!-- Phone icon (links to contact page) -->
-    <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
-      </svg>
-    </a>
+      <button class="lang-option" data-lang="es">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Español</span>
+      </button>
+
+      <button class="lang-option" data-lang="zh-cn">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">简体中文</span>
+      </button>
+    </div>
   </div>
+
+</div>
 </div>
     </div>
 
   </div>
+</div>
+
+</div>
 </div>
 
 <!-- TOP HERO (60% height) -->
@@ -98,9 +137,9 @@
 </picture>  <div class="post-hero__overlay" aria-hidden="true"></div>
 
   <div class="post-hero__inner">
-    <div class="post-hero__kicker">INSIGHTS</div>
-    <h1 class="post-hero__title">SOX readiness in 30 days</h1>
-    <p class="post-hero__subtitle">The IT Control Playbook for audit-defensible readiness.</p>
+    <div class="post-hero__kicker" data-i18n="sox.kicker">INSIGHTS</div>
+    <h1 class="post-hero__title" data-i18n="sox.title">SOX readiness in 30 days</h1>
+    <p class="post-hero__subtitle" data-i18n="sox.subtitle">The IT Control Playbook for audit-defensible readiness.</p>
   </div>
 </header>
 
@@ -108,249 +147,249 @@
 <main class="post">
   <article class="post__wrap">
     
-    <p class="post__deck">A Focused Blueprint for Technology Leaders</p>
+    <p class="post__deck" data-i18n="sox.deck">A Focused Blueprint for Technology Leaders</p>
 
-    <p>When organizations compress their SOX timelines, the pressure often lands squarely on IT.</p>
+    <p data-i18n="sox.p1">When organizations compress their SOX timelines, the pressure often lands squarely on IT.</p>
 
-    <p>Finance owns the assertion.<br>
+    <p data-i18n-html="sox.p2">Finance owns the assertion.<br>
     But IT determines whether auditors can rely on the systems producing the numbers.</p>
 
-    <p>If system access, change management, and data integrity controls are weak, financial controls cannot be relied upon — regardless of how well documented they are.</p>
+    <p data-i18n="sox.p3">If system access, change management, and data integrity controls are weak, financial controls cannot be relied upon — regardless of how well documented they are.</p>
 
-    <p>This article outlines how to establish IT SOX readiness in 30 days — not full compliance, but defensible readiness to begin formal testing.</p>
+    <p data-i18n="sox.p4">This article outlines how to establish IT SOX readiness in 30 days — not full compliance, but defensible readiness to begin formal testing.</p>
 
-    <h2 class="post__h2">What IT SOX Readiness Actually Means</h2>
+    <h2 class="post__h2" data-i18n="sox.h1">What IT SOX Readiness Actually Means</h2>
 
-    <p>Within 30 days, IT should be able to demonstrate:</p>
-
-    <ul class="post__list">
-      <li>In-scope systems supporting financial reporting are identified</li>
-      <li>IT General Controls (ITGCs) are documented</li>
-      <li>Key IT-dependent application controls are mapped</li>
-      <li>Control owners are assigned</li>
-      <li>Evidence collection procedures are defined</li>
-      <li>Walkthroughs validate control design</li>
-    </ul>
-
-    <p>This positions management to support its Section 404 ICFR assertion.</p>
-
-    <h2 class="post__h2">The IT SOX 30-Day Roadmap</h2>
-
-    <h3 class="post__h3">Days 1–5: Scope the Technology Landscape</h3>
-
-    <p><strong>Start with precision.</strong></p>
-
-    <p><strong>Identify In-Scope Systems</strong></p>
-    <p>Focus on systems that:</p>
+    <p data-i18n="sox.p5">Within 30 days, IT should be able to demonstrate:</p>
 
     <ul class="post__list">
-      <li>Generate financial transactions</li>
-      <li>Feed the general ledger</li>
-      <li>Support revenue recognition</li>
-      <li>Process payroll</li>
-      <li>Manage procure-to-pay</li>
-      <li>Store financial master data</li>
+      <li data-i18n="sox.l1">In-scope systems supporting financial reporting are identified</li>
+      <li data-i18n="sox.l2">IT General Controls (ITGCs) are documented</li>
+      <li data-i18n="sox.l3">Key IT-dependent application controls are mapped</li>
+      <li data-i18n="sox.l4">Control owners are assigned</li>
+      <li data-i18n="sox.l5">Evidence collection procedures are defined</li>
+      <li data-i18n="sox.l6">Walkthroughs validate control design</li>
     </ul>
 
-    <p>Typical examples include ERP systems, financial consolidation tools, and critical interfaces.</p>
+    <p data-i18n="sox.p6">This positions management to support its Section 404 ICFR assertion.</p>
 
-    <p><strong>Map System Dependencies</strong></p>
-    <p>Document:</p>
-    <ul class="post__list">
-      <li>Upstream/downstream interfaces</li>
-      <li>Data flows</li>
-      <li>Manual workarounds</li>
-      <li>Reports used in financial controls</li>
-    </ul>
+    <h2 class="post__h2" data-i18n="sox.h2">The IT SOX 30-Day Roadmap</h2>
 
-    <p><strong>Output:</strong> Authoritative system inventory with financial reporting relevance.</p>
+    <h3 class="post__h3" data-i18n="sox.h3">Days 1–5: Scope the Technology Landscape</h3>
 
-    <h3 class="post__h3">Days 6–12: Define and Document IT General Controls (ITGCs)</h3>
+    <p><strong data-i18n="sox.b1">Start with precision.</strong></p>
 
-    <p>ITGCs are the foundation of IT SOX readiness.</p>
-
-    <p>While SOX does not prescribe specific IT controls, auditors expect controls aligned with governance principles consistent with COSO and guidance from organizations such as ISACA.</p>
-
-    <p><strong>Core ITGC Domains</strong></p>
-
-    <p><strong>1. Logical Access Management</strong></p>
-    <ul class="post__list">
-      <li>User provisioning and deprovisioning</li>
-      <li>Role-based access</li>
-      <li>Privileged access controls</li>
-      <li>Periodic access recertification</li>
-    </ul>
-
-    <p><strong>2. Change Management</strong></p>
-    <ul class="post__list">
-      <li>Formal change requests</li>
-      <li>Testing documentation</li>
-      <li>Segregation between development and production</li>
-      <li>Approval evidence</li>
-    </ul>
-
-    <p><strong>3. IT Operations</strong></p>
-    <ul class="post__list">
-      <li>Batch job monitoring</li>
-      <li>Incident management</li>
-      <li>Backup and recovery procedures</li>
-    </ul>
-
-    <p>Each control must specify:</p>
-    <ul class="post__list">
-      <li>Control objective</li>
-      <li>Owner</li>
-      <li>Frequency</li>
-      <li>Evidence artifact</li>
-    </ul>
-
-    <p><strong>Output:</strong> Documented ITGC framework with assigned ownership.</p>
-
-    <h3 class="post__h3">Days 13–18: Identify IT-Dependent and Automated Controls</h3>
-
-    <p>IT enables many financial controls.</p>
-
-    <p>Examples:</p>
-    <ul class="post__list">
-      <li>Automated 3-way match</li>
-      <li>System-enforced approval workflows</li>
-      <li>System-calculated revenue schedules</li>
-      <li>Report generation controls</li>
-    </ul>
-
-    <p>For each automated control:</p>
-    <ul class="post__list">
-      <li>Confirm configuration settings</li>
-      <li>Validate access restrictions</li>
-      <li>Identify evidence source</li>
-      <li>Document report logic where relevant</li>
-    </ul>
-
-    <p>If management relies on system-generated reports, ensure:</p>
-    <ul class="post__list">
-      <li>Report completeness and accuracy controls exist</li>
-      <li>Access to report parameters is restricted</li>
-    </ul>
-
-    <p>Auditors often focus heavily on report integrity.</p>
-
-    <p><strong>Output:</strong> Inventory of automated and IT-dependent controls mapped to financial risks.</p>
-
-    <h3 class="post__h3">Days 19–23: Establish Evidence Discipline</h3>
-
-    <p>Evidence failures are one of the most common IT SOX issues.</p>
-
-    <p>Implement:</p>
-    <ul class="post__list">
-      <li>Centralized evidence repository</li>
-      <li>Naming conventions</li>
-      <li>Timestamp retention standards</li>
-      <li>Access-controlled storage</li>
-      <li>Deficiency log</li>
-    </ul>
-
-    <p>Evidence examples include:</p>
-    <ul class="post__list">
-      <li>Access approval tickets</li>
-      <li>Change request approvals</li>
-      <li>Migration logs</li>
-      <li>Recertification reports</li>
-      <li>Backup test results</li>
-    </ul>
-
-    <p>Evidence must demonstrate that controls operate consistently — not occasionally.</p>
-
-    <h3 class="post__h3">Days 24–27: Conduct IT Walkthroughs</h3>
-
-    <p>Walkthroughs validate design effectiveness before formal testing begins.</p>
-
-    <p>For each ITGC domain:</p>
-    <ul class="post__list">
-      <li>Interview control owner</li>
-      <li>Inspect system configuration</li>
-      <li>Obtain one sample evidence artifact</li>
-      <li>Validate segregation of duties</li>
-    </ul>
-
-    <p>Key risk areas frequently identified in first-year SOX programs:</p>
-    <ul class="post__list">
-      <li>Orphaned accounts</li>
-      <li>Excessive privileged access</li>
-      <li>Emergency change procedures without documentation</li>
-      <li>Shared service accounts without monitoring</li>
-    </ul>
-
-    <p>Document findings immediately.</p>
-
-    <h3 class="post__h3">Days 28–30: Gap Assessment & Executive Reporting</h3>
-
-    <p>By Day 30, leadership should receive a concise IT SOX readiness summary:</p>
-
-    <p>Include:</p>
-    <ul class="post__list">
-      <li>In-scope systems</li>
-      <li>ITGC design status</li>
-      <li>Identified deficiencies</li>
-      <li>Remediation plan with timelines</li>
-      <li>Resource constraints</li>
-      <li>Readiness risk rating</li>
-    </ul>
-
-    <p>CIO and CFO alignment is critical at this stage.</p>
-
-    <h2 class="post__h2">What “IT Ready” Looks Like at Day 30</h2>
+    <p><strong data-i18n="sox.b2">Identify In-Scope Systems</strong></p>
+    <p data-i18n="sox.p7">Focus on systems that:</p>
 
     <ul class="post__list">
-      <li>In-scope systems clearly defined</li>
-      <li>ITGC framework documented</li>
-      <li>Control owners assigned</li>
-      <li>Walkthroughs completed</li>
-      <li>Evidence repository operational</li>
-      <li>Initial deficiencies logged</li>
-      <li>Remediation plan underway</li>
+      <li data-i18n="sox.l7">Generate financial transactions</li>
+      <li data-i18n="sox.l8">Feed the general ledger</li>
+      <li data-i18n="sox.l9">Support revenue recognition</li>
+      <li data-i18n="sox.l10">Process payroll</li>
+      <li data-i18n="sox.l11">Manage procure-to-pay</li>
+      <li data-i18n="sox.l12">Store financial master data</li>
     </ul>
 
-    <p>You are now positioned for:</p>
+    <p data-i18n="sox.p8">Typical examples include ERP systems, financial consolidation tools, and critical interfaces.</p>
+
+    <p><strong data-i18n="sox.b3">Map System Dependencies</strong></p>
+    <p data-i18n="sox.p9">Document:</p>
     <ul class="post__list">
-      <li>Design effectiveness testing</li>
-      <li>Operating effectiveness sampling</li>
-      <li>External auditor coordination</li>
+      <li data-i18n="sox.l13">Upstream/downstream interfaces</li>
+      <li data-i18n="sox.l14">Data flows</li>
+      <li data-i18n="sox.l15">Manual workarounds</li>
+      <li data-i18n="sox.l16">Reports used in financial controls</li>
     </ul>
 
-    <h2 class="post__h2">Common IT Pitfalls in Accelerated SOX Programs</h2>
+    <p data-i18n-html="sox.p10"><strong>Output:</strong> Authoritative system inventory with financial reporting relevance.</p>
 
-    <p><strong>1. Treating SOX as a Documentation Exercise</strong></p>
-    <p>Auditors test operation, not intent.</p>
+    <h3 class="post__h3" data-i18n="sox.h4">Days 6–12: Define and Document IT General Controls (ITGCs)</h3>
 
-    <p><strong>2. Ignoring Privileged Access</strong></p>
-    <p>Unrestricted admin access undermines financial control reliance.</p>
+    <p data-i18n="sox.p11">ITGCs are the foundation of IT SOX readiness.</p>
 
-    <p><strong>3. Weak Change Segregation</strong></p>
-    <p>Developers with production access create material control risk.</p>
+    <p data-i18n="sox.p12">While SOX does not prescribe specific IT controls, auditors expect controls aligned with governance principles consistent with COSO and guidance from organizations such as ISACA.</p>
 
-    <p><strong>4. Poor Report Governance</strong></p>
-    <p>If financial reporting relies on system reports, those reports must be controlled.</p>
+    <p><strong data-i18n="sox.b4">Core ITGC Domains</strong></p>
 
-    <h2 class="post__h2">Strategic Insight for Technology Leaders</h2>
-
-    <p>IT SOX readiness is not just about compliance. When implemented properly, it drives:</p>
+    <p><strong data-i18n="sox.b5">1. Logical Access Management</strong></p>
     <ul class="post__list">
-      <li>Stronger access discipline</li>
-      <li>Improved change transparency</li>
-      <li>Reduced fraud exposure</li>
-      <li>Enhanced operational stability</li>
-      <li>Increased audit efficiency</li>
+      <li data-i18n="sox.l17">User provisioning and deprovisioning</li>
+      <li data-i18n="sox.l18">Role-based access</li>
+      <li data-i18n="sox.l19">Privileged access controls</li>
+      <li data-i18n="sox.l20">Periodic access recertification</li>
     </ul>
 
-    <p>Organizations that embed IT control rigor early reduce long-term compliance costs significantly.</p>
+    <p><strong data-i18n="sox.b6">2. Change Management</strong></p>
+    <ul class="post__list">
+      <li data-i18n="sox.l21">Formal change requests</li>
+      <li data-i18n="sox.l22">Testing documentation</li>
+      <li data-i18n="sox.l23">Segregation between development and production</li>
+      <li data-i18n="sox.l24">Approval evidence</li>
+    </ul>
 
-    <h2 class="post__h2">Final Perspective</h2>
+    <p><strong data-i18n="sox.b7">3. IT Operations</strong></p>
+    <ul class="post__list">
+      <li data-i18n="sox.l25">Batch job monitoring</li>
+      <li data-i18n="sox.l26">Incident management</li>
+      <li data-i18n="sox.l27">Backup and recovery procedures</li>
+    </ul>
 
-    <p>In compressed timelines, IT maturity determines SOX success.</p>
+    <p data-i18n="sox.p13">Each control must specify:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l28">Control objective</li>
+      <li data-i18n="sox.l29">Owner</li>
+      <li data-i18n="sox.l30">Frequency</li>
+      <li data-i18n="sox.l31">Evidence artifact</li>
+    </ul>
 
-    <p>Thirty days is sufficient to build a defensible IT control foundation — if you focus on scope precision, documentation discipline, evidence integrity, and executive alignment.</p>
+    <p data-i18n-html="sox.p14"><strong>Output:</strong> Documented ITGC framework with assigned ownership.</p>
 
-    <p>SOX readiness in IT is not about perfection.<br>
+    <h3 class="post__h3" data-i18n="sox.h5">Days 13–18: Identify IT-Dependent and Automated Controls</h3>
+
+    <p data-i18n="sox.p15">IT enables many financial controls.</p>
+
+    <p data-i18n="sox.p16">Examples:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l32">Automated 3-way match</li>
+      <li data-i18n="sox.l33">System-enforced approval workflows</li>
+      <li data-i18n="sox.l34">System-calculated revenue schedules</li>
+      <li data-i18n="sox.l35">Report generation controls</li>
+    </ul>
+
+    <p data-i18n="sox.p17">For each automated control:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l36">Confirm configuration settings</li>
+      <li data-i18n="sox.l37">Validate access restrictions</li>
+      <li data-i18n="sox.l38">Identify evidence source</li>
+      <li data-i18n="sox.l39">Document report logic where relevant</li>
+    </ul>
+
+    <p data-i18n="sox.p18">If management relies on system-generated reports, ensure:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l40">Report completeness and accuracy controls exist</li>
+      <li data-i18n="sox.l41">Access to report parameters is restricted</li>
+    </ul>
+
+    <p data-i18n="sox.p19">Auditors often focus heavily on report integrity.</p>
+
+    <p data-i18n-html="sox.p20"><strong>Output:</strong> Inventory of automated and IT-dependent controls mapped to financial risks.</p>
+
+    <h3 class="post__h3" data-i18n="sox.h6">Days 19–23: Establish Evidence Discipline</h3>
+
+    <p data-i18n="sox.p21">Evidence failures are one of the most common IT SOX issues.</p>
+
+    <p data-i18n="sox.p22">Implement:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l42">Centralized evidence repository</li>
+      <li data-i18n="sox.l43">Naming conventions</li>
+      <li data-i18n="sox.l44">Timestamp retention standards</li>
+      <li data-i18n="sox.l45">Access-controlled storage</li>
+      <li data-i18n="sox.l46">Deficiency log</li>
+    </ul>
+
+    <p data-i18n="sox.p23">Evidence examples include:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l47">Access approval tickets</li>
+      <li data-i18n="sox.l48">Change request approvals</li>
+      <li data-i18n="sox.l49">Migration logs</li>
+      <li data-i18n="sox.l50">Recertification reports</li>
+      <li data-i18n="sox.l51">Backup test results</li>
+    </ul>
+
+    <p data-i18n="sox.p24">Evidence must demonstrate that controls operate consistently — not occasionally.</p>
+
+    <h3 class="post__h3" data-i18n="sox.h7">Days 24–27: Conduct IT Walkthroughs</h3>
+
+    <p data-i18n="sox.p25">Walkthroughs validate design effectiveness before formal testing begins.</p>
+
+    <p data-i18n="sox.p26">For each ITGC domain:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l52">Interview control owner</li>
+      <li data-i18n="sox.l53">Inspect system configuration</li>
+      <li data-i18n="sox.l54">Obtain one sample evidence artifact</li>
+      <li data-i18n="sox.l55">Validate segregation of duties</li>
+    </ul>
+
+    <p data-i18n="sox.p27">Key risk areas frequently identified in first-year SOX programs:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l56">Orphaned accounts</li>
+      <li data-i18n="sox.l57">Excessive privileged access</li>
+      <li data-i18n="sox.l58">Emergency change procedures without documentation</li>
+      <li data-i18n="sox.l59">Shared service accounts without monitoring</li>
+    </ul>
+
+    <p data-i18n="sox.p28">Document findings immediately.</p>
+
+    <h3 class="post__h3" data-i18n="sox.h8">Days 28–30: Gap Assessment & Executive Reporting</h3>
+
+    <p data-i18n="sox.p29">By Day 30, leadership should receive a concise IT SOX readiness summary:</p>
+
+    <p data-i18n="sox.p30">Include:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l60">In-scope systems</li>
+      <li data-i18n="sox.l61">ITGC design status</li>
+      <li data-i18n="sox.l62">Identified deficiencies</li>
+      <li data-i18n="sox.l63">Remediation plan with timelines</li>
+      <li data-i18n="sox.l64">Resource constraints</li>
+      <li data-i18n="sox.l65">Readiness risk rating</li>
+    </ul>
+
+    <p data-i18n="sox.p31">CIO and CFO alignment is critical at this stage.</p>
+
+    <h2 class="post__h2" data-i18n="sox.h9">What “IT Ready” Looks Like at Day 30</h2>
+
+    <ul class="post__list">
+      <li data-i18n="sox.l66">In-scope systems clearly defined</li>
+      <li data-i18n="sox.l67">ITGC framework documented</li>
+      <li data-i18n="sox.l68">Control owners assigned</li>
+      <li data-i18n="sox.l69">Walkthroughs completed</li>
+      <li data-i18n="sox.l70">Evidence repository operational</li>
+      <li data-i18n="sox.l71">Initial deficiencies logged</li>
+      <li data-i18n="sox.l72">Remediation plan underway</li>
+    </ul>
+
+    <p data-i18n="sox.p32">You are now positioned for:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l73">Design effectiveness testing</li>
+      <li data-i18n="sox.l74">Operating effectiveness sampling</li>
+      <li data-i18n="sox.l75">External auditor coordination</li>
+    </ul>
+
+    <h2 class="post__h2" data-i18n="sox.h10">Common IT Pitfalls in Accelerated SOX Programs</h2>
+
+    <p><strong data-i18n="sox.b8">1. Treating SOX as a Documentation Exercise</strong></p>
+    <p data-i18n="sox.p33">Auditors test operation, not intent.</p>
+
+    <p><strong data-i18n="sox.b9">2. Ignoring Privileged Access</strong></p>
+    <p data-i18n="sox.p34">Unrestricted admin access undermines financial control reliance.</p>
+
+    <p><strong data-i18n="sox.b10">3. Weak Change Segregation</strong></p>
+    <p data-i18n="sox.p35">Developers with production access create material control risk.</p>
+
+    <p><strong data-i18n="sox.b11">4. Poor Report Governance</strong></p>
+    <p data-i18n="sox.p36">If financial reporting relies on system reports, those reports must be controlled.</p>
+
+    <h2 class="post__h2" data-i18n="sox.h11">Strategic Insight for Technology Leaders</h2>
+
+    <p data-i18n="sox.p37">IT SOX readiness is not just about compliance. When implemented properly, it drives:</p>
+    <ul class="post__list">
+      <li data-i18n="sox.l76">Stronger access discipline</li>
+      <li data-i18n="sox.l77">Improved change transparency</li>
+      <li data-i18n="sox.l78">Reduced fraud exposure</li>
+      <li data-i18n="sox.l79">Enhanced operational stability</li>
+      <li data-i18n="sox.l80">Increased audit efficiency</li>
+    </ul>
+
+    <p data-i18n="sox.p38">Organizations that embed IT control rigor early reduce long-term compliance costs significantly.</p>
+
+    <h2 class="post__h2" data-i18n="sox.h12">Final Perspective</h2>
+
+    <p data-i18n="sox.p39">In compressed timelines, IT maturity determines SOX success.</p>
+
+    <p data-i18n="sox.p40">Thirty days is sufficient to build a defensible IT control foundation — if you focus on scope precision, documentation discipline, evidence integrity, and executive alignment.</p>
+
+    <p data-i18n-html="sox.p41">SOX readiness in IT is not about perfection.<br>
     It is about control clarity, risk transparency, and operational credibility.</p>
 
   </article>
@@ -360,7 +399,7 @@
   <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
     <div>© <span id="year"></span> Primevant Advisory</div>
    <div style="opacity:.85;">
-  <a href="privacy.html" style="color:inherit; text-decoration:underline;">Privacy</a> • primevantadvisory.com
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;" data-i18n="footer.privacy">Privacy</a> • primevantadvisory.com
 </div>
 </footer>
 
