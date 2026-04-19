@@ -418,9 +418,7 @@ const translations = {
 "services.sox.b5": "Regulatory and compliance risk",
 "services.sox.b7": "Enterprise SOX Readiness & Remediation Sprint",
 "services.sox.b8": "Enterprise & process-level risk assessments",
-"services.sox.b9": "Risk quantification and prioritization",
 "services.sox.b10": "Business process risk mapping (order-to-cash, procure-to-pay, etc.)",
-"services.sox.b11": "Executive risk dashboards for leadership and boards.",
 "services.sox.b12": "AI governance and controls advisory (policy + oversight)",
 "services.sox.b13": "Third party risk management/SOC 2 assessment/ISO 27001 evaluation",
 
@@ -453,7 +451,6 @@ const translations = {
 "services.itgc.b7": "IAM / privileged access governance",
 "services.itgc.b8": "Secure system implementation reviews (pre/post go-live)",
 "services.itgc.b9": "Data integrity and protection strategies",
-"services.itgc.b12": "Threat modelling tied to financial and operational risk",
 "services.itgc.b13": "Security controls aligned to SOX / ICFR",
 "services.itgc.b14": "Vendor and SaaS risk assessments",
 
@@ -691,9 +688,7 @@ const translations = {
 "services.sox.b5": "Riesgo regulatorio y de cumplimiento",
 "services.sox.b7": "Sprint de preparación y remediación SOX a nivel empresarial",
 "services.sox.b8": "Evaluaciones de riesgo a nivel empresarial y de procesos",
-"services.sox.b9": "Cuantificación y priorización de riesgos",
 "services.sox.b10": "Mapeo de riesgos de procesos de negocio (order-to-cash, procure-to-pay, etc.)",
-"services.sox.b11": "Paneles ejecutivos de riesgo para liderazgo y juntas directivas",
 "services.sox.b12": "Asesoría en gobernanza y controles de IA (política y supervisión)",
 "services.sox.b13": "Gestión de riesgos de terceros / evaluación SOC 2 / evaluación ISO 27001",
 
@@ -726,7 +721,6 @@ const translations = {
 "services.itgc.b7": "Gobernanza de IAM / acceso privilegiado",
 "services.itgc.b8": "Revisiones seguras de implementación de sistemas (antes/después del go-live)",
 "services.itgc.b9": "Estrategias de integridad y protección de datos",
-"services.itgc.b12": "Modelado de amenazas vinculado al riesgo financiero y operativo",
 "services.itgc.b13": "Controles de seguridad alineados con SOX / ICFR",
 "services.itgc.b14": "Evaluaciones de riesgo de proveedores y SaaS",
 
@@ -961,9 +955,7 @@ const translations = {
 "services.sox.b5": "监管与合规风险",
 "services.sox.b7": "企业级SOX准备与整改加速方案",
 "services.sox.b8": "企业及流程级风险评估",
-"services.sox.b9": "风险量化与优先级排序",
 "services.sox.b10": "业务流程风险映射（如订单到收款、采购到付款等）",
-"services.sox.b11": "面向管理层与董事会的风险可视化仪表板",
 "services.sox.b12": "AI治理与控制咨询（政策与监督）",
 "services.sox.b13": "第三方风险管理 / SOC 2评估 / ISO 27001评估",
 
@@ -996,7 +988,6 @@ const translations = {
 "services.itgc.b7": "IAM / 特权访问治理",
 "services.itgc.b8": "安全系统实施审查（上线前/上线后）",
 "services.itgc.b9": "数据完整性与保护策略",
-"services.itgc.b12": "与财务和运营风险挂钩的威胁建模",
 "services.itgc.b13": "与SOX / ICFR对齐的安全控制",
 "services.itgc.b14": "供应商与SaaS风险评估",
 
