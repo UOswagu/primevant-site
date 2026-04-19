@@ -625,13 +625,15 @@ const translations = {
 "about.team.card3.title": "Flexible delivery model",
 "about.team.card3.text": "Engagements are structured with senior leadership oversight and scaled with specialized expertise to meet scope, timeline, and regulatory requirements with precision.",
 
-"about.founder.less": "Less information"
-
-,
 "about.founder.more": "More information",
 "about.teamCredibility.title": "Team credibility",
 "about.teamCredibility.p1": "Primevant Advisory combines senior leadership oversight with a high-caliber network of professionals across governance, risk, cybersecurity, and regulatory disciplines. This model enables the firm to deliver practical, audit-ready outcomes with the depth and discipline expected in complex enterprise environments.",
-"about.teamCredibility.p2": "Our engagements are structured to bring the right expertise to the right challenge—balancing executive judgment, specialized capability, and consistent delivery standards to support regulatory readiness, resilient operations, and business-aligned risk management."
+"about.teamCredibility.p2": "Our engagements are structured to bring the right expertise to the right challenge—balancing executive judgment, specialized capability, and consistent delivery standards to support regulatory readiness, resilient operations, and business-aligned risk management.",
+
+"about.founder.less": "Less information"
+
+
+
 
 /* contact */
 
@@ -920,13 +922,13 @@ const translations = {
 "about.team.card3.title": "Modelo de entrega flexible",
 "about.team.card3.text": "Los proyectos se estructuran con supervisión senior y se escalan con capacidades especializadas para cumplir alcance, plazos y requisitos regulatorios con precisión.",
 
-"about.founder.less": "Menos información"
-
-,
 "about.founder.more": "Más información",
 "about.teamCredibility.title": "Credibilidad del equipo",
 "about.teamCredibility.p1": "Primevant Advisory combina supervisión de liderazgo senior con una red de profesionales de alto nivel en gobernanza, riesgo, ciberseguridad y regulación. Este modelo permite ofrecer resultados prácticos y listos para auditoría con la profundidad y disciplina esperadas en entornos empresariales complejos.",
-"about.teamCredibility.p2": "Nuestros proyectos se estructuran para aportar la experiencia adecuada a cada desafío, equilibrando criterio ejecutivo, capacidad especializada y estándares consistentes de entrega para apoyar la preparación regulatoria, la resiliencia operativa y una gestión de riesgos alineada al negocio."
+"about.teamCredibility.p2": "Nuestros proyectos se estructuran para aportar la experiencia adecuada a cada desafío, equilibrando criterio ejecutivo, capacidad especializada y estándares consistentes de entrega para apoyar la preparación regulatoria, la resiliencia operativa y una gestión de riesgos alineada al negocio.",
+
+"about.founder.less": "Menos información"
+
 
     ,
     "contact.banner": "Contáctenos",
@@ -1209,13 +1211,13 @@ const translations = {
 "about.team.card3.title": "灵活交付模式",
 "about.team.card3.text": "项目由高级领导监督，并根据需要引入专业能力，确保在范围、时间和监管要求下实现高质量交付。",
 
-"about.founder.less": "Menos información"
-
-,
 "about.founder.more": "更多信息",
 "about.teamCredibility.title": "团队实力",
 "about.teamCredibility.p1": "Primevant Advisory 结合高级领导层监督与高水平专业网络，覆盖治理、风险、网络安全和监管等领域。该模式使我们能够在复杂企业环境中，以应有的深度与严谨性提供务实且审计就绪的成果。",
-"about.teamCredibility.p2": "我们的项目配置以问题为导向，确保为每项挑战匹配合适的专业能力，在高管判断、专业专长和一致的交付标准之间取得平衡，从而支持监管准备、运营韧性以及与业务目标一致的风险管理。"
+"about.teamCredibility.p2": "我们的项目配置以问题为导向，确保为每项挑战匹配合适的专业能力，在高管判断、专业专长和一致的交付标准之间取得平衡，从而支持监管准备、运营韧性以及与业务目标一致的风险管理。",
+
+"about.founder.less": "Menos información"
+
 
 ,
     "contact.banner": "联系我们",
