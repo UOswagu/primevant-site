@@ -585,6 +585,25 @@ const translations = {
     "about.founder.credibility.p1": "Uchechi brings a rare combination of executive judgment, technical depth, and practical delivery experience. She is trusted by senior leaders not only to identify risk, but to solve it—designing control environments, governance models, and operating structures that work in the real world.",
     "about.founder.credibility.p2": "Her approach is disciplined, outcomes driven, and grounded in the realities of audit, regulation, and enterprise execution. Through Primevant Advisory, Uchechi partners with organizations to turn regulatory pressure and technological change into strategic advantage."
 
+    ,
+"about.narrative.title": "Strengthening governance.<br><span style='color:var(--blue2)'>Enabling confident decisions.</span>",
+"about.narrative.p1": "Primevant Advisory partners with leadership teams to establish strong governance frameworks and translate risk into clear, actionable outcomes.",
+"about.narrative.p2": "We operate at the intersection of business, risk, and controls, helping organizations navigate regulatory expectations, strengthen oversight, and build resilient operating environments that support growth.",
+
+"about.team.title": "Capabilities & team",
+"about.team.lead": "Primevant Advisory delivers through a focused, high caliber network of professionals across governance, risk, cybersecurity and regulatory disciplines structured to support complex, enterprise environments.",
+
+"about.team.card1.title": "Enterprise governance & risk capability",
+"about.team.card1.text": "Experience supporting governance, risk, and control programs across financial reporting, operational, cybersecurity and technology domains aligned to regulatory expectations and business priorities.",
+
+"about.team.card2.title": "Big 4 and industry experience",
+"about.team.card2.text": "Team members bring experience from leading advisory firms and complex enterprise environments, supporting organizations across financial services, healthcare, technology, and consumer industries.",
+
+"about.team.card3.title": "Flexible delivery model",
+"about.team.card3.text": "Engagements are structured with senior leadership oversight and scaled with specialized expertise to meet scope, timeline, and regulatory requirements with precision."
+
+
+
 /* contact */
 
 ,
@@ -852,7 +871,24 @@ const translations = {
     "about.founder.credibility.title": "Declaración de credibilidad",
     "about.founder.credibility.p1": "Uchechi aporta una combinación poco común de criterio ejecutivo, profundidad técnica y experiencia práctica de ejecución. Los altos directivos confían en ella no solo para identificar riesgos, sino para resolverlos, diseñando entornos de control, modelos de gobernanza y estructuras operativas que funcionan en el mundo real.",
     "about.founder.credibility.p2": "Su enfoque es disciplinado, orientado a resultados y fundamentado en las realidades de la auditoría, la regulación y la ejecución empresarial. A través de Primevant Advisory, Uchechi se asocia con organizaciones para convertir la presión regulatoria y el cambio tecnológico en ventaja estratégica."
+    
 
+    ,
+"about.narrative.title": "Fortaleciendo la gobernanza.<br><span style='color:var(--blue2)'>Impulsando decisiones con confianza.</span>",
+"about.narrative.p1": "Primevant Advisory colabora con equipos directivos para establecer marcos sólidos de gobernanza y transformar el riesgo en resultados claros y accionables.",
+"about.narrative.p2": "Operamos en la intersección entre negocio, riesgo y control, ayudando a las organizaciones a navegar expectativas regulatorias, fortalecer la supervisión y construir entornos operativos resilientes que apoyen el crecimiento.",
+
+"about.team.title": "Capacidades y equipo",
+"about.team.lead": "Primevant Advisory opera a través de una red enfocada y altamente calificada de profesionales en gobernanza, riesgo, ciberseguridad y cumplimiento regulatorio, estructurada para entornos empresariales complejos.",
+
+"about.team.card1.title": "Capacidad en gobernanza y riesgo empresarial",
+"about.team.card1.text": "Experiencia en programas de gobernanza, riesgo y control en entornos financieros, operativos, de ciberseguridad y tecnológicos, alineados con requisitos regulatorios y prioridades de negocio.",
+
+"about.team.card2.title": "Experiencia Big 4 y sectorial",
+"about.team.card2.text": "Los miembros del equipo aportan experiencia de firmas líderes y entornos empresariales complejos, apoyando organizaciones en servicios financieros, salud, tecnología y consumo.",
+
+"about.team.card3.title": "Modelo de entrega flexible",
+"about.team.card3.text": "Los proyectos se estructuran con supervisión senior y se escalan con capacidades especializadas para cumplir alcance, plazos y requisitos regulatorios con precisión."
 
 
     ,
@@ -1119,7 +1155,23 @@ const translations = {
     "about.founder.credibility.p1": "Uchechi 兼具高管判断力、技术深度和务实交付经验。这使她不仅能帮助高级领导识别风险，更能帮助他们解决风险，设计真正适用于现实环境的控制环境、治理模型和运营结构。",
     "about.founder.credibility.p2": "她的方法严谨、结果导向，并扎根于审计、监管和企业执行的现实需求。通过 Primevant Advisory，Uchechi 与组织合作，将监管压力和技术变革转化为战略优势。"
 
-    
+    ,
+"about.narrative.title": "强化治理能力。<br><span style='color:var(--blue2)'>助力自信决策。</span>",
+"about.narrative.p1": "Primevant Advisory 与管理层合作，建立稳健的治理框架，并将风险转化为清晰、可执行的成果。",
+"about.narrative.p2": "我们立足于业务、风险与控制的交汇点，帮助组织应对监管要求、强化监督机制，并构建支持增长的韧性运营环境。",
+
+"about.team.title": "能力与团队",
+"about.team.lead": "Primevant Advisory 通过一支专注且高水平的专业网络提供服务，涵盖治理、风险、网络安全及监管领域，能够支持复杂的企业环境。",
+
+"about.team.card1.title": "企业治理与风险能力",
+"about.team.card1.text": "在财务报告、运营、网络安全及技术领域的治理、风险与控制项目方面具备丰富经验，交付符合监管要求和业务优先级。",
+
+"about.team.card2.title": "四大及行业经验",
+"about.team.card2.text": "团队成员拥有来自领先咨询机构和复杂企业环境的经验，服务于金融、医疗、科技及消费行业。",
+
+"about.team.card3.title": "灵活交付模式",
+"about.team.card3.text": "项目由高级领导监督，并根据需要引入专业能力，确保在范围、时间和监管要求下实现高质量交付。"
+
 ,
     "contact.banner": "联系我们",
     "contact.heroTitle": "让我们对齐您的<br><span style='color:var(--blue2)'>审计就绪目标</span>。",
