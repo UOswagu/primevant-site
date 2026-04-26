@@ -478,9 +478,9 @@ const translations = {
     "services.cta": "Want the regulatory lens per industry? <span>See Industries</span> →",
 
     "services.models.title": "Engagement Models",
-    "services.models.m1": "Fixed fee sprint Best for defined outcomes and rapid execution. Includes milestones and a clear deliverable list.",
-    "services.models.m2": "Capped T&M  Best for remediation where complexity varies. Includes an agreed cap and weekly burn visibility.",
-    "services.models.m3": "Retainer  Ongoing advisory with bounded hours, response expectations, and quarterly planning.",
+    "services.models.m1": "Fixed fee sprint - best for defined outcomes and rapid execution. Includes milestones and a clear deliverable list.",
+    "services.models.m2": "Capped T&M  - est for remediation where complexity varies. Includes an agreed cap and weekly burn visibility.",
+    "services.models.m3": "Retainer  - ongoing advisory with bounded hours, response expectations, and quarterly planning.",
 
     "services.addons.title": "Optional add ons (post-stabilization)",
     "services.addons.intro": "Once IT controls foundation is stable, Primevant Advisory can support adjacent risk priorities.",
@@ -522,7 +522,7 @@ const translations = {
     "approach.sectionTitle": "Primevant delivery model",
 
     "approach.assess.title": "Assess",
-    "approach.assess.text": "Confirm current state, key risks, auditor expectations, and the fastest path to defensible controls and evidence.<br><br>Outputs: scope memo, timeline, deliverables, evidence expectations",
+    "approach.assess.text": "Confirm current state, key risks, and stakeholder expectations, and define the fastest path to defensible controls and evidence <br><br>Outputs: scope memo, timeline, deliverables, evidence expectations",
 
     "approach.align.title": "Align",
     "approach.align.text": "Set clear in-scope/out of scope boundaries, stakeholder roles, and change control to prevent scope creep.<br><br>Outputs: kickoff plan, RAID log, weekly status cadence",
@@ -544,17 +544,16 @@ const translations = {
   ,
     "insights.heroCta": "Primevant Insights",
     "insights.title": "Insights",
-    "insights.lede": "Short, practical guidance on SOX, ITGC, and controls—written for CFO, CIO, CISO, and Internal Audit leaders who want fewer surprises and cleaner audits.",
-
+"insights.lede": "Practical insights on enterprise risk, technology, and controls, designed for CFO, CIO, CISO, and Internal Audit leaders seeking clarity, control, and confidence.",
     "insights.p1.title": "SOX readiness in 30 days",
     "insights.p1.text": "A realistic sequence: scope, narratives, walkthroughs, evidence standards, and remediation tracking.",
     "insights.read": "Read post →",
 
-    "insights.p2.title": "ITGC evidence: what auditors actually need",
-    "insights.p2.text": "Common evidence mistakes and how to standardize tickets, approvals, and access review proof.",
+ "insights.p2.title": "AI Governance & Control Readiness: What Boards Actually Need",
+"insights.p2.text": "How organizations can establish practical AI governance, define accountability, and implement controls that balance innovation, risk, and regulatory expectations.",
 
-    "insights.p3.title": "Reducing SOX testing without increasing risk",
-    "insights.p3.text": "How to rationalize key controls, remove overlap, and improve reliance with defensible logic.",
+"insights.p3.title": "Cyber Risk & Third-Party Exposure: Strengthening the Weakest Link in Enterprise Control Environments",
+"insights.p3.text": "How to identify, assess, and manage cyber and vendor risk across the enterprise, moving beyond point-in-time assessments to continuous, risk-aligned oversight.",
     "insights.coming": "Coming soon →",
 
     "insights.featured": "Featured",
@@ -816,7 +815,7 @@ const translations = {
     "approach.sectionTitle": "Modelo de entrega Primevant",
 
     "approach.assess.title": "Evaluar",
-    "approach.assess.text": "Confirmar el estado actual, riesgos clave, expectativas del auditor y el camino más rápido hacia controles y evidencia defendibles.<br><br>Entregables: alcance, cronograma, entregables y requisitos de evidencia",
+    "approach.assess.text": "Confirmar el estado actual, los riesgos clave y las expectativas de las partes interesadas, y definir la ruta más rápida hacia controles y evidencia defendibles<br><br>Entregables: alcance, cronograma, entregables y requisitos de evidencia",
 
     "approach.align.title": "Alinear",
     "approach.align.text": "Definir claramente lo que está dentro y fuera del alcance, roles y control de cambios para evitar desviaciones.<br><br>Entregables: plan inicial, registro RAID, seguimiento semanal",
@@ -838,17 +837,17 @@ const translations = {
 ,
     "insights.heroCta": "Perspectivas Primevant",
     "insights.title": "Perspectivas",
-    "insights.lede": "Guías prácticas sobre SOX, ITGC y controles, escritas para CFO, CIO, CISO y líderes de auditoría interna que buscan menos sorpresas y auditorías más limpias.",
+    "insights.lede": "Perspectivas prácticas sobre riesgo empresarial, tecnología y controles, diseñadas para CFO, CIO, CISO y líderes de Auditoría Interna que buscan claridad, control y confianza.",
 
     "insights.p1.title": "Preparación SOX en 30 días",
     "insights.p1.text": "Una secuencia realista: alcance, narrativas, walkthroughs, estándares de evidencia y seguimiento de remediación.",
     "insights.read": "Leer artículo →",
 
-    "insights.p2.title": "Evidencia ITGC: lo que realmente necesitan los auditores",
-    "insights.p2.text": "Errores comunes de evidencia y cómo estandarizar tickets, aprobaciones y revisiones de acceso.",
+    "insights.p2.title": "Gobernanza de IA y preparación de controles: lo que realmente necesitan los directorios",
+"insights.p2.text": "Cómo las organizaciones pueden establecer una gobernanza práctica de IA, definir responsabilidades e implementar controles que equilibren innovación, riesgo y expectativas regulatorias.",
 
-    "insights.p3.title": "Reducir pruebas SOX sin aumentar el riesgo",
-    "insights.p3.text": "Cómo racionalizar controles clave, eliminar duplicaciones y mejorar la dependencia con lógica defendible.",
+"insights.p3.title": "Riesgo cibernético y exposición a terceros: fortaleciendo el eslabón más débil en los entornos de control empresarial",
+"insights.p3.text": "Cómo identificar, evaluar y gestionar el riesgo cibernético y de proveedores en toda la empresa, avanzando más allá de evaluaciones puntuales hacia una supervisión continua y alineada al riesgo.",
     "insights.coming": "Próximamente →",
 
     "insights.featured": "Destacados",
@@ -1105,7 +1104,7 @@ const translations = {
     "approach.sectionTitle": "Primevant 交付模型",
 
     "approach.assess.title": "评估",
-    "approach.assess.text": "确认当前状态、关键风险、审计预期以及实现可审计控制的最快路径。<br><br>输出：范围说明、时间表、交付物、证据要求",
+    "approach.assess.text": "确认当前状态、关键风险以及利益相关方的期望，并定义实现可辩护控制和证据的最快路径<br><br>输出：范围说明、时间表、交付物、证据要求",
 
     "approach.align.title": "对齐",
     "approach.align.text": "明确范围边界、角色和变更控制，防止范围蔓延。<br><br>输出：启动计划、风险日志、周报机制",
@@ -1126,17 +1125,17 @@ const translations = {
 ,
     "insights.heroCta": "Primevant 洞察",
     "insights.title": "洞察",
-    "insights.lede": "关于 SOX、ITGC 和控制的简明实用指南，面向 CFO、CIO、CISO 及内部审计负责人，帮助减少意外并实现更顺畅的审计。",
+    "insights.lede": "围绕企业风险、技术与控制的实用洞察，专为 CFO、CIO、CISO 及内部审计领导者设计，帮助实现清晰、掌控与信心",
 
     "insights.p1.title": "30天 SOX 准备",
     "insights.p1.text": "一个现实的步骤流程：范围、控制说明、走查、证据标准与整改跟踪。",
     "insights.read": "阅读文章 →",
 
-    "insights.p2.title": "ITGC 证据：审计师真正需要的内容",
-    "insights.p2.text": "常见证据错误，以及如何标准化工单、审批和访问审查。",
+   "insights.p2.title": "AI 治理与控制准备：董事会真正需要的内容",
+"insights.p2.text": "组织如何建立务实的 AI 治理，明确责任，并实施在创新、风险与监管要求之间取得平衡的控制措施。",
 
-    "insights.p3.title": "在不增加风险的情况下减少 SOX 测试",
-    "insights.p3.text": "如何优化关键控制、减少重复并提高审计依赖性。",
+"insights.p3.title": "网络风险与第三方暴露：强化企业控制环境中最薄弱的一环",
+"insights.p3.text": "如何在整个企业范围内识别、评估和管理网络与供应商风险，从一次性评估转向持续且与风险对齐的监督。",
     "insights.coming": "即将推出 →",
 
     "insights.featured": "精选内容",
