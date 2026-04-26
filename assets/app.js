@@ -390,8 +390,10 @@ const translations = {
     "nav.cta": "Schedule a Consultation →",
 
     "hero.title": 'Clarity Over<br><span class="accent">Complexity</span>',
-    "hero.lead1": "We help boards and C-suites achieve audit ready controls, regulatory confidence, and resilient technology governance",
-    "hero.lead2": "Control narratives and clarity, key control rationalization <br> Defensible quality evidence standards aligned to audit expectations",
+    "hero.lead1": "We help boards and C-suites strengthen enterprise risk, technology, and cybersecurity, building control environments that drive audit readiness, regulatory confidence, and operational resilience.",
+
+"hero.lead2": "Clear, defensible control frameworks across enterprise, IT, cyber, and operational processes Rationalized, risk-aligned controls that reduce complexity without sacrificing assurance",
+"hero.lead3": "Evidence standards that stand up to audit, regulators, and stakeholder scrutiny Governance structures that enable confident decision-making, accountability, and scalable growth",
 
     "statement.headline": "Audit ready controls<br>Board level confidence",
     "statement.subtext": "Big Four service level without the overhead<br><br>Strengthen IT risk and SOX control environments with practical defensible outcomes<br><br>Business led SOX, technology risk governance, and AI oversight built to stand up to auditors and regulators<br><br>Cleaner control design, stronger evidence, fewer findings",
@@ -688,9 +690,10 @@ const translations = {
     "nav.cta": "Programar una consulta →",
 
     "hero.title": 'Claridad sobre<br><span class="accent">complejidad</span>',
-    "hero.lead1": "Ayudamos a juntas directivas y equipos ejecutivos a lograr controles listos para auditoría, confianza regulatoria y una gobernanza tecnológica resiliente.",
-    "hero.lead2": "Narrativas de control y claridad, racionalización de controles clave <br> Estándares de evidencia defendibles alineados con las expectativas de auditoría",
+   "hero.lead1": "Ayudamos a juntas directivas y equipos ejecutivos a fortalecer el riesgo empresarial, la tecnología y la ciberseguridad, construyendo entornos de control que impulsan la preparación para auditoría, la confianza regulatoria y la resiliencia operativa.",
 
+"hero.lead2": "Marcos de control claros y defendibles en procesos empresariales, de TI, ciberseguridad y operativos Controles racionalizados y alineados al riesgo que reducen la complejidad sin sacrificar la garantía",
+"hero.lead3": "Estándares de evidencia que resisten auditorías, reguladores y el escrutinio de las partes interesadas Estructuras de gobernanza que permiten decisiones seguras, responsabilidad y crecimiento escalable",
     "statement.headline": "Controles listos para auditoría<br>Confianza a nivel directivo",
     "statement.subtext": "Nivel de servicio Big Four sin la sobrecarga<br><br>Fortalezca los entornos de riesgo de TI y controles SOX con resultados prácticos y defendibles<br><br>SOX orientado al negocio, gobernanza de riesgo tecnológico y supervisión de IA diseñados para responder ante auditores y reguladores<br><br>Diseño de controles más limpio, evidencia más sólida, menos hallazgos",
 
@@ -979,8 +982,10 @@ const translations = {
     "nav.cta": "预约咨询 →",
 
     "hero.title": '以清晰驾驭<br><span class="accent">复杂性</span>',
-    "hero.lead1": "我们帮助董事会和高管团队建立审计就绪的控制体系、增强监管信心，并打造更具韧性的技术治理能力。",
-    "hero.lead2": "强化控制叙述与清晰度，优化关键控制设计 <br> 建立符合审计预期、可充分举证的证据标准",
+    "hero.lead1": "我们帮助董事会和高管团队强化企业风险、技术和网络安全，构建能够实现审计就绪、增强监管信心并提升运营韧性的控制环境。",
+
+"hero.lead2": "覆盖企业、IT、网络安全及运营流程的清晰且可审计的控制框架 与风险对齐的精简控制，在不降低保障的前提下降低复杂性",
+"hero.lead3": "能够经受审计、监管机构及利益相关方审查的证据标准 支持决策信心、责任落实和可扩展增长的治理结构",
 
     "statement.headline": "审计就绪的控制体系<br>董事会层面的信心",
     "statement.subtext": "提供 Big Four 级别服务，而无需承担其高昂负担<br><br>通过务实且可辩护的成果，强化 IT 风险与 SOX 控制环境<br><br>以业务为导向的 SOX、技术风险治理和 AI 监督框架，可经受审计与监管审查<br><br>更清晰的控制设计、更有力的证据、更少的审计发现",
