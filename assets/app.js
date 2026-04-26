@@ -455,7 +455,6 @@ const translations = {
 "services.opt.b3": "Business process controls (R2R, O2C, P2P, inventory, payroll)",
 "services.opt.b4": "ITGC & application controls",
 "services.opt.b5": "Audit readiness and remediation",
-"services.opt.b6": "Control Environment Optimization & Stabilization",
 "services.opt.b7": "System implementation reviews (pre/post go-live)",
 "services.opt.b8": "SOX program design and execution",
 "services.opt.b9": "Business process walkthroughs & control design",
@@ -495,29 +494,28 @@ const translations = {
     "industries.kicker": "Industries",
     "industries.heroTitle": "A regulatory lens aligned to<br><span>how your industry actually operates</span>.",
     "industries.heading": "Industries we serve",
-    "industries.intro": " Primevant Advisory supports organizations across highly regulated and technology driven industries where strong governance, resilient systems, and audit ready controls are essential. Our experience spans IT controls, cybersecurity governance, privacy obligations, and regulatory compliance across complex enterprise environments.<br><br>We work with leadership teams to translate regulatory expectations into practical, sustainable control environments that strengthen risk oversight and operational resilience.",
+"industries.intro": "Primevant Advisory supports organizations across highly regulated and technology driven industries where strong governance, resilient systems, and audit ready controls are essential. Our experience spans across risk and controls, cybersecurity governance, privacy obligations, and regulatory compliance across complex enterprise environments.<br><br>We work with leadership teams to translate regulatory expectations into practical, sustainable control environments that strengthen risk oversight and operational resilience.",
 
     "industries.fs.title": "Financial Services",
-    "industries.fs.text": "Primevant Advisory helps financial institutions align technology risk and cybersecurity governance with supervisory expectations and frameworks such as SOX, GLBA, FFIEC guidance, and PCI DSS while strengthening the controls that support financial reporting integrity, operational resilience, and customer trust.",
+"industries.fs.text": "Primevant Advisory helps financial institutions align risk and cybersecurity governance with supervisory expectations and frameworks such as SOX, GLBA, FFIEC guidance, and PCI DSS while strengthening the controls that support financial reporting integrity, operational resilience, and customer trust.",
 
     "industries.healthcare.title": "Healthcare",
-    "industries.healthcare.text": "Primevant Advisory supports healthcare organizations in strengthening technology governance and security practices aligned with HIPAA privacy and security expectations, helping protect sensitive patient information while ensuring the reliability and continuity of critical clinical systems.",
+"industries.healthcare.text": "Primevant Advisory supports healthcare organizations in strengthening governance and security practices aligned with HIPAA privacy and security expectations, helping protect sensitive patient information while ensuring the reliability and continuity of critical clinical systems.",
 
     "industries.saas.title": "Technology / SaaS",
     "industries.saas.text": "Primevant Advisory works with technology and SaaS organizations to align governance, risk management, and security practices with industry assurance frameworks such as SOC reporting and ISO aligned security programs, enabling scalable control environments that support privacy compliance, operational resilience, and customer trust.",
 
     "industries.manufacturing.title": "Manufacturing",
-    "industries.manufacturing.text": "Primevant Advisory helps manufacturing organizations strengthen governance and cybersecurity across enterprise IT and operational technology environments to improve operational resilience, protect intellectual property, and support secure and reliable production systems.",
+"industries.manufacturing.text": "Primevant Advisory helps manufacturing organizations strengthen governance and cybersecurity across enterprise IT and operational technology environments to improve the control environment, operational resilience, protect intellectual property, and support secure and reliable production systems.",
 
     "industries.retail.title": "Consumer / Retail",
-    "industries.retail.text": "Primevant Advisory supports consumer and retail organizations in strengthening technology risk governance, payment security, and data protection practices to support secure digital commerce, regulatory compliance, and sustained customer trust.",
+"industries.retail.text": "Primevant Advisory supports consumer and retail organizations in strengthening risk governance, payment security, and data protection practices to support secure digital commerce, regulatory compliance, and sustained customer trust.",
 
     "industries.other.title": "Other regulated environments",
-    "industries.other.text": "Primevant Advisory helps organizations operating in regulated environments align technology governance and cybersecurity practices with sector specific regulatory expectations and federal security frameworks while building resilient, audit ready technology control programs."
-
+"industries.other.text": "Primevant Advisory helps organizations operating in regulated environments align governance and cybersecurity practices with sector specific regulatory expectations and federal security frameworks while building resilient, audit ready control programs.",
     /* Approach */
 
-    ,
+  
     "approach.heroTitle": "Execute fast<br><span style='color:var(--blue2)'>Secure delivery<br></span>Clear scope.",
     "approach.heroLead": "Big 4 rigor with boutique speed, board ready outputs, audit defensible documentation, and sustainable cadence.",
 
@@ -752,7 +750,6 @@ const translations = {
 "services.opt.b3": "Controles de procesos de negocio (R2R, O2C, P2P, inventario, nómina)",
 "services.opt.b4": "ITGC y controles de aplicación",
 "services.opt.b5": "Preparación para auditoría y remediación",
-"services.opt.b6": "Optimización y estabilización del entorno de control",
 "services.opt.b7": "Revisiones de implementación de sistemas (pre y post go-live)",
 "services.opt.b8": "Diseño y ejecución del programa SOX",
 "services.opt.b9": "Walkthroughs de procesos de negocio y diseño de controles",
@@ -1042,7 +1039,6 @@ const translations = {
 "services.opt.b3": "业务流程控制（R2R、O2C、P2P、库存、薪酬）",
 "services.opt.b4": "ITGC与应用控制",
 "services.opt.b5": "审计准备与整改",
-"services.opt.b6": "控制环境优化与稳定化",
 "services.opt.b7": "系统实施评审（上线前/上线后）",
 "services.opt.b8": "SOX项目设计与执行",
 "services.opt.b9": "业务流程穿行测试与控制设计",
