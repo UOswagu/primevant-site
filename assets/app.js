@@ -156,23 +156,24 @@ const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
       text: "Audit-ready controls. Board-level confidence. SOX readiness, IT risk governance, and AI oversight."
     },
     {
-      title: "Services – SOX Readiness & Remediation",
-      url: "services.html#sox",
-      section: "Services",
-      text: "Readiness assessment, gap analysis, remediation support, evidence standards, COSO alignment."
-    },
-    {
-      title: "Services – IT Risk & Governance",
-      url: "services.html#itrisk",
-      section: "Services",
-      text: "NIST/ISO alignment, governance model, board reporting, KRIs, policy and standards, assurance readiness."
-    },
-    {
-      title: "Services – AI & Emerging Technology Risk",
-      url: "services.html#ai",
-      section: "Services",
-      text: "AI governance model, lifecycle controls, approvals, monitoring, audit-ready documentation, NIST AI RMF alignment."
-    },
+  
+  title: "Services – Risk Advisory",
+  url: "services.html#sox",
+  section: "Services",
+  text: "Enterprise risk, operational risk, financial risk, technology risk, governance, regulatory risk."
+},
+{
+  title: "Services – Internal Audit & Financial Reporting Advisory",
+  url: "services.html#itrisk",
+  section: "Services",
+  text: "SOX, ICFR, internal audit, business process controls, financial reporting advisory."
+},
+{
+  title: "Services – Cybersecurity",
+  url: "services.html#itgc",
+  section: "Services",
+  text: "Cybersecurity, identity, access, cloud, application security, data security, third party risk."
+},
     {
       title: "Approach – Primevant delivery model",
       url: "approach.html",
