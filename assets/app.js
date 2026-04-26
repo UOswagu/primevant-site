@@ -153,7 +153,7 @@ const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
       title: "Home – Clarity Over Complexity",
       url: "index.html",
       section: "Home",
-      text: "Audit-ready controls. Board-level confidence. SOX readiness, IT risk governance, and AI oversight."
+      text: "Audit ready controls. Board level confidence. SOX readiness, IT risk governance, and AI oversight."
     },
     {
   
@@ -178,7 +178,7 @@ const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
       title: "Approach – Primevant delivery model",
       url: "approach.html",
       section: "Approach",
-      text: "Diagnose, Design, Remediate, Operationalize, Sustain. Board-ready outputs and audit-defensible workpapers."
+      text: "Diagnose, Design, Remediate, Operationalize, Sustain. Board ready outputs and audit-defensible workpapers."
     },
     {
       title: "Insights – SOX readiness in 30 days (Coming soon)",
@@ -418,7 +418,7 @@ const translations = {
     "band.big": '<span class="accent">Risk Confidence</span>',
     "band.link": "View Our Approach",
     "why.title": "Why Primevant",
-    "why.reason1.title": "Big 4 Audit quality standards.",
+    "why.reason1.title": "Big 4 quality standards.",
     "why.reason1.text": "Methodology backed.<br>Audit defensible.",
     "why.reason2.title": "Boutique Agility.",
     "why.reason2.text": "Direct partner involvement.<br>Faster decisions.",
@@ -428,9 +428,8 @@ const translations = {
 
     /* Services */
     ,
-"services.heroTitle": "Business led Risk and<br><span style='color:var(--blue2)'>Controls Advisory</span>.",
-"services.heroLead": "We help organizations establish strong governance and translate risk into clear, actionable outcomes, enabling executive clarity and audit-ready precision.",
-
+"services.heroTitle": "Business led <br>Enterprise Risk &<br><span style='color:var(--blue2)'>Controls Advisory</span>.",
+"services.heroLead": "We help organizations establish strong governance and translate risk into clear, actionable outcomes, enabling executive clarity and confident, defensible decision making.",
     "services.sectionTitle": "Service lines",
 
     "services.sox.title": "Risk Advisory",
@@ -442,26 +441,25 @@ const translations = {
 "services.sox.b4": "Transformation risk (ERP, M&A, new products)",
 "services.sox.b5": "Regulatory and compliance risk",
 "services.sox.b7": "Enterprise SOX Readiness & Remediation Sprint",
-"services.sox.b8": "Enterprise & process-level risk assessments",
-"services.sox.b10": "Business process risk mapping (order-to-cash, procure-to-pay, etc.)",
+"services.sox.b8": "Enterprise & process level risk assessments",
+"services.sox.b10": "SOC 2 Readiness, Assessment & Audit Support",
 "services.sox.b12": "AI governance and controls advisory (policy + oversight)",
-"services.sox.b13": "Third party risk management/SOC 2 assessment/ISO 27001 evaluation",
+"services.sox.b13": "Third party risk management",
 
     "services.opt.title": "Internal Audit & Financial Reporting Advisory",
-"services.opt.subtitle": "Design and sustain audit-ready control environments across business processes and IT systems",
+"services.opt.subtitle": "Design and sustain audit ready control environments across business processes and IT systems",
 "services.opt.desc": "Core Focus",
 "services.opt.offeringsTitle": "Signature Offerings",
 "services.opt.b1": "SOX / ICFR (business + IT controls)",
 "services.opt.b2": "Internal audit transformation & co-sourcing",
 "services.opt.b3": "Business process controls (R2R, O2C, P2P, inventory, payroll)",
-"services.opt.b4": "ITGC & application controls (supporting layer, not the headline)",
+"services.opt.b4": "ITGC & application controls",
 "services.opt.b5": "Audit readiness and remediation",
-"services.opt.b6": "Control Environment Optimization",
-"services.opt.b7": "ITGC & Application Controls Stabilization",
+"services.opt.b6": "Control Environment Optimization & Stabilization",
+"services.opt.b7": "System implementation reviews (pre/post go-live)",
 "services.opt.b8": "SOX program design and execution",
 "services.opt.b9": "Business process walkthroughs & control design",
-"services.opt.b10": "ERP control frameworks (SAP, Oracle, Workday)",
-
+"services.opt.b10": "ERP control frameworks (SAP, Oracle, Workday) rationalization and optimization",
 
     "services.itgc.title": "Cybersecurity",
 "services.itgc.subtitle": "Protect business operations and financial integrity through secure and resilient technology environments",
@@ -474,10 +472,9 @@ const translations = {
 "services.itgc.b5": "Technology risk supporting SOX and regulatory compliance",
 "services.itgc.b6": "Security architecture & risk assessments",
 "services.itgc.b7": "IAM / privileged access governance",
-"services.itgc.b8": "Secure system implementation reviews (pre/post go-live)",
+"services.itgc.b8": "Information Security & Risk Assessments (ISO 27001, NIST CSF, and other frameworks)",
 "services.itgc.b9": "Data integrity and protection strategies",
 "services.itgc.b13": "Security controls aligned to SOX / ICFR",
-"services.itgc.b14": "Vendor and SaaS risk assessments",
 
     "services.cta": "Want the regulatory lens per industry? <span>See Industries</span> →",
 
@@ -630,7 +627,7 @@ const translations = {
 
 "about.founder.more": "More information",
 "about.teamCredibility.title": "Team credibility",
-"about.teamCredibility.p1": "Primevant Advisory combines senior leadership oversight with a high-caliber network of professionals across governance, risk, cybersecurity, and regulatory disciplines. This model enables the firm to deliver practical, audit-ready outcomes with the depth and discipline expected in complex enterprise environments.",
+"about.teamCredibility.p1": "Primevant Advisory combines senior leadership oversight with a high-caliber network of professionals across governance, risk, cybersecurity, and regulatory disciplines. This model enables the firm to deliver practical, audit ready outcomes with the depth and discipline expected in complex enterprise environments.",
 "about.teamCredibility.p2": "Our engagements are structured to bring the right expertise to the right challenge—balancing executive judgment, specialized capability, and consistent delivery standards to support regulatory readiness, resilient operations, and business-aligned risk management.",
 
 "about.founder.less": "Less information"
@@ -718,7 +715,7 @@ const translations = {
     "band.big": '<span class="accent">confianza en el riesgo</span>',
     "band.link": "Ver nuestro enfoque",
     "why.title": "Por qué Primevant",
-    "why.reason1.title": "Estándares de calidad de auditoría Big 4.",
+    "why.reason1.title": "Estándares de calidad Big 4.",
     "why.reason1.text": "Respaldado por metodología.<br>Defendible ante auditoría.",
     "why.reason2.title": "Agilidad boutique.",
     "why.reason2.text": "Participación directa de socios.<br>Decisiones más rápidas.",
@@ -727,8 +724,8 @@ const translations = {
     "footer.privacy": "Privacidad"
 
     ,
-"services.heroTitle": "Asesoría de riesgos y<br><span style='color:var(--blue2)'>controles orientada al negocio</span>.",
-"services.heroLead": "Ayudamos a las organizaciones a establecer una gobernanza sólida y a traducir el riesgo en resultados claros y accionables, impulsando claridad ejecutiva y precisión lista para auditoría.",
+"services.heroTitle": "Asesoría en Riesgo<br><span style='color:var(--blue2)'>Empresarial y Controles</span>.",
+"services.heroLead": "Ayudamos a las organizaciones a establecer una gobernanza sólida y a traducir el riesgo en resultados claros y accionables, permitiendo claridad ejecutiva y una toma de decisiones segura y defendible.",
 
     "services.sectionTitle": "Líneas de servicio",
 
@@ -742,9 +739,9 @@ const translations = {
 "services.sox.b5": "Riesgo regulatorio y de cumplimiento",
 "services.sox.b7": "Sprint de preparación y remediación SOX a nivel empresarial",
 "services.sox.b8": "Evaluaciones de riesgo a nivel empresarial y de procesos",
-"services.sox.b10": "Mapeo de riesgos de procesos de negocio (order-to-cash, procure-to-pay, etc.)",
+"services.sox.b10": "Preparación, evaluación y soporte de auditoría SOC 2",
 "services.sox.b12": "Asesoría en gobernanza y controles de IA (política y supervisión)",
-"services.sox.b13": "Gestión de riesgos de terceros / evaluación SOC 2 / evaluación ISO 27001",
+"services.sox.b13": "Gestión de riesgos de terceros",
 
     "services.opt.title": "Asesoría de Auditoría Interna y Reporte Financiero",
 "services.opt.subtitle": "Diseñar y sostener entornos de control listos para auditoría en procesos de negocio y sistemas de TI",
@@ -753,14 +750,13 @@ const translations = {
 "services.opt.b1": "SOX / ICFR (controles de negocio + TI)",
 "services.opt.b2": "Transformación de auditoría interna y co-sourcing",
 "services.opt.b3": "Controles de procesos de negocio (R2R, O2C, P2P, inventario, nómina)",
-"services.opt.b4": "ITGC y controles de aplicación (capa de soporte, no el titular principal)",
+"services.opt.b4": "ITGC y controles de aplicación",
 "services.opt.b5": "Preparación para auditoría y remediación",
-"services.opt.b6": "Optimización del entorno de control",
-"services.opt.b7": "Estabilización de ITGC y controles de aplicación",
+"services.opt.b6": "Optimización y estabilización del entorno de control",
+"services.opt.b7": "Revisiones de implementación de sistemas (pre y post go-live)",
 "services.opt.b8": "Diseño y ejecución del programa SOX",
 "services.opt.b9": "Walkthroughs de procesos de negocio y diseño de controles",
-"services.opt.b10": "Marcos de control ERP (SAP, Oracle, Workday)",
-
+"services.opt.b10": "Racionalización y optimización de marcos de control ERP (SAP, Oracle, Workday)",
 
     "services.itgc.title": "Ciberseguridad",
 "services.itgc.subtitle": "Proteja las operaciones del negocio y la integridad financiera mediante entornos tecnológicos seguros y resilientes",
@@ -773,10 +769,9 @@ const translations = {
 "services.itgc.b5": "Riesgo tecnológico que respalda SOX y el cumplimiento regulatorio",
 "services.itgc.b6": "Arquitectura de seguridad y evaluaciones de riesgo",
 "services.itgc.b7": "Gobernanza de IAM / acceso privilegiado",
-"services.itgc.b8": "Revisiones seguras de implementación de sistemas (antes/después del go-live)",
+"services.itgc.b8": "Evaluaciones de seguridad de la información y riesgo (ISO 27001, NIST CSF y otros marcos)",
 "services.itgc.b9": "Estrategias de integridad y protección de datos",
 "services.itgc.b13": "Controles de seguridad alineados con SOX / ICFR",
-"services.itgc.b14": "Evaluaciones de riesgo de proveedores y SaaS",
 
     "services.cta": "Quiere la visión regulatoria por industria? <span>Ver Industrias</span> →",
 
@@ -1012,7 +1007,7 @@ const translations = {
     "band.big": '<span class="accent">风险信心</span>',
     "band.link": "查看我们的方法",
     "why.title": "为什么选择 Primevant",
-    "why.reason1.title": "四大 级审计质量标准。",
+    "why.reason1.title": "四大级质量标准。",
     "why.reason1.text": "方法论支撑。<br>可经受审计检验。",
     "why.reason2.title": "精品咨询的敏捷性。",
     "why.reason2.text": "合伙人直接参与。<br>决策更快速。",
@@ -1021,11 +1016,9 @@ const translations = {
     "footer.privacy": "隐私政策"
 
     ,
-"services.heroTitle": "以业务为导向的风险与<br><span style='color:var(--blue2)'>控制咨询</span>.",
-"services.heroLead": "我们帮助组织建立稳健的治理体系，并将风险转化为清晰、可执行的成果，从而实现高管层清晰决策与审计就绪的精准度。",
-
+"services.heroTitle": "以业务为导向的企业风险与<br><span style='color:var(--blue2)'>控制咨询</span>。",
+"services.heroLead": "我们帮助组织建立稳健的治理体系，将风险转化为清晰、可执行的成果，从而实现高管层的清晰决策以及自信且可辩护的决策能力。",
     "services.sectionTitle": "服务领域",
-
     "services.sox.title": "风险咨询",
 "services.sox.subtitle": "将企业、运营、财务及技术风险与业务战略对齐",
 "services.sox.desc": "核心重点",
@@ -1034,11 +1027,11 @@ const translations = {
 "services.sox.b2": "运营及财务风险评估",
 "services.sox.b4": "转型风险（ERP、并购、新产品）",
 "services.sox.b5": "监管与合规风险",
-"services.sox.b7": "企业级SOX准备与整改加速方案",
-"services.sox.b8": "企业及流程级风险评估",
-"services.sox.b10": "业务流程风险映射（如订单到收款、采购到付款等）",
-"services.sox.b12": "AI治理与控制咨询（政策与监督）",
-"services.sox.b13": "第三方风险管理 / SOC 2评估 / ISO 27001评估",
+"services.sox.b7": "企业级 SOX 准备与整改冲刺",
+"services.sox.b8": "企业级与流程级风险评估",
+"services.sox.b10": "SOC 2 准备、评估与审计支持",
+"services.sox.b12": "AI 治理与控制咨询（政策与监督）",
+"services.sox.b13": "第三方风险管理",
 
     "services.opt.title": "内部审计与财务报告咨询",
 "services.opt.subtitle": "在业务流程与IT系统中设计并持续维护审计就绪的控制环境",
@@ -1047,14 +1040,13 @@ const translations = {
 "services.opt.b1": "SOX / ICFR（业务 + IT控制）",
 "services.opt.b2": "内部审计转型与联合外包",
 "services.opt.b3": "业务流程控制（R2R、O2C、P2P、库存、薪酬）",
-"services.opt.b4": "ITGC与应用控制（支撑层，而非主标题）",
+"services.opt.b4": "ITGC与应用控制",
 "services.opt.b5": "审计准备与整改",
-"services.opt.b6": "控制环境优化",
-"services.opt.b7": "ITGC与应用控制稳定化",
+"services.opt.b6": "控制环境优化与稳定化",
+"services.opt.b7": "系统实施评审（上线前/上线后）",
 "services.opt.b8": "SOX项目设计与执行",
 "services.opt.b9": "业务流程穿行测试与控制设计",
-"services.opt.b10": "ERP控制框架（SAP、Oracle、Workday）",
-
+"services.opt.b10": "ERP 控制框架（SAP、Oracle、Workday）的优化与精简",
 
     "services.itgc.title": "网络安全",
 "services.itgc.subtitle": "通过安全且具韧性的技术环境保护业务运营和财务完整性",
@@ -1067,10 +1059,9 @@ const translations = {
 "services.itgc.b5": "支持SOX和监管合规的技术风险",
 "services.itgc.b6": "安全架构与风险评估",
 "services.itgc.b7": "IAM / 特权访问治理",
-"services.itgc.b8": "安全系统实施审查（上线前/上线后）",
+"services.itgc.b8": "信息安全与风险评估（ISO 27001、NIST CSF 等框架）",
 "services.itgc.b9": "数据完整性与保护策略",
 "services.itgc.b13": "与SOX / ICFR对齐的安全控制",
-"services.itgc.b14": "供应商与SaaS风险评估",
 
 
     "services.cta": "想按行业了解监管视角？<span>查看行业</span> →",
