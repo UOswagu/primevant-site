@@ -543,8 +543,7 @@ const translations = {
 
   ,
     "insights.heroCta": "Primevant Insights",
-    "insights.title": "Insights",
-"insights.lede": "Practical insights on enterprise risk, technology, and controls, designed for CFO, CIO, CISO, and Internal Audit leaders seeking clarity, control, and confidence.",
+"insights.title": "Risk clarity<br><span style='color:var(--blue2)'>Control insight</span><br>Executive confidence","insights.lede": "Practical insights on enterprise risk, technology, and controls, designed for CFO, CIO, CISO, and Internal Audit leaders seeking clarity, control, and confidence.",
     "insights.p1.title": "SOX readiness in 30 days",
     "insights.p1.text": "A realistic sequence: scope, narratives, walkthroughs, evidence standards, and remediation tracking.",
     "insights.read": "Read post →",
@@ -570,19 +569,19 @@ const translations = {
 /* about */
 
 ,
-    "about.tophero.title": "Our people. Your audit. Exceptional precision.",
+"about.tophero.title": "Our people. Your confidence. Exceptional precision.",
 
     "about.hero.title": "Board level risk advisory<br><span style='color:var(--blue2)'>with Big 4 discipline</span>.",
     "about.hero.lead": "Primevant Advisory helps leadership teams strengthen governance, manage risk effectively, and sustain resilient internal control environments.",
 
     "about.section.title": "About Primevant Advisory",
-    "about.section.lead": "Primevant Advisory is a boutique advisory focused on IT Risk, SOX, and Controls. We deliver clear scope, executive level communication, and audit ready outcomes without unnecessary overhead.",
+"about.section.lead": "Primevant Advisory is a boutique advisory firm focused on enterprise risk, technology, cybersecurity, and controls. We deliver clear scope, executive level communication, and defensible outcomes, without unnecessary overhead.",
 
     "about.mission.title": "Our mission",
-    "about.mission.text": "Help organizations strengthen their control environments in a way that is practical, defensible, and aligned to business operations so SOX and IT risk programs reduce surprises and increase confidence.",
+"about.mission.text": "Help organizations strengthen enterprise risk and control environments in a practical, defensible way that aligns with business operations, reducing surprises and increasing confidence across governance, technology, and assurance programs.",
 
     "about.values.title": "Our values",
-    "about.values.text": "Clarity (clear scope & deliverables), Discipline (audit grade evidence), Judgment (right sized controls), and Trust (secure handling of client information).",
+"about.values.text": "Clarity (clear scope, expectations, and outcomes), Discipline (consistent, defensible evidence and execution), Judgment (right sized, risk informed controls), and Trust (secure handling of client information and relationships).",
 
     "about.founder.name": "Uchechi Osuagwu",
     "about.founder.role": "Managing Partner",
@@ -608,7 +607,7 @@ const translations = {
     ,
 "about.narrative.title": "Strengthening governance.<br><span style='color:var(--blue2)'>Enabling confident decisions.</span>",
 "about.narrative.p1": "Primevant Advisory partners with leadership teams to establish strong governance frameworks and translate risk into clear, actionable outcomes.",
-"about.narrative.p2": "We operate at the intersection of business, risk, and controls, helping organizations navigate regulatory expectations, strengthen oversight, and build resilient operating environments that support growth.",
+"about.narrative.p2": "We help organizations align business, risk, and controls, strengthening oversight, meeting regulatory expectations, and building resilient operating environments that support growth.",
 
 "about.team.title": "Capabilities & team",
 "about.team.lead": "Primevant Advisory delivers through a focused, high caliber network of professionals across governance, risk, cybersecurity and regulatory disciplines structured to support complex, enterprise environments.",
@@ -836,7 +835,7 @@ const translations = {
 
 ,
     "insights.heroCta": "Perspectivas Primevant",
-    "insights.title": "Perspectivas",
+"insights.title": "Claridad de riesgo<br><span style='color:var(--blue2)'>visión de control</span><br>confianza ejecutiva",
     "insights.lede": "Perspectivas prácticas sobre riesgo empresarial, tecnología y controles, diseñadas para CFO, CIO, CISO y líderes de Auditoría Interna que buscan claridad, control y confianza.",
 
     "insights.p1.title": "Preparación SOX en 30 días",
@@ -864,19 +863,18 @@ const translations = {
 
 
 ,
-    "about.tophero.title": "Nuestra gente. Su auditoría. Precisión excepcional.",
+"about.tophero.title": "Nuestra gente. Su confianza. Precisión excepcional.",
 
     "about.hero.title": "Asesoría de riesgos a nivel directivo<br><span style='color:var(--blue2)'>con disciplina Big 4</span>.",
     "about.hero.lead": "Primevant Advisory ayuda a los equipos directivos a fortalecer la gobernanza, gestionar el riesgo de forma eficaz y mantener entornos de control interno resilientes.",
 
     "about.section.title": "Sobre Primevant Advisory",
-    "about.section.lead": "Primevant Advisory es una firma boutique de asesoría enfocada en Riesgo de TI, SOX y Controles. Ofrecemos alcance claro, comunicación ejecutiva y resultados listos para auditoría, sin sobrecarga innecesaria.",
+"about.section.lead": "Primevant Advisory es una firma boutique de asesoría enfocada en riesgo empresarial, tecnología, ciberseguridad y controles. Ofrecemos alcance claro, comunicación a nivel ejecutivo y resultados defendibles, sin sobrecarga innecesaria.",
 
     "about.mission.title": "Nuestra misión",
-    "about.mission.text": "Ayudar a las organizaciones a fortalecer sus entornos de control de forma práctica, defendible y alineada con las operaciones del negocio, para que los programas de SOX y riesgo de TI reduzcan sorpresas y aumenten la confianza.",
-
+"about.mission.text": "Ayudar a las organizaciones a fortalecer los entornos de riesgo y control empresarial de manera práctica y defendible, alineada con las operaciones del negocio, reduciendo sorpresas y aumentando la confianza en la gobernanza, la tecnología y los programas de aseguramiento.",
     "about.values.title": "Nuestros valores",
-    "about.values.text": "Claridad (alcance y entregables claros), Disciplina (evidencia de nivel auditoría), Criterio (controles proporcionados) y Confianza (manejo seguro de la información del cliente).",
+"about.values.text": "Claridad (alcance, expectativas y resultados claros), Disciplina (evidencia y ejecución consistentes y defendibles), Criterio (controles adecuados y alineados al riesgo), y Confianza (manejo seguro de la información y las relaciones con clientes).",
 
     "about.founder.name": "Uchechi Osuagwu",
     "about.founder.role": "Socia Directora",
@@ -903,7 +901,7 @@ const translations = {
     ,
 "about.narrative.title": "Fortaleciendo la gobernanza.<br><span style='color:var(--blue2)'>Impulsando decisiones con confianza.</span>",
 "about.narrative.p1": "Primevant Advisory colabora con equipos directivos para establecer marcos sólidos de gobernanza y transformar el riesgo en resultados claros y accionables.",
-"about.narrative.p2": "Operamos en la intersección entre negocio, riesgo y control, ayudando a las organizaciones a navegar expectativas regulatorias, fortalecer la supervisión y construir entornos operativos resilientes que apoyen el crecimiento.",
+"about.narrative.p2": "Ayudamos a las organizaciones a alinear el negocio, el riesgo y los controles, fortaleciendo la supervisión, cumpliendo con las expectativas regulatorias y construyendo entornos operativos resilientes que respaldan el crecimiento.",
 
 "about.team.title": "Capacidades y equipo",
 "about.team.lead": "Primevant Advisory opera a través de una red enfocada y altamente calificada de profesionales en gobernanza, riesgo, ciberseguridad y cumplimiento regulatorio, estructurada para entornos empresariales complejos.",
@@ -1124,7 +1122,7 @@ const translations = {
 
 ,
     "insights.heroCta": "Primevant 洞察",
-    "insights.title": "洞察",
+"insights.title": "风险清晰<br><span style='color:var(--blue2)'>控制洞察</span><br>高管信心",
     "insights.lede": "围绕企业风险、技术与控制的实用洞察，专为 CFO、CIO、CISO 及内部审计领导者设计，帮助实现清晰、掌控与信心",
 
     "insights.p1.title": "30天 SOX 准备",
@@ -1152,19 +1150,19 @@ const translations = {
 
 
     ,
-    "about.tophero.title": "我们的团队，您的审计，卓越精准。",
+"about.tophero.title": "我们的团队。您的信心。卓越的精准度。",
 
     "about.hero.title": "董事会级风险咨询<br><span style='color:var(--blue2)'>具备四大标准</span>。",
     "about.hero.lead": "Primevant Advisory 帮助管理团队强化治理、有效管理风险，并维持具韧性的内部控制环境。",
 
     "about.section.title": "关于 Primevant Advisory",
-    "about.section.lead": "Primevant Advisory 是一家专注于 IT 风险、SOX 和控制的精品咨询公司。我们提供清晰范围、高管级沟通和审计就绪成果，而不增加不必要的负担。",
+"about.section.lead": "Primevant Advisory 是一家专注于企业风险、技术、网络安全与控制的精品咨询公司。我们提供清晰的范围、管理层级沟通以及可辩护的成果，同时避免不必要的复杂性。",
 
     "about.mission.title": "我们的使命",
-    "about.mission.text": "帮助组织以务实、可辩护并与业务运营相一致的方式强化控制环境，从而让 SOX 和 IT 风险项目减少意外并提升信心。",
+"about.mission.text": "帮助组织以务实且可辩护的方式强化企业风险与控制环境，使其与业务运营保持一致，从而减少不确定性，并提升治理、技术与保障体系的整体信心。",
 
     "about.values.title": "我们的价值观",
-    "about.values.text": "清晰（明确范围和交付物）、纪律（审计级证据）、判断（适度控制）和信任（安全处理客户信息）。",
+"about.values.text": "清晰（明确的范围、预期与成果），纪律（持续且可辩护的证据与执行），判断（与风险匹配、适度的控制），以及信任（安全处理客户信息与关系）。",
 
     "about.founder.name": "Uchechi Osuagwu",
     "about.founder.role": "管理合伙人",
@@ -1184,12 +1182,11 @@ const translations = {
 
     "about.founder.credibility.title": "专业说明",
     "about.founder.credibility.p1": "Uchechi 兼具高管判断力、技术深度和务实交付经验。这使她不仅能帮助高级领导识别风险，更能帮助他们解决风险，设计真正适用于现实环境的控制环境、治理模型和运营结构。",
-    "about.founder.credibility.p2": "她的方法严谨、结果导向，并扎根于审计、监管和企业执行的现实需求。通过 Primevant Advisory，Uchechi 与组织合作，将监管压力和技术变革转化为战略优势。"
-
-    ,
+    "about.founder.credibility.p2": "她的方法严谨、结果导向，并扎根于审计、监管和企业执行的现实需求。通过 Primevant Advisory，Uchechi 与组织合作，将监管压力和技术变革转化为战略优势。",
+    
 "about.narrative.title": "强化治理能力。<br><span style='color:var(--blue2)'>助力自信决策。</span>",
 "about.narrative.p1": "Primevant Advisory 与管理层合作，建立稳健的治理框架，并将风险转化为清晰、可执行的成果。",
-"about.narrative.p2": "我们立足于业务、风险与控制的交汇点，帮助组织应对监管要求、强化监督机制，并构建支持增长的韧性运营环境。",
+"about.narrative.p2": "我们帮助组织对齐业务、风险与控制，加强监督，满足监管要求，并构建支持增长的稳健运营环境。",
 
 "about.team.title": "能力与团队",
 "about.team.lead": "Primevant Advisory 通过一支专注且高水平的专业网络提供服务，涵盖治理、风险、网络安全及监管领域，能够支持复杂的企业环境。",
