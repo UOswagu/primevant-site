@@ -587,7 +587,7 @@ const translations = {
     "about.founder.role": "Managing Partner",
 
     "about.founder.background.title": "Background Summary",
-    "about.founder.background.p1": "Uchechi Osuagwu is a former EY partner and seasoned technology risk executive with over 15 years of experience leading enterprise audit, cybersecurity, AI strategy, and digital transformation initiatives for Fortune 50 organizations. Her career spans complex, highly regulated global environments where technology, risk, and business outcomes intersect.",
+"about.founder.background.p1": "Uchechi Osuagwu is a former EY partner and seasoned technology risk executive with over 15 years of experience leading enterprise audit, cybersecurity, AI strategy, and digital transformation initiatives for Fortune 500 organizations. Her career spans complex, highly regulated global environments where technology, risk, and business outcomes intersect.",
     "about.founder.background.p2": "Uchechi has led large scale programs focused on strengthening technology controls, operationalizing AI governance, and modernizing enterprise risk and audit frameworks to support growth, regulatory readiness, and resilience. Throughout her career, she has worked closely with Boards, executive leadership teams, and regulators, advising on SOX readiness, cyber resilience, third party risk, and emerging technology risks.",
     "about.founder.background.p3": "She is recognized for her ability to bridge the gap between technical complexity and executive decision making translating intricate control, security, and AI challenges into practical, business aligned strategies.",
 
@@ -623,8 +623,8 @@ const translations = {
 
 "about.founder.more": "More information",
 "about.teamCredibility.title": "Team credibility",
-"about.teamCredibility.p1": "Primevant Advisory combines senior leadership oversight with a high-caliber network of professionals across governance, risk, cybersecurity, and regulatory disciplines. This model enables the firm to deliver practical, audit ready outcomes with the depth and discipline expected in complex enterprise environments.",
-"about.teamCredibility.p2": "Our engagements are structured to bring the right expertise to the right challenge—balancing executive judgment, specialized capability, and consistent delivery standards to support regulatory readiness, resilient operations, and business-aligned risk management.",
+"about.teamCredibility.p1": "Primevant Advisory combines senior leadership oversight with a high caliber network of professionals across governance, risk, cybersecurity, and regulatory disciplines. This model enables the firm to deliver practical, audit ready outcomes with the depth and discipline expected in complex enterprise environments.",
+"about.teamCredibility.p2": "Our engagements are structured to bring the right expertise to the right challenge balancing executive judgment, specialized capability, and consistent delivery standards to support regulatory readiness, resilient operations, and business aligned risk management.",
 
 "about.founder.less": "Less information"
 
@@ -880,7 +880,7 @@ const translations = {
     "about.founder.role": "Socia Directora",
 
     "about.founder.background.title": "Resumen profesional",
-    "about.founder.background.p1": "Uchechi Osuagwu es ex socia de EY y una experimentada ejecutiva de riesgo tecnológico con más de 15 años de experiencia liderando auditoría empresarial, ciberseguridad, estrategia de IA e iniciativas de transformación digital para organizaciones Fortune 50. Su trayectoria abarca entornos globales complejos y altamente regulados, donde convergen tecnología, riesgo y resultados de negocio.",
+"about.founder.background.p1": "Uchechi Osuagwu es ex socia de EY y una ejecutiva experimentada en riesgo tecnológico con más de 15 años de experiencia liderando iniciativas de auditoría empresarial, ciberseguridad, estrategia de IA y transformación digital para organizaciones Fortune 500...",
     "about.founder.background.p2": "Uchechi ha liderado programas de gran escala enfocados en fortalecer controles tecnológicos, operacionalizar la gobernanza de IA y modernizar marcos empresariales de riesgo y auditoría para respaldar crecimiento, preparación regulatoria y resiliencia. A lo largo de su carrera, ha trabajado estrechamente con juntas directivas, equipos ejecutivos y reguladores, asesorando sobre preparación SOX, resiliencia cibernética, riesgo de terceros y riesgos tecnológicos emergentes.",
     "about.founder.background.p3": "Es reconocida por su capacidad para cerrar la brecha entre la complejidad técnica y la toma de decisiones ejecutiva, traduciendo desafíos complejos de control, seguridad e IA en estrategias prácticas y alineadas al negocio.",
 
@@ -1168,7 +1168,7 @@ const translations = {
     "about.founder.role": "管理合伙人",
 
     "about.founder.background.title": "背景简介",
-    "about.founder.background.p1": "Uchechi Osuagwu 曾任安永合伙人，是一位资深技术风险高管，拥有 15 年以上经验，曾为《财富》50 强企业领导企业审计、网络安全、AI 战略和数字化转型项目。她的职业经历覆盖复杂且高度受监管的全球环境，在这些环境中，技术、风险和业务成果紧密交汇。",
+"about.founder.background.p1": "Uchechi Osuagwu 曾任安永合伙人，是一位资深技术风险高管，拥有超过15年的经验，曾为财富500强企业领导企业审计、网络安全、人工智能战略及数字化转型项目...",
     "about.founder.background.p2": "Uchechi 曾领导大型项目，重点在于强化技术控制、推动 AI 治理落地，并现代化企业风险与审计框架，以支持增长、监管就绪和韧性建设。在她的职业生涯中，她与董事会、高管团队和监管机构密切合作，就 SOX 准备、网络韧性、第三方风险和新兴技术风险提供咨询。",
     "about.founder.background.p3": "她因能够弥合技术复杂性与高管决策之间的差距而广受认可，能够将复杂的控制、安全和 AI 挑战转化为务实且符合业务目标的战略。",
 
@@ -1183,7 +1183,7 @@ const translations = {
     "about.founder.credibility.title": "专业说明",
     "about.founder.credibility.p1": "Uchechi 兼具高管判断力、技术深度和务实交付经验。这使她不仅能帮助高级领导识别风险，更能帮助他们解决风险，设计真正适用于现实环境的控制环境、治理模型和运营结构。",
     "about.founder.credibility.p2": "她的方法严谨、结果导向，并扎根于审计、监管和企业执行的现实需求。通过 Primevant Advisory，Uchechi 与组织合作，将监管压力和技术变革转化为战略优势。",
-    
+
 "about.narrative.title": "强化治理能力。<br><span style='color:var(--blue2)'>助力自信决策。</span>",
 "about.narrative.p1": "Primevant Advisory 与管理层合作，建立稳健的治理框架，并将风险转化为清晰、可执行的成果。",
 "about.narrative.p2": "我们帮助组织对齐业务、风险与控制，加强监督，满足监管要求，并构建支持增长的稳健运营环境。",
