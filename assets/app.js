@@ -587,7 +587,7 @@ const translations = {
     "about.founder.role": "Managing Partner",
 
     "about.founder.background.title": "Background Summary",
-"about.founder.background.p1": "Uchechi Osuagwu is a former EY partner and seasoned technology risk executive with over 15 years of experience leading enterprise audit, cybersecurity, AI strategy, and digital transformation initiatives for Fortune 500 organizations. Her career spans complex, highly regulated global environments where technology, risk, and business outcomes intersect.",
+"about.founder.background.p1": "Uchechi Osuagwu is a former EY New York City partner and seasoned technology risk executive with over 15 years of experience leading enterprise audit, cybersecurity, AI strategy, and digital transformation initiatives for Fortune 500 organizations. Her career spans complex, highly regulated global environments where technology, risk, and business outcomes intersect.",
     "about.founder.background.p2": "Uchechi has led large scale programs focused on strengthening technology controls, operationalizing AI governance, and modernizing enterprise risk and audit frameworks to support growth, regulatory readiness, and resilience. Throughout her career, she has worked closely with Boards, executive leadership teams, and regulators, advising on SOX readiness, cyber resilience, third party risk, and emerging technology risks.",
     "about.founder.background.p3": "She is recognized for her ability to bridge the gap between technical complexity and executive decision making translating intricate control, security, and AI challenges into practical, business aligned strategies.",
 
@@ -635,10 +635,12 @@ const translations = {
 
 ,
     "contact.banner": "Contact us",
-    "contact.heroTitle": "Let’s align on your<br><span style='color:var(--blue2)'>audit ready objectives</span>.",
-    "contact.p1": "<b> Translate risk into executive action.</b> We bridge the gap between technical teams, internal audit, and executive leadership to ensure control frameworks support business objectives.",
-    "contact.p2": "<b> Reduce compliance friction.</b> We streamline control design, documentation, and evidence practices so your teams spend less time managing audits and more time delivering results.",
-    "contact.p3": "<b> Engage with a proven advisor.</b> With deep experience supporting boards, C-suites, and audit committees, we deliver practical solutions that stand up to regulatory and external audit review.",
+"contact.heroTitle": "Let’s align on your<br><span style='color:var(--blue2)'>control and risk objectives</span>.",
+"contact.p1": "<b>Translate risk into executive action.</b> We bridge the gap between technical teams, internal audit, and executive leadership to ensure control frameworks support business and operational priorities.",
+    "contact.p2": "<b>Reduce complexity and friction.</b> We streamline control design, documentation, and evidence practices so your teams spend less time managing controls and more time driving performance and value.",
+
+"contact.p3": "<b>Engage with a proven advisor.</b> With deep experience supporting boards, C-suites, and audit committees, we deliver practical solutions that stand up to regulatory, audit, and stakeholder scrutiny.",
+
 
     "contact.formTitle": "Send a message",
     "contact.name": "Full name *",
@@ -880,7 +882,7 @@ const translations = {
     "about.founder.role": "Socia Directora",
 
     "about.founder.background.title": "Resumen profesional",
-"about.founder.background.p1": "Uchechi Osuagwu es ex socia de EY y una ejecutiva experimentada en riesgo tecnológico con más de 15 años de experiencia liderando iniciativas de auditoría empresarial, ciberseguridad, estrategia de IA y transformación digital para organizaciones Fortune 500...",
+"about.founder.background.p1": "Uchechi Osuagwu es ex socia de EY en Nueva York y una ejecutiva experimentada en riesgo tecnológico con más de 15 años de experiencia liderando iniciativas de auditoría empresarial, ciberseguridad, estrategia de IA y transformación digital para organizaciones Fortune 500. Su trayectoria abarca entornos globales complejos y altamente regulados donde la tecnología, el riesgo y los resultados del negocio convergen.",
     "about.founder.background.p2": "Uchechi ha liderado programas de gran escala enfocados en fortalecer controles tecnológicos, operacionalizar la gobernanza de IA y modernizar marcos empresariales de riesgo y auditoría para respaldar crecimiento, preparación regulatoria y resiliencia. A lo largo de su carrera, ha trabajado estrechamente con juntas directivas, equipos ejecutivos y reguladores, asesorando sobre preparación SOX, resiliencia cibernética, riesgo de terceros y riesgos tecnológicos emergentes.",
     "about.founder.background.p3": "Es reconocida por su capacidad para cerrar la brecha entre la complejidad técnica y la toma de decisiones ejecutiva, traduciendo desafíos complejos de control, seguridad e IA en estrategias prácticas y alineadas al negocio.",
 
@@ -925,11 +927,10 @@ const translations = {
 
     ,
     "contact.banner": "Contáctenos",
-    "contact.heroTitle": "Alineemos sus<br><span style='color:var(--blue2)'>objetivos listos para auditoría</span>.",
-    "contact.p1": "<b> Convierta el riesgo en acción ejecutiva.</b> Cerramos la brecha entre equipos técnicos, auditoría interna y liderazgo ejecutivo para asegurar que los marcos de control respalden los objetivos del negocio.",
-    "contact.p2": "<b> Reduzca la fricción de cumplimiento.</b> Optimizamos el diseño de controles, la documentación y las prácticas de evidencia para que sus equipos dediquen menos tiempo a gestionar auditorías y más tiempo a generar resultados.",
-    "contact.p3": "<b> Trabaje con una asesora comprobada.</b> Con amplia experiencia apoyando a juntas directivas, equipos C-suite y comités de auditoría, ofrecemos soluciones prácticas que resisten el escrutinio regulatorio y de auditoría externa.",
-
+"contact.heroTitle": "Alineemos sus<br><span style='color:var(--blue2)'>objetivos de control y riesgo</span>.",
+"contact.p1": "<b>Traducir el riesgo en acción ejecutiva.</b> Cerramos la brecha entre equipos técnicos, auditoría interna y liderazgo ejecutivo para asegurar que los marcos de control respalden las prioridades operativas y del negocio.",
+"contact.p2": "<b>Reducir complejidad y fricción.</b> Optimizamos el diseño de controles, la documentación y las prácticas de evidencia para que sus equipos dediquen menos tiempo a gestionar controles y más tiempo a impulsar el rendimiento y el valor.",
+"contact.p3": "<b>Trabaje con un asesor de confianza.</b> Con amplia experiencia apoyando a juntas directivas, equipos C-suite y comités de auditoría, ofrecemos soluciones prácticas que resisten el escrutinio regulatorio, de auditoría y de las partes interesadas.",
     "contact.formTitle": "Enviar un mensaje",
     "contact.name": "Nombre completo *",
     "contact.email": "Correo electrónico *",
@@ -1168,7 +1169,7 @@ const translations = {
     "about.founder.role": "管理合伙人",
 
     "about.founder.background.title": "背景简介",
-"about.founder.background.p1": "Uchechi Osuagwu 曾任安永合伙人，是一位资深技术风险高管，拥有超过15年的经验，曾为财富500强企业领导企业审计、网络安全、人工智能战略及数字化转型项目...",
+"about.founder.background.p1": "Uchechi Osuagwu 曾任安永纽约办公室合伙人，是一位资深技术风险高管，拥有超过15年的经验，曾为财富500强企业领导企业审计、网络安全、人工智能战略及数字化转型项目。她的职业生涯涵盖复杂且高度受监管的全球环境，在这些环境中，技术、风险与业务成果相互交织。",
     "about.founder.background.p2": "Uchechi 曾领导大型项目，重点在于强化技术控制、推动 AI 治理落地，并现代化企业风险与审计框架，以支持增长、监管就绪和韧性建设。在她的职业生涯中，她与董事会、高管团队和监管机构密切合作，就 SOX 准备、网络韧性、第三方风险和新兴技术风险提供咨询。",
     "about.founder.background.p3": "她因能够弥合技术复杂性与高管决策之间的差距而广受认可，能够将复杂的控制、安全和 AI 挑战转化为务实且符合业务目标的战略。",
 
@@ -1210,10 +1211,10 @@ const translations = {
 
 ,
     "contact.banner": "联系我们",
-    "contact.heroTitle": "让我们对齐您的<br><span style='color:var(--blue2)'>审计就绪目标</span>。",
-    "contact.p1": "<b> 将风险转化为高管行动。</b> 我们帮助技术团队、内部审计和管理层之间建立桥梁，确保控制框架支持业务目标。",
-    "contact.p2": "<b> 降低合规摩擦。</b> 我们优化控制设计、文档和证据实践，使您的团队减少审计管理负担并更专注于交付成果。",
-    "contact.p3": "<b> 与值得信赖的顾问合作。</b> 凭借支持董事会、高管团队和审计委员会的丰富经验，我们提供能够经受监管和外部审计审查的务实解决方案。",
+"contact.heroTitle": "让我们对齐您的<br><span style='color:var(--blue2)'>控制与风险目标</span>。",
+"contact.p1": "<b>将风险转化为高管层行动。</b> 我们在技术团队、内部审计与管理层之间架起桥梁，确保控制框架支持业务与运营重点。",
+"contact.p2": "<b>降低复杂性与摩擦。</b> 我们优化控制设计、文档与证据实践，使团队减少控制管理负担，将更多精力用于提升绩效与创造价值。",
+"contact.p3": "<b>与值得信赖的顾问合作。</b> 凭借支持董事会、高管团队及审计委员会的丰富经验，我们提供能够经受监管、审计及利益相关方审视的务实解决方案。",
 
     "contact.formTitle": "发送消息",
     "contact.name": "姓名 *",
