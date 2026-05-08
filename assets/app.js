@@ -721,7 +721,86 @@ const translations = {
 "thirdParty.final.li5": "How quickly would management identify emerging third-party risk issues?",
 "thirdParty.final.li6": "Can governance activities be evidenced under external scrutiny?",
 "thirdParty.final.p2": "Organizations that establish disciplined governance structures earlier will be in a far stronger position to balance innovation, operational resilience, and regulatory expectations simultaneously.",
-"thirdParty.final.p3": "Over time, the strongest control environments will not necessarily belong to organizations with the fewest third-party dependencies. More likely, they will belong to organizations capable of demonstrating that external risk exposure is being governed with the same rigor expected internally."
+"thirdParty.final.p3": "Over time, the strongest control environments will not necessarily belong to organizations with the fewest third-party dependencies. More likely, they will belong to organizations capable of demonstrating that external risk exposure is being governed with the same rigor expected internally.",
+
+"soxScaling.title": " ",
+"soxScaling.subtitle": " ",
+
+"soxScaling.intro1": "Fast-scaling organizations rarely struggle because they lack capable people or strong business momentum. More commonly, pressure begins building when operational growth outpaces the maturity of the processes supporting financial reporting, technology governance, and control execution.",
+"soxScaling.intro2": "Most organizations entering this phase are not starting from zero. Approval processes already exist. Reviews are happening. Finance and technology teams are exercising oversight in various forms across the business.",
+"soxScaling.intro3": "The organizations that navigate this transition most effectively tend to recognize early that SOX readiness is less about adding layers of compliance and more about standardizing operational discipline before complexity expands further.",
+
+"soxScaling.section1.title": "Audit Friction Usually Starts Before Formal Testing",
+"soxScaling.section1.p1": "Many companies assume audit friction begins once testing activities start. In reality, the strain typically emerges much earlier when organizations begin documenting processes that have evolved organically over several years.",
+"soxScaling.section1.p2": "Fast-growing businesses naturally optimize for speed. Teams adapt quickly, responsibilities shift frequently, and processes evolve continuously to support expansion.",
+"soxScaling.section1.li1": "Similar controls performed differently across teams",
+"soxScaling.section1.li2": "Approvals occurring through informal communication channels",
+"soxScaling.section1.li3": "Key review activities dependent on individual personnel",
+"soxScaling.section1.li4": "Inconsistent evidence retention practices",
+"soxScaling.section1.li5": "Technology changes implemented without formal governance",
+"soxScaling.section1.li6": "Limited clarity surrounding recurring control ownership",
+"soxScaling.section1.p3": "External auditors evaluate consistency differently than operational teams do. A review control that functions adequately in practice may still become problematic during testing if execution varies by quarter, reviewer, or business unit.",
+
+"soxScaling.section2.title": "Control Ownership Requires More Structure Than Most Scaling Companies Expect",
+"soxScaling.section2.p1": "One of the earliest pressure points in SOX readiness involves accountability structures. In fast-growing organizations, responsibilities frequently expand alongside the business itself.",
+"soxScaling.section2.p2": "Many organizations discover they have operational owners but not clearly defined control owners. Someone may understand how a process functions day to day, but accountability for execution, evidence retention, escalation management, and ongoing consistency may remain unclear.",
+"soxScaling.section2.p3": "The companies that transition into mature SOX environments more effectively usually establish ownership structures earlier than initially anticipated.",
+
+"soxScaling.section3.title": "Cadence Discipline Becomes Increasingly Important as Complexity Grows",
+"soxScaling.section3.p1": "Another common source of audit friction involves inconsistent execution timing. In scaling organizations, operational priorities shift constantly, and recurring governance activities can gradually become reactive rather than disciplined.",
+"soxScaling.section3.p2": "From an audit perspective, timing inconsistency usually signals larger concerns surrounding oversight discipline and control reliability.",
+"soxScaling.section3.li1": "Defined execution timelines",
+"soxScaling.section3.li2": "Standardized review schedules",
+"soxScaling.section3.li3": "Calendar-driven certification activities",
+"soxScaling.section3.li4": "Escalation procedures for delayed execution",
+"soxScaling.section3.li5": "Periodic management oversight reviews",
+"soxScaling.section3.p3": "These disciplines may appear administrative initially, but they create operational predictability that becomes extremely valuable as audit scrutiny increases.",
+
+"soxScaling.section4.title": "Evidence Standards Usually Create More Friction Than Control Design",
+"soxScaling.section4.p1": "Many organizations preparing for SOX readiness devote significant attention to control design while underestimating the operational importance of evidence discipline.",
+"soxScaling.section4.p2": "Reviews occur, approvals are completed, reconciliations are prepared, and access decisions are made, yet supporting evidence may exist across email chains, spreadsheets, messaging platforms, ticketing systems, or undocumented workflows.",
+"soxScaling.section4.li1": "What evidence must be retained",
+"soxScaling.section4.li2": "Where documentation should reside",
+"soxScaling.section4.li3": "Approval traceability expectations",
+"soxScaling.section4.li4": "Naming conventions and retention periods",
+"soxScaling.section4.li5": "Standards for demonstrating review completeness",
+"soxScaling.section4.li6": "Procedures for documenting exceptions",
+"soxScaling.section4.p3": "The companies that manage audits most effectively are often the organizations that introduced operational consistency early enough to prevent evidence management from becoming fragmented as the business expanded.",
+
+"soxScaling.section5.title": "Technology Environments Usually Scale Faster Than Governance Processes",
+"soxScaling.section5.p1": "Technology complexity tends to accelerate rapidly during periods of organizational growth. ERP implementations, cloud migrations, SaaS expansion, acquisitions, automation initiatives, and evolving reporting environments all introduce additional governance demands.",
+"soxScaling.section5.p2": "In many companies, technology environments mature operationally faster than the surrounding control structure.",
+"soxScaling.section5.li1": "Inconsistent access governance",
+"soxScaling.section5.li2": "Excessive privileged access",
+"soxScaling.section5.li3": "Weak change management traceability",
+"soxScaling.section5.li4": "Limited system ownership clarity",
+"soxScaling.section5.li5": "Incomplete interface monitoring",
+"soxScaling.section5.li6": "Manual workarounds introduced during rapid implementation efforts",
+"soxScaling.section5.p3": "Standardizing access management, change governance, documentation expectations, and system accountability early tends to reduce significant operational strain later.",
+
+"soxScaling.final.title": "What Companies Should Standardize Early",
+"soxScaling.final.p1": "Organizations frequently ask when formal SOX readiness efforts should begin. More useful conversations usually focus on which operational disciplines should be standardized before audit pressure intensifies.",
+
+"soxScaling.final.ownership": "Ownership",
+"soxScaling.final.ownership.li1": "Clear control accountability",
+"soxScaling.final.ownership.li2": "Defined review responsibilities",
+"soxScaling.final.ownership.li3": "Escalation and delegation procedures",
+"soxScaling.final.ownership.li4": "Cross-functional governance alignment",
+
+"soxScaling.final.cadence": "Cadence",
+"soxScaling.final.cadence.li1": "Standardized execution schedules",
+"soxScaling.final.cadence.li2": "Calendar-driven governance activities",
+"soxScaling.final.cadence.li3": "Timely review expectations",
+"soxScaling.final.cadence.li4": "Consistent monitoring routines",
+
+"soxScaling.final.evidence": "Evidence",
+"soxScaling.final.evidence.li1": "Defined documentation standards",
+"soxScaling.final.evidence.li2": "Centralized retention practices",
+"soxScaling.final.evidence.li3": "Clear approval traceability",
+"soxScaling.final.evidence.li4": "Repeatable support for control execution",
+
+"soxScaling.final.p2": "Companies that delay governance maturity frequently discover that SOX readiness becomes far more disruptive and resource-intensive than anticipated.",
+"soxScaling.final.p3": "The organizations that adapt most effectively tend to view control standardization not as a compliance initiative, but as an operational scalability requirement that supports sustainable growth over time."
 
 /* about */
 
