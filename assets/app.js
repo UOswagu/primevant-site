@@ -676,6 +676,76 @@ const translations = {
 
     "privacy.contact.title": "Contact",
     "privacy.contact.text": "Questions about this notice? Contact <b>info@primevantadvisory.com</b>."
+
+    /* Sox readiness Insight */
+
+    ,
+    "sox30.title": " ",
+
+"sox30.intro1": "When SOX timelines compress, IT almost always becomes the pressure point.",
+"sox30.intro2": "Finance owns the financial assertion, but IT determines whether auditors can actually rely on the systems producing those numbers. That relationship becomes very real once audit scrutiny begins in earnest.",
+"sox30.intro3": "If access is loosely governed, if change activity is inconsistently executed, or if data flows are not well understood, financial controls become difficult to rely on regardless of how well they are documented. The gap between control design and control reliability is where most SOX readiness efforts begin to strain.",
+"sox30.intro4": "In compressed timelines, the objective is not perfect compliance maturity. It is establishing enough structure and consistency that auditors can follow how systems are governed, how controls operate in practice, and who is accountable for execution.",
+"sox30.intro5": "In most organizations, that clarity is not fully in place at the point SOX readiness begins.",
+
+"sox30.section1.title": "Visibility is usually the first constraint, not controls",
+"sox30.section1.p1": "The initial challenge is rarely the absence of controls. Most organizations already have access processes, change workflows, approval mechanisms, and operational reviews in some form.",
+"sox30.section1.p2": "The issue is that these processes often evolved independently across teams and systems during periods of growth. What exists is typically a collection of practices rather than a unified control environment.",
+"sox30.section1.p3": "This becomes most visible when trying to answer a basic question: which systems actually matter for financial reporting?",
+"sox30.section1.p4": "ERP platforms are usually straightforward. Complexity emerges around adjacent applications, reporting layers, system integrations, and manual processes that support financial close activities.",
+"sox30.section1.p5": "What often surprises leadership teams is how many non-financial systems still influence financial outcomes through data transformations, exports, and manual adjustments.",
+"sox30.section1.p6": "Without a clear and agreed view of scope, everything that follows becomes harder to stabilize.",
+
+"sox30.section2.title": "Control design is rarely the real issue",
+"sox30.section2.p1": "Once scope is understood, attention naturally shifts to IT General Controls. On paper, this appears straightforward. In practice, inconsistency begins to surface.",
+"sox30.section2.p2": "Access management may exist, but approval and review practices often vary across systems. Change management may be documented, but emergency changes or small production updates are sometimes handled outside formal workflows. Operational controls may function effectively, but evidence of execution is not always retained in a consistent manner.",
+"sox30.section2.p3": "The issue is not whether controls exist. It is whether they operate in a repeatable and defensible way.",
+"sox30.section2.p4": "In SOX environments, inconsistency is often more problematic than absence.",
+"sox30.section2.p5": "Auditors are not assessing intent. They are assessing reliability.",
+"sox30.section2.p6": "That is where friction begins to surface, particularly in organizations that scaled operationally before standardizing governance expectations.",
+
+"sox30.section3.title": "Automation shifts the nature of control risk",
+"sox30.section3.p1": "As systems mature, a growing portion of financial control execution becomes automated. Approvals are embedded in workflows, reports are system-generated, and calculations are performed directly within platforms rather than manually.",
+"sox30.section3.p2": "This is generally positive from an efficiency perspective, but it changes the governance requirement significantly.",
+"sox30.section3.p3": "The focus shifts from whether a control was performed manually to whether the system performing the control is appropriately configured, restricted, and governed over time.",
+"sox30.section3.p4": "A recurring issue is over-reliance on system outputs without sufficient understanding of how those outputs are generated or modified. If report logic, configuration settings, or access parameters can change without governance oversight, downstream financial controls can be compromised even when the process appears stable.",
+"sox30.section3.p5": "This is where alignment between IT and finance becomes essential. Finance tends to focus on outcomes. IT must focus on the integrity of the mechanisms producing those outcomes.",
+"sox30.section3.p6": "Both perspectives are necessary, but SOX environments require them to operate in sync.",
+
+"sox30.section4.title": "Evidence discipline determines audit efficiency",
+"sox30.section4.p1": "One of the most underestimated aspects of SOX readiness is evidence management.",
+"sox30.section4.p2": "Controls may be operating correctly, but if evidence is inconsistent, fragmented, or difficult to retrieve, the control becomes difficult to defend during audit testing.",
+"sox30.section4.p3": "In many organizations, evidence exists across multiple systems and communication channels. Approvals may sit in ticketing tools, change records in spreadsheets, access reviews in email threads or platform exports, and operational logs in system interfaces without centralized retention standards.",
+"sox30.section4.p4": "Individually, this is not unusual. Collectively, it creates avoidable audit friction.",
+"sox30.section4.p5": "The core issue is not storage. It is predictability.",
+"sox30.section4.p6": "Auditors need to understand not only that evidence exists, but that it can be produced consistently in a reliable format over time.",
+"sox30.section4.p7": "Organizations that manage SOX environments effectively tend to standardize evidence expectations early, including what must be retained, where it resides, and how it is produced. That consistency materially reduces audit disruption.",
+
+"sox30.section5.title": "Walkthroughs expose how the environment actually operates",
+"sox30.section5.p1": "At some point, organizations move from documenting controls to validating how they operate in practice.",
+"sox30.section5.p2": "This is typically where gaps become more visible.",
+"sox30.section5.p3": "What often emerges is not the absence of controls, but variation in execution across teams, systems, or individuals. Some areas may be tightly governed, while others rely heavily on informal practices or institutional knowledge.",
+"sox30.section5.p4": "Common issues tend to surface around access hygiene, change discipline, and privileged access governance. Emergency procedures may exist but are not consistently documented. Shared accounts or legacy access structures may persist longer than expected.",
+"sox30.section5.p5": "These findings are rarely unexpected internally. What they highlight is the difference between operational functionality and audit-ready structure.",
+"sox30.section5.p6": "The purpose of walkthroughs is not immediate remediation. It is clarity on where the environment is stable and where it depends on informal execution patterns.",
+
+"sox30.section6.title": "Leadership alignment becomes the turning point",
+"sox30.section6.p1": "As clarity improves, the conversation shifts from individual controls to overall readiness posture.",
+"sox30.section6.p2": "At this stage, leadership needs a consolidated view of where the organization stands, what gaps exist, and what effort is required to proceed into formal testing without avoidable disruption.",
+"sox30.section6.p3": "This is where alignment between CIO and CFO becomes critical. SOX readiness is not an IT initiative. It is a shared responsibility because financial reporting integrity depends on both financial processes and the systems that support them.",
+"sox30.section6.p4": "What matters most is not perfection. It is shared understanding of exposure, control maturity, and readiness trajectory.",
+"sox30.section6.p5": "Organizations that struggle at this stage typically do so not because controls are missing, but because there is no unified view of how those controls behave across the environment.",
+
+"sox30.section7.title": "Where most organizations underestimate effort",
+"sox30.section7.p1": "A few patterns consistently emerge across fast-scaling environments.",
+"sox30.section7.p2": "Controls are often assumed to be more consistent than they actually are. Privileged access risk is frequently underestimated. Change discipline tends to weaken during periods of rapid growth. System-generated reports are not always governed with sufficient rigor. Evidence practices evolve organically rather than intentionally.",
+"sox30.section7.p3": "Individually, these issues rarely create immediate failure points. The challenge is cumulative. Under audit scrutiny, small inconsistencies across multiple domains create disproportionate friction.",
+
+"sox30.final.title": "Final perspective",
+"sox30.final.p1": "IT SOX readiness is not achieved through documentation or by adding controls in isolation.",
+"sox30.final.p2": "It is achieved when an organization can clearly explain how systems are governed, how controls operate in practice, and how evidence supports those controls consistently over time.",
+"sox30.final.p3": "The organizations that transition most effectively into SOX environments are not necessarily those with the most mature control frameworks. They are the ones that have enough clarity, consistency, and operational discipline that auditors can understand the environment without interpretation.",
+"sox30.final.p4": "That clarity is what ultimately turns SOX readiness from a point of friction into a manageable governance process."
   },
 
   es: {
