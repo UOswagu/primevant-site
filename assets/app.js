@@ -568,8 +568,8 @@ const translations = {
 
     "insights.readPost": "Read post",
 
-    "aiGov.title": "AI Governance & Control Readiness: What Boards Actually Need",
-"aiGov.subtitle": "A realistic sequence for scope, narratives, walkthroughs, evidence standards, and remediation tracking",
+    "aiGov.title": "",
+"aiGov.subtitle": " ",
 
 "aiGov.intro1": "Artificial intelligence is advancing faster than most governance structures were designed to accommodate. Organizations across industries are embedding AI into analytics, operations, customer engagement, software development, and decision-making processes at a pace that often exceeds the maturity of the surrounding control environment.",
 "aiGov.intro2": "Boards are responding accordingly. Leadership teams are now being asked direct questions about accountability, oversight, regulatory exposure, and operational risk tied to AI adoption.",
