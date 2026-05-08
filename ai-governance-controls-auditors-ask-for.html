@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>sox readiness fast scaling – Primevant Advisory</title>
+
+<!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" href="assets/favicon.ico">
+
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="close" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="approach.html" data-i18n="nav.approach">Approach</a>
+    <a href="insights.html" data-i18n="nav.insights">Insights</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <a href="contact.html#contact-form" data-i18n="nav.cta" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+  Schedule a Consultation →
+</a>
+  </div>
+</div>
+
+<div class="topbar">
+  <div class="container nav">
+    
+    <a class="brand" href="index.html">
+      <img src="assets/primevant-logo.png" 
+           alt="Primevant Advisory Logo" 
+           class="logo-img">
+    </a>
+
+    <nav class="navlinks">
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="approach.html" data-i18n="nav.approach">Approach</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+
+  <!-- NEW: Search + Contact + Language icons -->
+<div class="nav-tools">
+
+  <!-- Magnifying icon (search) -->
+  <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="M20 20l-3.5-3.5"></path>
+    </svg>
+  </button>
+
+  <!-- Mail icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 6h16v12H4z"></path>
+      <path d="M4 7l8 6 8-6"></path>
+    </svg>
+  </a>
+
+  <!-- Phone icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+    </svg>
+  </a>
+
+  <!-- Language translation icon (globe dropdown) -->
+  <div class="lang-switcher">
+    <button
+      class="iconbtn lang-toggle"
+      id="langToggle"
+      type="button"
+      aria-label="Change language"
+    >
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3a15 15 0 0 1 4 9 15 15 0 0 1-4 9 15 15 0 0 1-4-9 15 15 0 0 1 4-9z"></path>
+      </svg>
+    </button>
+
+    <!-- Language dropdown menu -->
+    <div class="lang-menu" id="langMenu">
+      <button class="lang-option active" data-lang="en">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Global (English)</span>
+      </button>
+
+      <button class="lang-option" data-lang="es">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Español</span>
+      </button>
+
+      <button class="lang-option" data-lang="zh-cn">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">简体中文</span>
+      </button>
+    </div>
+  </div>
+
+</div>
+</div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- TOP HERO (60% height) -->
+<header class="post-hero" aria-label="SOX readiness hero">
+  <!-- Replace this image path with YOUR hero image filename -->
+<picture>
+  <source srcset="assets/optimized/ai-audit-controls-hero.webp" type="image/webp">
+  <img class="post-hero__img" src="assets/ai-audit-controls-hero.jpg" alt="AI governance controls auditors will ask for">
+</picture>  <div class="post-hero__overlay" aria-hidden="true"></div>
+
+  <div class="post-hero__inner">
+    <div class="post-hero__kicker" data-i18n="sox.kicker">INSIGHTS</div>
+    <h1 class="post-hero__title" data-i18n="sox.title"> AI Governance Controls Auditors Will Ask For</h1>
+    <p class="post-hero__subtitle" data-i18n="sox.subtitle"><br>   Inventory, approvals, monitoring, and lifecycle documentation are quickly becoming foundational expectations
+
+</p>
+  </div>
+</header>
+
+<!-- ARTICLE -->
+<main class="post">
+  <article class="post__wrap">
+    
+   <h1 data-i18n="aiAudit.title">
+ 
+</h1>
+
+<p class="article-subtitle" data-i18n="aiAudit.subtitle">
+</p>
+
+<p data-i18n="aiAudit.intro1">
+  Many organizations are still treating AI governance as an emerging initiative. Auditors are increasingly treating it as an operational reality.
+</p>
+
+<p data-i18n="aiAudit.intro2">
+  Leadership teams that once viewed AI governance as a future-state concern are now being asked practical questions about accountability, oversight, documentation, and control execution.
+</p>
+
+<p data-i18n="aiAudit.intro3">
+  In many environments, management is discovering that AI adoption moved faster than governance maturity.
+</p>
+
+<p data-i18n="aiAudit.intro4">
+  Across industries, four governance themes are emerging consistently in audit discussions: inventory management, approval governance, ongoing monitoring, and lifecycle documentation.
+</p> <br>
+
+<h2 data-i18n="aiAudit.section1.title">Inventory Is Becoming the Starting Point for AI Governance</h2>
+
+<p data-i18n="aiAudit.section1.p1">
+  One of the first questions auditors are increasingly asking is deceptively simple: where is AI being used across the organization?
+</p>
+
+<p data-i18n="aiAudit.section1.p2">
+  AI adoption rarely occurs through one centralized program. Business teams experiment with generative AI tools independently. Technology groups integrate machine learning capabilities into applications. Vendors introduce embedded AI functionality into existing platforms.
+</p>
+
+<p data-i18n="aiAudit.section1.p3">
+  Organizations cannot govern technologies effectively if they cannot identify them consistently.
+</p>
+
+<ul>
+  <li data-i18n="aiAudit.section1.li1">Centralized inventories of AI-enabled systems and use cases</li>
+  <li data-i18n="aiAudit.section1.li2">Criteria defining what constitutes AI “in scope”</li>
+  <li data-i18n="aiAudit.section1.li3">Risk classifications tied to operational or regulatory impact</li>
+  <li data-i18n="aiAudit.section1.li4">Ownership accountability for each implementation</li>
+  <li data-i18n="aiAudit.section1.li5">Periodic review processes to validate inventory completeness</li>
+</ul>
+
+<p data-i18n="aiAudit.section1.p4">
+  The organizations responding most effectively are generally those treating AI inventory management as a dynamic governance process rather than a one-time documentation exercise.
+</p> <br>
+
+<h2 data-i18n="aiAudit.section2.title">Approval Governance Requires More Than Informal Alignment</h2>
+
+<p data-i18n="aiAudit.section2.p1">
+  Once organizations identify AI usage, the next area auditors tend to examine involves governance surrounding deployment and approval activities.
+</p>
+
+<p data-i18n="aiAudit.section2.p2">
+  What is frequently missing is structured governance around risk evaluation and approval traceability.
+</p>
+
+<ul>
+  <li data-i18n="aiAudit.section2.li1">Approval requirements based on risk exposure</li>
+  <li data-i18n="aiAudit.section2.li2">Governance review thresholds</li>
+  <li data-i18n="aiAudit.section2.li3">Accountability for risk acceptance decisions</li>
+  <li data-i18n="aiAudit.section2.li4">Escalation pathways for higher-risk implementations</li>
+  <li data-i18n="aiAudit.section2.li5">Documentation supporting deployment decisions</li>
+</ul>
+
+<p data-i18n="aiAudit.section2.p3">
+  Strong governance environments address this by establishing practical approval structures early, including clearly defined review expectations, risk-tiering standards, and accountability for implementation decisions.
+</p> <br>
+
+<h2 data-i18n="aiAudit.section3.title">Monitoring Controls Are Becoming Increasingly Important</h2>
+
+<p data-i18n="aiAudit.section3.p1">
+  Inventory and approvals establish initial governance structure. Monitoring determines whether governance remains effective over time.
+</p>
+
+<p data-i18n="aiAudit.section3.p2">
+  AI-enabled environments evolve continuously. Models change, vendors introduce new functionality, data inputs shift, business usage expands, and operational dependencies increase over time.
+</p>
+
+<ul>
+  <li data-i18n="aiAudit.section3.li1">Changes to AI-enabled systems</li>
+  <li data-i18n="aiAudit.section3.li2">Ongoing user access and permissions</li>
+  <li data-i18n="aiAudit.section3.li3">Data usage and retention practices</li>
+  <li data-i18n="aiAudit.section3.li4">Exception handling activities</li>
+  <li data-i18n="aiAudit.section3.li5">Vendor updates introducing new AI capabilities</li>
+  <li data-i18n="aiAudit.section3.li6">Escalation of incidents or governance concerns</li>
+  <li data-i18n="aiAudit.section3.li7">Alignment between operational usage and approved scope</li>
+</ul>
+
+<p data-i18n="aiAudit.section3.p3">
+  Effective monitoring controls do not necessarily require highly sophisticated tooling. More often, they require operational discipline, defined review cadence, escalation procedures, and accountability for reassessing governance assumptions as environments evolve.
+</p> <br>
+
+<h2 data-i18n="aiAudit.section4.title">Lifecycle Documentation Is Becoming Critical Under Audit Scrutiny</h2>
+
+<p data-i18n="aiAudit.section4.p1">
+  Organizations frequently underestimate how quickly AI governance discussions become documentation discussions once audits begin.
+</p>
+
+<ul>
+  <li data-i18n="aiAudit.section4.li1">Initial risk assessments</li>
+  <li data-i18n="aiAudit.section4.li2">Approval and deployment decisions</li>
+  <li data-i18n="aiAudit.section4.li3">Control expectations</li>
+  <li data-i18n="aiAudit.section4.li4">Monitoring activities</li>
+  <li data-i18n="aiAudit.section4.li5">Change management processes</li>
+  <li data-i18n="aiAudit.section4.li6">Exception handling</li>
+  <li data-i18n="aiAudit.section4.li7">Periodic governance reviews</li>
+  <li data-i18n="aiAudit.section4.li8">Retirement or decommissioning decisions</li>
+</ul>
+
+<p data-i18n="aiAudit.section4.p2">
+  Fragmented documentation creates significant difficulty demonstrating consistency, accountability, and oversight reliability.
+</p>
+
+<ul>
+  <li data-i18n="aiAudit.section4.li9">Defined evidence retention standards</li>
+  <li data-i18n="aiAudit.section4.li10">Centralized governance repositories</li>
+  <li data-i18n="aiAudit.section4.li11">Documentation ownership responsibilities</li>
+  <li data-i18n="aiAudit.section4.li12">Traceability expectations for approvals and reviews</li>
+  <li data-i18n="aiAudit.section4.li13">Standards for demonstrating control execution</li>
+  <li data-i18n="aiAudit.section4.li14">Periodic validation of documentation completeness</li>
+</ul>
+
+<p data-i18n="aiAudit.section4.p3">
+  Lifecycle documentation is likely to become one of the clearest indicators separating organizations with operational governance maturity from organizations still relying primarily on policy-level governance.
+</p> <br>
+
+<h2 data-i18n="aiAudit.final.title">What Auditors Are Ultimately Evaluating</h2>
+
+<p data-i18n="aiAudit.final.p1">
+  Most auditors are not expecting organizations to eliminate all AI-related risk. They are evaluating whether management has established governance discipline proportionate to the organization’s operational exposure.
+</p>
+
+<ul>
+  <li data-i18n="aiAudit.final.li1">Does management know where AI exists?</li>
+  <li data-i18n="aiAudit.final.li2">Are deployments governed through structured approvals?</li>
+  <li data-i18n="aiAudit.final.li3">Are controls monitored consistently over time?</li>
+  <li data-i18n="aiAudit.final.li4">Can governance activities be evidenced throughout the system lifecycle?</li>
+  <li data-i18n="aiAudit.final.li5">Are accountability structures clear enough to support remediation when issues emerge?</li>
+</ul>
+
+<p data-i18n="aiAudit.final.p2">
+  Organizations that approach AI governance pragmatically tend to perform far better under scrutiny than organizations attempting to retrofit governance after deployment activity has already accelerated significantly.
+</p>
+
+<p data-i18n="aiAudit.final.p3">
+  Over time, the gap between policy-driven governance and operational governance will become increasingly visible.
+</p>
+
+  </article>
+</main>
+
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div>© <span id="year"></span> Primevant Advisory</div>
+   <div style="opacity:.85;">
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;" data-i18n="footer.privacy">Privacy</a> • primevantadvisory.com
+</div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
