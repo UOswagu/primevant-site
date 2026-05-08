@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>SOX Readiness in 30 Days – Primevant Advisory</title>
+
+<!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" href="assets/favicon.ico">
+
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="close" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="approach.html" data-i18n="nav.approach">Approach</a>
+    <a href="insights.html" data-i18n="nav.insights">Insights</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <a href="contact.html#contact-form" data-i18n="nav.cta" style="background:linear-gradient(90deg,var(--blue2),var(--blue)); color:#fff; border-color:transparent;">
+  Schedule a Consultation →
+</a>
+  </div>
+</div>
+
+<div class="topbar">
+  <div class="container nav">
+    
+    <a class="brand" href="index.html">
+      <img src="assets/primevant-logo.png" 
+           alt="Primevant Advisory Logo" 
+           class="logo-img">
+    </a>
+
+    <nav class="navlinks">
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="approach.html" data-i18n="nav.approach">Approach</a>
+      <a href="insights.html" data-i18n="nav.insights">Insights</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+
+  <!-- NEW: Search + Contact + Language icons -->
+<div class="nav-tools">
+
+  <!-- Magnifying icon (search) -->
+  <button class="iconbtn" id="openSearch" type="button" aria-label="Search the site">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="M20 20l-3.5-3.5"></path>
+    </svg>
+  </button>
+
+  <!-- Mail icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Email / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M4 6h16v12H4z"></path>
+      <path d="M4 7l8 6 8-6"></path>
+    </svg>
+  </a>
+
+  <!-- Phone icon (links to contact page) -->
+  <a class="iconlink" href="contact.html#contact-form" aria-label="Phone / contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2c-9.6-.9-17-8.3-17.9-17.9A2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.2 1.3.6 2.6 1.2 3.8a2 2 0 0 1-.5 2.2L8.5 11a16 16 0 0 0 4.5 4.5l1.3-1.2a2 2 0 0 1 2.2-.5c1.2.6 2.5 1 3.8 1.2A2 2 0 0 1 22 16.9z"></path>
+    </svg>
+  </a>
+
+  <!-- Language translation icon (globe dropdown) -->
+  <div class="lang-switcher">
+    <button
+      class="iconbtn lang-toggle"
+      id="langToggle"
+      type="button"
+      aria-label="Change language"
+    >
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3a15 15 0 0 1 4 9 15 15 0 0 1-4 9 15 15 0 0 1-4-9 15 15 0 0 1 4-9z"></path>
+      </svg>
+    </button>
+
+    <!-- Language dropdown menu -->
+    <div class="lang-menu" id="langMenu">
+      <button class="lang-option active" data-lang="en">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Global (English)</span>
+      </button>
+
+      <button class="lang-option" data-lang="es">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">Español</span>
+      </button>
+
+      <button class="lang-option" data-lang="zh-cn">
+        <span class="lang-check">✓</span>
+        <span class="lang-label">简体中文</span>
+      </button>
+    </div>
+  </div>
+
+</div>
+</div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- TOP HERO (60% height) -->
+<header class="post-hero" aria-label="SOX readiness hero">
+  <!-- Replace this image path with YOUR hero image filename -->
+<picture>
+  <source srcset="assets/optimized/ai-governance-hero.webp" type="image/webp">
+  <img class="post-hero__img" src="assets/ai-governance-hero.jpg" alt="AI governance and control readiness">
+</picture>  <div class="post-hero__overlay" aria-hidden="true"></div>
+
+  <div class="post-hero__inner">
+    <div class="post-hero__kicker" data-i18n="sox.kicker">INSIGHTS</div>
+    <h1 class="post-hero__title" data-i18n="sox.title">AI Governance & Control Readiness</h1>
+    <p class="post-hero__subtitle" data-i18n="sox.subtitle">What Boards Actually Need</p>
+  </div>
+</header>
+
+<!-- ARTICLE -->
+<main class="post">
+  <article class="post__wrap">
+    
+   <h1 data-i18n="aiGov.title">
+  AI Governance & Control Readiness: What Boards Actually Need
+</h1>
+
+<p class="article-subtitle" data-i18n="aiGov.subtitle">
+  A realistic sequence for scope, narratives, walkthroughs, evidence standards, and remediation tracking
+</p>
+
+<p data-i18n="aiGov.intro1">
+  Artificial intelligence is advancing faster than most governance structures were designed to accommodate. Organizations across industries are embedding AI into analytics, operations, customer engagement, software development, and decision-making processes at a pace that often exceeds the maturity of the surrounding control environment.
+</p>
+
+<p data-i18n="aiGov.intro2">
+  Boards are responding accordingly. Leadership teams are now being asked direct questions about accountability, oversight, regulatory exposure, and operational risk tied to AI adoption.
+</p>
+
+<p data-i18n="aiGov.intro3">
+  Most organizations do not have an AI governance problem because they lack policies or principles. They have a governance problem because they lack operational discipline.
+</p>
+
+<h2 data-i18n="aiGov.section1.title">Governance Starts With Scope</h2>
+
+<p data-i18n="aiGov.section1.p1">
+  One of the earliest failures in AI governance occurs during the identification phase. Organizations routinely underestimate how difficult it is to determine where AI is actually operating across the business.
+</p>
+
+<p data-i18n="aiGov.section1.p2">
+  AI adoption rarely enters the organization through one centralized initiative. It emerges incrementally across departments, platforms, vendor tools, and business-led experimentation.
+</p>
+
+<p data-i18n="aiGov.section1.p3">
+  If management cannot confidently identify where AI influences business activity, meaningful oversight becomes impossible.
+</p>
+
+<ul>
+  <li data-i18n="aiGov.section1.li1">Clear criteria for what constitutes AI “in scope”</li>
+  <li data-i18n="aiGov.section1.li2">A centralized inventory of AI-enabled systems and use cases</li>
+  <li data-i18n="aiGov.section1.li3">Defined ownership accountability</li>
+  <li data-i18n="aiGov.section1.li4">Risk-tiering standards aligned to operational and regulatory exposure</li>
+  <li data-i18n="aiGov.section1.li5">Escalation thresholds for higher-risk implementations</li>
+</ul>
+
+<p data-i18n="aiGov.section1.p4">
+  Governance scope must extend beyond internally developed models. Some of the most significant exposure today comes from third-party platforms with embedded AI functionality.
+</p>
+
+<h2 data-i18n="aiGov.section2.title">Narratives Expose Weaknesses Faster Than Control Testing</h2>
+
+<p data-i18n="aiGov.section2.p1">
+  Once scope is established, organizations often move directly into control assessments. In practice, one of the most valuable governance exercises is far less technical: developing operational narratives.
+</p>
+
+<p data-i18n="aiGov.section2.p2">
+  Well-developed narratives force alignment across business stakeholders, technology teams, compliance functions, and leadership.
+</p>
+
+<ul>
+  <li data-i18n="aiGov.section2.li1">The business purpose of the AI process</li>
+  <li data-i18n="aiGov.section2.li2">Systems, data sources, and dependencies involved</li>
+  <li data-i18n="aiGov.section2.li3">Decision points and human oversight activities</li>
+  <li data-i18n="aiGov.section2.li4">Risks introduced through automation or model usage</li>
+  <li data-i18n="aiGov.section2.li5">Control activities designed to mitigate those risks</li>
+  <li data-i18n="aiGov.section2.li6">Accountability and escalation responsibilities</li>
+  <li data-i18n="aiGov.section2.li7">Evidence generated through execution</li>
+</ul>
+
+<p data-i18n="aiGov.section2.p3">
+  Narratives create a common language between technical and non-technical stakeholders. Boards do not need machine learning architecture detail; they need visibility into how governance responsibilities are being executed.
+</p>
+
+<h2 data-i18n="aiGov.section3.title">Walkthroughs Reveal Whether Governance Actually Exists</h2>
+
+<p data-i18n="aiGov.section3.p1">
+  Policies describe intent. Walkthroughs reveal reality.
+</p>
+
+<p data-i18n="aiGov.section3.p2">
+  Organizations frequently discover during walkthroughs that their governance model exists more clearly in presentation materials than in operational execution.
+</p>
+
+<ul>
+  <li data-i18n="aiGov.section3.li1">How AI systems move into production</li>
+  <li data-i18n="aiGov.section3.li2">Approval and change management activities</li>
+  <li data-i18n="aiGov.section3.li3">Human review and override mechanisms</li>
+  <li data-i18n="aiGov.section3.li4">Data validation procedures</li>
+  <li data-i18n="aiGov.section3.li5">Monitoring and exception management</li>
+  <li data-i18n="aiGov.section3.li6">Access controls and segregation practices</li>
+  <li data-i18n="aiGov.section3.li7">Incident escalation processes</li>
+  <li data-i18n="aiGov.section3.li8">Documentation retention expectations</li>
+</ul>
+
+<p data-i18n="aiGov.section3.p3">
+  Boards should view walkthroughs as governance validation exercises rather than purely audit procedures.
+</p>
+
+<h2 data-i18n="aiGov.section4.title">Evidence Standards Are Becoming a Defining Governance Issue</h2>
+
+<p data-i18n="aiGov.section4.p1">
+  As AI oversight matures, governance conversations increasingly become evidence conversations.
+</p>
+
+<p data-i18n="aiGov.section4.p2">
+  Organizations may perform reviews, approvals, monitoring activities, and oversight procedures consistently, but if those activities cannot be demonstrated through reliable evidence, the control environment becomes difficult to defend.
+</p>
+
+<ul>
+  <li data-i18n="aiGov.section4.li1">What documentation must be retained</li>
+  <li data-i18n="aiGov.section4.li2">Where evidence is maintained</li>
+  <li data-i18n="aiGov.section4.li3">Ownership responsibilities for retention</li>
+  <li data-i18n="aiGov.section4.li4">Retention timeframes</li>
+  <li data-i18n="aiGov.section4.li5">Standards for evidencing control execution</li>
+  <li data-i18n="aiGov.section4.li6">Validation procedures for evidence integrity</li>
+</ul>
+
+<p data-i18n="aiGov.section4.p3">
+  Boards do not need visibility into every operational artifact. They need confidence that management has evidence practices capable of supporting governance assertions under scrutiny.
+</p>
+
+<h2 data-i18n="aiGov.section5.title">Remediation Discipline Determines Governance Credibility</h2>
+
+<p data-i18n="aiGov.section5.p1">
+  No governance environment is free from control gaps or operational inconsistencies. What separates mature organizations from unprepared ones is whether management can identify issues early, assign accountability clearly, and remediate deficiencies with discipline.
+</p>
+
+<ul>
+  <li data-i18n="aiGov.section5.li1">Undefined ownership structures</li>
+  <li data-i18n="aiGov.section5.li2">Inconsistent approvals</li>
+  <li data-i18n="aiGov.section5.li3">Incomplete documentation</li>
+  <li data-i18n="aiGov.section5.li4">Weak monitoring practices</li>
+  <li data-i18n="aiGov.section5.li5">Third-party oversight gaps</li>
+  <li data-i18n="aiGov.section5.li6">Data governance concerns</li>
+  <li data-i18n="aiGov.section5.li7">Misalignment between policy requirements and operational execution</li>
+</ul>
+
+<p data-i18n="aiGov.section5.p2">
+  Boards should pay close attention to repeated issues across business units. Recurring exceptions usually indicate broader weaknesses in governance design rather than isolated operational failures.
+</p>
+
+<h2 data-i18n="aiGov.final.title">What Boards Actually Need</h2>
+
+<p data-i18n="aiGov.final.p1">
+  Most boards are not trying to become experts in artificial intelligence. They are trying to determine whether management has established enough operational discipline to deploy AI responsibly and defend those practices under scrutiny.
+</p>
+
+<p data-i18n="aiGov.final.p2">
+  That requires visibility into where AI exists, clarity around accountability, evidence that controls operate consistently, and confidence that issues will surface before they become material events.
+</p>
+
+<ul>
+  <li data-i18n="aiGov.final.li1">Define scope</li>
+  <li data-i18n="aiGov.final.li2">Develop operational narratives</li>
+  <li data-i18n="aiGov.final.li3">Validate execution through walkthroughs</li>
+  <li data-i18n="aiGov.final.li4">Standardize evidence expectations</li>
+  <li data-i18n="aiGov.final.li5">Implement disciplined remediation tracking</li>
+</ul>
+
+<p data-i18n="aiGov.final.p3">
+  The organizations that adapt successfully will not necessarily be the ones moving fastest on AI adoption. More likely, they will be the ones capable of demonstrating that governance maturity evolved alongside deployment rather than after the fact.
+</p>
+
+  </article>
+</main>
+
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div>© <span id="year"></span> Primevant Advisory</div>
+   <div style="opacity:.85;">
+  <a href="privacy.html" style="color:inherit; text-decoration:underline;" data-i18n="footer.privacy">Privacy</a> • primevantadvisory.com
+</div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
