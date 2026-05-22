@@ -406,12 +406,12 @@ const translations = {
 
     "services.heading": "Our Core Advisory Services",
 "services.card1.title": "Risk Advisory",
-"services.card1.text": "Enterprise risk, technology risk, operational risk, cybersecurity, and governance support that helps leadership align risk decisions to strategy, regulatory expectations, and operational resilience",
+"services.card1.text": "Enterprise risk, technology risk, operational risk, and governance support that helps leadership align risk decisions to strategy, regulatory expectations, and operational resilience",
 
 "services.card2.title": "Internal Audit & Financial Management",
 "services.card2.text": "Internal Audit and financial management advisory focused on internal controls, SOX, ICFR, budgeting, financial operations, and reporting processes to strengthen governance, improve financial visibility, and reduce audit and operational risk.",
 
-"services.card3.title": "Cybersecurity",
+"services.card3.title": "Cybersecurity & Data Privacy",
 "services.card3.text": "Business aligned cybersecurity advisory focused on identity, access, cloud, application, data, and third-party risk controls that protect operations and support compliance",
 
     "common.learnMore": "Learn More",
@@ -476,7 +476,7 @@ const translations = {
 "services.fm.b9": "Financial Controls, Governance & Operational Efficiency Reviews",
 "services.fm.b10": "Tax Planning, Compliance Readiness & Governance Support",
 
-    "services.itgc.title": "Cybersecurity",
+    "services.itgc.title": "Cybersecurity & Data Privacy",
 "services.itgc.subtitle": "Protect business operations and financial integrity through secure and resilient technology environments",
 "services.itgc.desc": "Core Focus",
 "services.itgc.offeringsTitle": "Signature Offerings",
@@ -484,7 +484,7 @@ const translations = {
 "services.itgc.b2": "Identity, access, and privileged controls",
 "services.itgc.b3": "Cloud and SaaS risk (financial data, reporting systems)",
 "services.itgc.b4": "Application and data security",
-"services.itgc.b5": "Technology risk supporting SOX and regulatory compliance",
+"services.itgc.b5": "Complinace service for data privacy frameworks and requirements, e.g. GDPR, CCPA",
 "services.itgc.b6": "Security architecture & risk assessments",
 "services.itgc.b7": "IAM / privileged access governance",
 "services.itgc.b8": "Information Security & Risk Assessments (ISO 27001, NIST CSF, and other frameworks)",
@@ -1164,7 +1164,7 @@ const translations = {
 
     "services.heading": "Nuestros servicios principales de asesoría",
 "services.card1.title": "Asesoría de Riesgo",
-"services.card1.text": "Servicios de riesgo empresarial, riesgo tecnológico, riesgo operativo, ciberseguridad y gobernanza que ayudan al liderazgo a alinear las decisiones de riesgo con la estrategia, las expectativas regulatorias y la resiliencia operativa",
+"services.card1.text": "Servicios de riesgo empresarial, riesgo tecnológico, riesgo operativo y gobernanza que ayudan al liderazgo a alinear las decisiones de riesgo con la estrategia, las expectativas regulatorias y la resiliencia operativa",
 
 "services.card2.title": "Auditoría Interna y Gestión Financiera",
 "services.card2.text": "Asesoría en auditoría interna y gestión financiera enfocada en controles internos, SOX, ICFR, presupuestación, operaciones financieras y procesos de reporte para fortalecer la gobernanza, mejorar la visibilidad financiera y reducir los riesgos operativos y de auditoría.",
@@ -1233,7 +1233,7 @@ const translations = {
 "services.fm.b9": "Revisiones de Controles Financieros, Gobernanza y Eficiencia Operativa",
 "services.fm.b10": "Planificación Fiscal, Preparación para Cumplimiento y Soporte de Gobernanza",
 
-    "services.itgc.title": "Ciberseguridad",
+    "services.itgc.title": "Ciberseguridad y Privacidad de Datos",
 "services.itgc.subtitle": "Proteja las operaciones del negocio y la integridad financiera mediante entornos tecnológicos seguros y resilientes",
 "services.itgc.desc": "Enfoque principal",
 "services.itgc.offeringsTitle": "Ofertas clave",
@@ -1241,7 +1241,7 @@ const translations = {
 "services.itgc.b2": "Controles de identidad, acceso y privilegios",
 "services.itgc.b3": "Riesgo de nube y SaaS (datos financieros, sistemas de reporte)",
 "services.itgc.b4": "Seguridad de aplicaciones y datos",
-"services.itgc.b5": "Riesgo tecnológico que respalda SOX y el cumplimiento regulatorio",
+"services.itgc.b5": "Servicios de cumplimiento para marcos y requisitos de privacidad de datos, por ejemplo, GDPR y CCPA",
 "services.itgc.b6": "Arquitectura de seguridad y evaluaciones de riesgo",
 "services.itgc.b7": "Gobernanza de IAM / acceso privilegiado",
 "services.itgc.b8": "Evaluaciones de seguridad de la información y riesgo (ISO 27001, NIST CSF y otros marcos)",
@@ -1909,7 +1909,7 @@ const translations = {
 
     "services.heading": "我们的核心咨询服务",
     "services.card1.title": "风险咨询",
-"services.card1.text": "企业风险、技术风险、运营风险、网络安全及治理支持，帮助管理层将风险决策与战略目标、监管要求及运营韧性保持一致",
+"services.card1.text": "企业风险、技术风险、运营风险及治理支持，帮助管理层将风险决策与战略目标、监管要求及运营韧性保持一致",
 
 "services.card2.title": "内部审计与财务管理",
 "services.card2.text": "专注于内部控制、SOX、ICFR、预算管理、财务运营及报告流程的内部审计与财务管理咨询，旨在加强治理、提升财务透明度，并降低审计与运营风险。",
@@ -1978,7 +1978,7 @@ const translations = {
 "services.fm.b10": "税务规划、合规准备与治理支持",
 
 
-    "services.itgc.title": "网络安全",
+    "services.itgc.title": "网络安全与数据隐私",
 "services.itgc.subtitle": "通过安全且具韧性的技术环境保护业务运营和财务完整性",
 "services.itgc.desc": "核心重点",
 "services.itgc.offeringsTitle": "核心服务",
@@ -1986,7 +1986,7 @@ const translations = {
 "services.itgc.b2": "身份、访问与特权控制",
 "services.itgc.b3": "云与SaaS风险（财务数据、报告系统）",
 "services.itgc.b4": "应用与数据安全",
-"services.itgc.b5": "支持SOX和监管合规的技术风险",
+"services.itgc.b5": "针对数据隐私框架和要求的合规服务，例如 GDPR 和 CCPA",
 "services.itgc.b6": "安全架构与风险评估",
 "services.itgc.b7": "IAM / 特权访问治理",
 "services.itgc.b8": "信息安全与风险评估（ISO 27001、NIST CSF 等框架）",
@@ -2653,7 +2653,7 @@ ko: {
 
   "services.heading": "핵심 자문 서비스",
   "services.card1.title": "리스크 자문",
-"services.card1.text": "리더십이 위험 의사결정을 전략, 규제 요구사항 및 운영 회복탄력성과 연계할 수 있도록 지원하는 엔터프라이즈 리스크, 기술 리스크, 운영 리스크, 사이버보안 및 거버넌스 지원",
+"services.card1.text": "엔터프라이즈 리스크, 기술 리스크, 운영 리스크 및 거버넌스 지원을 통해 리더십이 위험 의사결정을 전략, 규제 요구사항 및 운영 회복탄력성과 연계할 수 있도록 지원합니다.",
 
 "services.card2.title": "내부감사 및 재무 관리",
   "services.card2.text": "내부 통제, SOX, ICFR, 예산 관리, 재무 운영 및 보고 프로세스에 중점을 둔 내부 감사 및 재무 관리 자문 서비스를 통해 거버넌스를 강화하고 재무 가시성을 향상시키며 감사 및 운영 리스크를 완화합니다.",
@@ -2722,7 +2722,7 @@ ko: {
 "services.fm.b9": "재무 통제, 거버넌스 및 운영 효율성 검토",
 "services.fm.b10": "세무 계획, 규정 준수 준비 및 거버넌스 지원",
 
-  "services.itgc.title": "사이버보안",
+  "services.itgc.title": "사이버보안 및 데이터 프라이버시",
   "services.itgc.subtitle": "안전하고 회복력 있는 기술 환경을 통해 비즈니스 운영과 재무 무결성을 보호합니다",
   "services.itgc.desc": "핵심 초점",
   "services.itgc.offeringsTitle": "대표 서비스",
@@ -2730,7 +2730,7 @@ ko: {
   "services.itgc.b2": "ID, 접근 및 권한 통제",
   "services.itgc.b3": "클라우드 및 SaaS 리스크(재무 데이터, 보고 시스템)",
   "services.itgc.b4": "애플리케이션 및 데이터 보안",
-  "services.itgc.b5": "SOX 및 규제 준수를 지원하는 기술 리스크",
+  "services.itgc.b5": "GDPR, CCPA 등 데이터 개인정보 보호 프레임워크 및 요구사항에 대한 컴플라이언스 서비스",
   "services.itgc.b6": "보안 아키텍처 및 리스크 평가",
   "services.itgc.b7": "IAM / 권한 접근 거버넌스",
   "services.itgc.b8": "정보보안 및 리스크 평가(ISO 27001, NIST CSF 및 기타 프레임워크)",
@@ -3397,7 +3397,7 @@ ja: {
 
   "services.heading": "主要アドバイザリーサービス",
   "services.card1.title": "リスクアドバイザリー",
-"services.card1.text": "経営層がリスク判断を戦略、規制要件、および業務レジリエンスと整合させることを支援する、エンタープライズリスク、テクノロジーリスク、オペレーショナルリスク、サイバーセキュリティ、およびガバナンス支援",
+"services.card1.text": "経営層がリスク判断を戦略、規制要件、および業務レジリエンスと整合させることを支援する、エンタープライズリスク、テクノロジーリスク、オペレーショナルリスク、およびガバナンス支援",
 "services.card2.title": "内部監査および財務管理",
   "services.card2.text": "内部統制、SOX、ICFR、予算管理、財務運営、および報告プロセスに重点を置いた内部監査・財務管理アドバイザリーを通じて、ガバナンスの強化、財務可視性の向上、および監査・業務リスクの低減を支援します。",
 
@@ -3465,7 +3465,7 @@ ja: {
 "services.fm.b9": "財務統制、ガバナンス、および業務効率性レビュー",
 "services.fm.b10": "税務計画、コンプライアンス準備、およびガバナンス支援",
 
-  "services.itgc.title": "サイバーセキュリティ",
+  "services.itgc.title": "サイバーセキュリティとデータプライバシー",
   "services.itgc.subtitle": "安全でレジリエントなテクノロジー環境を通じて、業務運営と財務の完全性を保護します",
   "services.itgc.desc": "主な重点領域",
   "services.itgc.offeringsTitle": "代表的なサービス",
@@ -3473,7 +3473,7 @@ ja: {
   "services.itgc.b2": "アイデンティティ、アクセス、特権統制",
   "services.itgc.b3": "クラウドおよびSaaSリスク（財務データ、報告システム）",
   "services.itgc.b4": "アプリケーションおよびデータセキュリティ",
-  "services.itgc.b5": "SOXおよび規制コンプライアンスを支えるテクノロジーリスク",
+  "services.itgc.b5": "GDPR、CCPA などのデータプライバシーフレームワークおよび要件に対応するコンプライアンスサービス",
   "services.itgc.b6": "セキュリティアーキテクチャおよびリスク評価",
   "services.itgc.b7": "IAM / 特権アクセスガバナンス",
   "services.itgc.b8": "情報セキュリティおよびリスク評価（ISO 27001、NIST CSF、その他フレームワーク）",
