@@ -160,14 +160,15 @@ const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
   title: "Services – Risk Advisory",
   url: "services.html#sox",
   section: "Services",
-  text: "Enterprise risk, operational risk, financial risk, technology risk, governance, regulatory risk."
+  text: "Enterprise risk, operational risk, operational risk, financial risk, technology risk, governance, regulatory risk."
 },
 {
-  title: "Services – Internal Audit & Financial Reporting Advisory",
+  title: "Services – Internal Audit & Financial Management",
   url: "services.html#itrisk",
   section: "Services",
   text: "SOX, ICFR, internal audit, business process controls, financial reporting advisory."
 },
+
 {
   title: "Services – Cybersecurity",
   url: "services.html#itgc",
@@ -401,14 +402,14 @@ const translations = {
 "trust.item1": "Risk Advisory",
 "trust.item2": "Internal Audit",
 "trust.item3": "Cybersecurity",
-"trust.item4": "Financial Reporting Advisory",
+"trust.item4": "Financial Management",
 
     "services.heading": "Our Core Advisory Services",
 "services.card1.title": "Risk Advisory",
-"services.card1.text": "Enterprise risk, technology risk, cybersecurity, and governance support that helps leadership align risk decisions to strategy, regulatory expectations, and operational resilience",
+"services.card1.text": "Enterprise risk, technology risk, operational risk, cybersecurity, and governance support that helps leadership align risk decisions to strategy, regulatory expectations, and operational resilience",
 
-"services.card2.title": "Internal Audit & Financial Reporting Advisory",
-"services.card2.text": "Audit ready support across internal controls, SOX, ICFR, business process controls, and financial reporting risks to improve assurance and reduce audit friction",
+"services.card2.title": "Internal Audit & Financial Management",
+"services.card2.text": "Internal Audit and financial management advisory focused on internal controls, SOX, ICFR, budgeting, financial operations, and reporting processes to strengthen governance, improve financial visibility, and reduce audit and operational risk.",
 
 "services.card3.title": "Cybersecurity",
 "services.card3.text": "Business aligned cybersecurity advisory focused on identity, access, cloud, application, data, and third-party risk controls that protect operations and support compliance",
@@ -446,7 +447,7 @@ const translations = {
 "services.sox.b12": "AI governance and controls advisory (policy + oversight)",
 "services.sox.b13": "Third party risk management",
 
-    "services.opt.title": "Internal Audit & Financial Reporting Advisory",
+    "services.opt.title": "Internal Audit",
 "services.opt.subtitle": "Design and sustain audit ready control environments across business processes and IT systems",
 "services.opt.desc": "Core Focus",
 "services.opt.offeringsTitle": "Signature Offerings",
@@ -1144,14 +1145,14 @@ const translations = {
 "trust.item1": "Asesoría de Riesgo",
 "trust.item2": "Auditoría Interna",
 "trust.item3": "Ciberseguridad",
-"trust.item4": "Asesoría de Reporte Financiero",
+"trust.item4": "Gestión Financiera",
 
     "services.heading": "Nuestros servicios principales de asesoría",
 "services.card1.title": "Asesoría de Riesgo",
-"services.card1.text": "Apoyo en riesgo empresarial, riesgo tecnológico, ciberseguridad y gobernanza para ayudar a la dirección a alinear las decisiones de riesgo con la estrategia, las expectativas regulatorias y la resiliencia operativa.",
+"services.card1.text": "Servicios de riesgo empresarial, riesgo tecnológico, riesgo operativo, ciberseguridad y gobernanza que ayudan al liderazgo a alinear las decisiones de riesgo con la estrategia, las expectativas regulatorias y la resiliencia operativa",
 
-"services.card2.title": "Asesoría de Auditoría Interna y Reporte Financiero",
-"services.card2.text": "Apoyo listo para auditoría en controles internos, SOX, ICFR, controles de procesos de negocio y riesgos de reporte financiero para mejorar la garantía y reducir la fricción de auditoría.",
+"services.card2.title": "Auditoría Interna y Gestión Financiera",
+"services.card2.text": "Asesoría en auditoría interna y gestión financiera enfocada en controles internos, SOX, ICFR, presupuestación, operaciones financieras y procesos de reporte para fortalecer la gobernanza, mejorar la visibilidad financiera y reducir los riesgos operativos y de auditoría.",
 
 "services.card3.title": "Ciberseguridad",
 "services.card3.text": "Asesoría de ciberseguridad alineada al negocio, enfocada en identidad, acceso, nube, aplicaciones, datos y controles de riesgo de terceros para proteger las operaciones y apoyar el cumplimiento.",
@@ -1188,7 +1189,7 @@ const translations = {
 "services.sox.b12": "Asesoría en gobernanza y controles de IA (política y supervisión)",
 "services.sox.b13": "Gestión de riesgos de terceros",
 
-    "services.opt.title": "Asesoría de Auditoría Interna y Reporte Financiero",
+"services.opt.title": "Auditoría Interna y Gestión Financiera",
 "services.opt.subtitle": "Diseñar y sostener entornos de control listos para auditoría en procesos de negocio y sistemas de TI",
 "services.opt.desc": "Enfoque principal",
 "services.opt.offeringsTitle": "Ofertas clave",
@@ -1874,14 +1875,14 @@ const translations = {
 "trust.item1": "风险咨询",
 "trust.item2": "内部审计",
 "trust.item3": "网络安全",
-"trust.item4": "财务报告咨询",
+"trust.item4": "财务管理",
 
     "services.heading": "我们的核心咨询服务",
     "services.card1.title": "风险咨询",
-"services.card1.text": "围绕企业风险、技术风险、网络安全和治理提供支持，帮助管理层将风险决策与战略、监管要求和运营韧性保持一致。",
+"services.card1.text": "企业风险、技术风险、运营风险、网络安全及治理支持，帮助管理层将风险决策与战略目标、监管要求及运营韧性保持一致",
 
-"services.card2.title": "内部审计与财务报告咨询",
-"services.card2.text": "在内部控制、SOX、ICFR、业务流程控制和财务报告风险方面提供审计就绪支持，以提升保障水平并降低审计摩擦。",
+"services.card2.title": "内部审计与财务管理",
+"services.card2.text": "专注于内部控制、SOX、ICFR、预算管理、财务运营及报告流程的内部审计与财务管理咨询，旨在加强治理、提升财务透明度，并降低审计与运营风险。",
 
 "services.card3.title": "网络安全",
 "services.card3.text": "提供与业务对齐的网络安全咨询，聚焦身份、访问、云、应用、数据和第三方风险控制，以保护运营并支持合规。",
@@ -1917,7 +1918,7 @@ const translations = {
 "services.sox.b12": "AI 治理与控制咨询（政策与监督）",
 "services.sox.b13": "第三方风险管理",
 
-    "services.opt.title": "内部审计与财务报告咨询",
+"services.opt.title": "内部审计与财务管理",
 "services.opt.subtitle": "在业务流程与IT系统中设计并持续维护审计就绪的控制环境",
 "services.opt.desc": "核心重点",
 "services.opt.offeringsTitle": "核心服务",
@@ -2602,14 +2603,14 @@ ko: {
   "trust.item1": "리스크 자문",
   "trust.item2": "내부 감사",
   "trust.item3": "사이버보안",
-  "trust.item4": "재무보고 자문",
+"trust.item4": "재무 관리",
 
   "services.heading": "핵심 자문 서비스",
   "services.card1.title": "리스크 자문",
-  "services.card1.text": "경영진이 리스크 의사결정을 전략, 규제 기대사항 및 운영 회복력에 맞출 수 있도록 지원하는 기업 리스크, 기술 리스크, 사이버보안 및 거버넌스 지원",
+"services.card1.text": "리더십이 위험 의사결정을 전략, 규제 요구사항 및 운영 회복탄력성과 연계할 수 있도록 지원하는 엔터프라이즈 리스크, 기술 리스크, 운영 리스크, 사이버보안 및 거버넌스 지원",
 
-  "services.card2.title": "내부 감사 및 재무보고 자문",
-  "services.card2.text": "보증을 개선하고 감사 마찰을 줄이기 위해 내부통제, SOX, ICFR, 비즈니스 프로세스 통제 및 재무보고 리스크 전반에 대한 감사 준비 지원",
+"services.card2.title": "내부감사 및 재무 관리",
+  "services.card2.text": "내부 통제, SOX, ICFR, 예산 관리, 재무 운영 및 보고 프로세스에 중점을 둔 내부 감사 및 재무 관리 자문 서비스를 통해 거버넌스를 강화하고 재무 가시성을 향상시키며 감사 및 운영 리스크를 완화합니다.",
 
   "services.card3.title": "사이버보안",
   "services.card3.text": "운영을 보호하고 규정 준수를 지원하는 ID, 접근, 클라우드, 애플리케이션, 데이터 및 제3자 리스크 통제에 중점을 둔 비즈니스 연계 사이버보안 자문",
@@ -2646,7 +2647,7 @@ ko: {
   "services.sox.b12": "AI 거버넌스 및 통제 자문(정책 + 감독)",
   "services.sox.b13": "제3자 리스크 관리",
 
-  "services.opt.title": "내부 감사 및 재무보고 자문",
+"services.opt.title": "내부감사 및 재무 관리",
   "services.opt.subtitle": "비즈니스 프로세스와 IT 시스템 전반에서 감사 준비가 된 통제 환경을 설계하고 유지합니다",
   "services.opt.desc": "핵심 초점",
   "services.opt.offeringsTitle": "대표 서비스",
@@ -3331,14 +3332,13 @@ ja: {
   "trust.item1": "リスクアドバイザリー",
   "trust.item2": "内部監査",
   "trust.item3": "サイバーセキュリティ",
-  "trust.item4": "財務報告アドバイザリー",
+"trust.item4": "財務管理",
 
   "services.heading": "主要アドバイザリーサービス",
   "services.card1.title": "リスクアドバイザリー",
-  "services.card1.text": "経営陣がリスク判断を戦略、規制上の期待事項、業務レジリエンスに整合させるための、エンタープライズリスク、テクノロジーリスク、サイバーセキュリティ、ガバナンス支援",
-
-  "services.card2.title": "内部監査・財務報告アドバイザリー",
-  "services.card2.text": "保証を高め、監査上の摩擦を軽減するための、内部統制、SOX、ICFR、業務プロセス統制、財務報告リスク全体にわたる監査対応支援",
+"services.card1.text": "経営層がリスク判断を戦略、規制要件、および業務レジリエンスと整合させることを支援する、エンタープライズリスク、テクノロジーリスク、オペレーショナルリスク、サイバーセキュリティ、およびガバナンス支援",
+"services.card2.title": "内部監査および財務管理",
+  "services.card2.text": "内部統制、SOX、ICFR、予算管理、財務運営、および報告プロセスに重点を置いた内部監査・財務管理アドバイザリーを通じて、ガバナンスの強化、財務可視性の向上、および監査・業務リスクの低減を支援します。",
 
   "services.card3.title": "サイバーセキュリティ",
   "services.card3.text": "業務を保護しコンプライアンスを支援する、アイデンティティ、アクセス、クラウド、アプリケーション、データ、第三者リスク統制に焦点を当てたビジネス整合型サイバーセキュリティアドバイザリー",
@@ -3375,7 +3375,7 @@ ja: {
   "services.sox.b12": "AIガバナンスおよび統制アドバイザリー（ポリシー＋監督）",
   "services.sox.b13": "第三者リスク管理",
 
-  "services.opt.title": "内部監査・財務報告アドバイザリー",
+"services.opt.title": "内部監査および財務管理",
   "services.opt.subtitle": "業務プロセスとITシステム全体で、監査対応可能な統制環境を設計し維持します",
   "services.opt.desc": "主な重点領域",
   "services.opt.offeringsTitle": "代表的なサービス",
