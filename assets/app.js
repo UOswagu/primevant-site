@@ -461,6 +461,21 @@ const translations = {
 "services.opt.b9": "Business process walkthroughs & control design",
 "services.opt.b10": "ERP control frameworks (SAP, Oracle, Workday) rationalization and optimization",
 
+"services.fm.title": "Financial Management",
+"services.fm.subtitle": "Transform financial operations into strategic insight, disciplined execution, and confident decision-making",
+
+"services.fm.desc": "Core Focus",
+"services.fm.offeringsTitle": "Signature Offerings",
+
+"services.fm.b1": "Accounting & Analytics",
+"services.fm.b2": "Financial Reporting",
+"services.fm.b3": "Tax Advisory",
+
+"services.fm.b7": "Finance Function Optimization & Close Stabilization",
+"services.fm.b8": "Executive Budgeting, Forecasting & Performance Reporting",
+"services.fm.b9": "Financial Controls, Governance & Operational Efficiency Reviews",
+"services.fm.b10": "Tax Planning, Compliance Readiness & Governance Support",
+
     "services.itgc.title": "Cybersecurity",
 "services.itgc.subtitle": "Protect business operations and financial integrity through secure and resilient technology environments",
 "services.itgc.desc": "Core Focus",
@@ -1203,6 +1218,21 @@ const translations = {
 "services.opt.b9": "Walkthroughs de procesos de negocio y diseño de controles",
 "services.opt.b10": "Racionalización y optimización de marcos de control ERP (SAP, Oracle, Workday)",
 
+"services.fm.title": "Gestión Financiera",
+"services.fm.subtitle": "Transformar las operaciones financieras en visión estratégica, ejecución disciplinada y toma de decisiones con confianza",
+
+"services.fm.desc": "Enfoque Principal",
+"services.fm.offeringsTitle": "Servicios Destacados",
+
+"services.fm.b1": "Contabilidad y Analítica",
+"services.fm.b2": "Reportes Financieros",
+"services.fm.b3": "Asesoría Fiscal",
+
+"services.fm.b7": "Optimización de la Función Financiera y Estabilización del Cierre",
+"services.fm.b8": "Presupuestación Ejecutiva, Proyecciones y Reportes de Desempeño",
+"services.fm.b9": "Revisiones de Controles Financieros, Gobernanza y Eficiencia Operativa",
+"services.fm.b10": "Planificación Fiscal, Preparación para Cumplimiento y Soporte de Gobernanza",
+
     "services.itgc.title": "Ciberseguridad",
 "services.itgc.subtitle": "Proteja las operaciones del negocio y la integridad financiera mediante entornos tecnológicos seguros y resilientes",
 "services.itgc.desc": "Enfoque principal",
@@ -1931,6 +1961,22 @@ const translations = {
 "services.opt.b8": "SOX项目设计与执行",
 "services.opt.b9": "业务流程穿行测试与控制设计",
 "services.opt.b10": "ERP 控制框架（SAP、Oracle、Workday）的优化与精简",
+
+"services.fm.title": "财务管理",
+"services.fm.subtitle": "将财务运营转化为战略洞察、严谨执行和自信决策",
+
+"services.fm.desc": "核心重点",
+"services.fm.offeringsTitle": "特色服务",
+
+"services.fm.b1": "会计与分析",
+"services.fm.b2": "财务报告",
+"services.fm.b3": "税务咨询",
+
+"services.fm.b7": "财务职能优化与结账稳定化",
+"services.fm.b8": "高管预算、预测与绩效报告",
+"services.fm.b9": "财务控制、治理与运营效率评估",
+"services.fm.b10": "税务规划、合规准备与治理支持",
+
 
     "services.itgc.title": "网络安全",
 "services.itgc.subtitle": "通过安全且具韧性的技术环境保护业务运营和财务完整性",
@@ -2661,6 +2707,21 @@ ko: {
   "services.opt.b9": "비즈니스 프로세스 워크스루 및 통제 설계",
   "services.opt.b10": "ERP 통제 프레임워크(SAP, Oracle, Workday) 합리화 및 최적화",
 
+  "services.fm.title": "재무 관리",
+"services.fm.subtitle": "재무 운영을 전략적 통찰력, 체계적인 실행 및 신뢰할 수 있는 의사결정으로 전환합니다",
+
+"services.fm.desc": "핵심 중점 분야",
+"services.fm.offeringsTitle": "주요 서비스",
+
+"services.fm.b1": "회계 및 분석",
+"services.fm.b2": "재무 보고",
+"services.fm.b3": "세무 자문",
+
+"services.fm.b7": "재무 기능 최적화 및 결산 안정화",
+"services.fm.b8": "경영진 예산 수립, 예측 및 성과 보고",
+"services.fm.b9": "재무 통제, 거버넌스 및 운영 효율성 검토",
+"services.fm.b10": "세무 계획, 규정 준수 준비 및 거버넌스 지원",
+
   "services.itgc.title": "사이버보안",
   "services.itgc.subtitle": "안전하고 회복력 있는 기술 환경을 통해 비즈니스 운영과 재무 무결성을 보호합니다",
   "services.itgc.desc": "핵심 초점",
@@ -3388,6 +3449,21 @@ ja: {
   "services.opt.b8": "SOXプログラムの設計および実行",
   "services.opt.b9": "業務プロセスウォークスルーおよび統制設計",
   "services.opt.b10": "ERP統制フレームワーク（SAP、Oracle、Workday）の合理化および最適化",
+
+  "services.fm.title": "財務管理",
+"services.fm.subtitle": "財務業務を戦略的洞察、規律ある実行、および自信ある意思決定へと変革します",
+
+"services.fm.desc": "主要分野",
+"services.fm.offeringsTitle": "主要サービス",
+
+"services.fm.b1": "会計および分析",
+"services.fm.b2": "財務報告",
+"services.fm.b3": "税務アドバイザリー",
+
+"services.fm.b7": "財務機能の最適化と決算安定化",
+"services.fm.b8": "経営層向け予算策定・予測・業績報告",
+"services.fm.b9": "財務統制、ガバナンス、および業務効率性レビュー",
+"services.fm.b10": "税務計画、コンプライアンス準備、およびガバナンス支援",
 
   "services.itgc.title": "サイバーセキュリティ",
   "services.itgc.subtitle": "安全でレジリエントなテクノロジー環境を通じて、業務運営と財務の完全性を保護します",
