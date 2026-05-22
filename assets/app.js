@@ -488,7 +488,6 @@ const translations = {
 "services.itgc.b6": "Security architecture & risk assessments",
 "services.itgc.b7": "IAM / privileged access governance",
 "services.itgc.b8": "Information Security & Risk Assessments (ISO 27001, NIST CSF, and other frameworks)",
-"services.itgc.b9": "Data integrity and protection strategies",
 "services.itgc.b13": "Security controls aligned to SOX / ICFR",
 
     "services.cta": "Want the regulatory lens per industry? <span>See Industries</span> →",
@@ -1245,7 +1244,6 @@ const translations = {
 "services.itgc.b6": "Arquitectura de seguridad y evaluaciones de riesgo",
 "services.itgc.b7": "Gobernanza de IAM / acceso privilegiado",
 "services.itgc.b8": "Evaluaciones de seguridad de la información y riesgo (ISO 27001, NIST CSF y otros marcos)",
-"services.itgc.b9": "Estrategias de integridad y protección de datos",
 "services.itgc.b13": "Controles de seguridad alineados con SOX / ICFR",
 
     "services.cta": "Quiere la visión regulatoria por industria? <span>Ver Industrias</span> →",
@@ -1990,7 +1988,6 @@ const translations = {
 "services.itgc.b6": "安全架构与风险评估",
 "services.itgc.b7": "IAM / 特权访问治理",
 "services.itgc.b8": "信息安全与风险评估（ISO 27001、NIST CSF 等框架）",
-"services.itgc.b9": "数据完整性与保护策略",
 "services.itgc.b13": "与SOX / ICFR对齐的安全控制",
 
 
@@ -2734,7 +2731,6 @@ ko: {
   "services.itgc.b6": "보안 아키텍처 및 리스크 평가",
   "services.itgc.b7": "IAM / 권한 접근 거버넌스",
   "services.itgc.b8": "정보보안 및 리스크 평가(ISO 27001, NIST CSF 및 기타 프레임워크)",
-  "services.itgc.b9": "데이터 무결성 및 보호 전략",
   "services.itgc.b13": "SOX / ICFR에 맞춘 보안 통제",
 
   "services.cta": "산업별 규제 관점을 원하시나요? <span>산업 보기</span> →",
@@ -3477,7 +3473,6 @@ ja: {
   "services.itgc.b6": "セキュリティアーキテクチャおよびリスク評価",
   "services.itgc.b7": "IAM / 特権アクセスガバナンス",
   "services.itgc.b8": "情報セキュリティおよびリスク評価（ISO 27001、NIST CSF、その他フレームワーク）",
-  "services.itgc.b9": "データ完全性および保護戦略",
   "services.itgc.b13": "SOX / ICFRに整合したセキュリティ統制",
 
   "services.cta": "業界別の規制観点をご希望ですか？ <span>業界を見る</span> →",
